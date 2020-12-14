@@ -15,7 +15,7 @@ import styles from './mngheader.module.scss'
 export default function MNGHeader() {
   return (
     <Flex as="header" w={960} maxW={960} mx="auto">
-      <Center align="left" w={150} h={150}>
+      <Center w={150} h={150}>
         <Menu as="nav">
           <MenuButton as={Button} border="none" bg="none" p={0} borderRadius={0}
             _hover={{
@@ -72,7 +72,7 @@ export default function MNGHeader() {
             <Text fontSize="2xl">शांति</Text>
             <Text fontSize="sm" mt="-6px">PEACE</Text>
           </Box>
-          <Box align="center">
+          <Box>
             <Image className={styles.gauralok} borderRadius="full" boxShadow="0px 0px 39px 0px #96731C" src="/img/gauralok.png" alt="Gauralok" title="Gauralok" />
           </Box>
           <Box textAlign="center" ml={6}>
