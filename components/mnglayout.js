@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import MNGStarfield from './mngstarfield'
 import MNGHeader from './mngheader'
+import MNGMenu from './mngmenu'
 import {
   Box,
   Container,
@@ -37,8 +38,8 @@ export default function MNGLayout({
 
       {children}
 
-      <Center as="footer" color="#B895B9" m={9}>
-        <Text>Place footer content here...</Text>
+      <Center as="footer">
+        <MNGMenu />
       </Center>
     </div>
   )
