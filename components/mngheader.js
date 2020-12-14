@@ -10,9 +10,9 @@ import {
 } from '@chakra-ui/react'
 import Link from 'next/link'
 
-import styles from './header.module.scss'
+import styles from './mngheader.module.scss'
 
-export default function Header() {
+export default function MNGHeader() {
   return (
     <Flex as="header" w={960} maxW={960} mx="auto">
       <Center align="left" w={150} h={150}>

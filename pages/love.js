@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import MNGLayout from '../components/mnglayout'
 import {
   Flex,
   Box,
@@ -11,10 +11,10 @@ import {
 
 export default function Love() {
   return (
-    <Layout title="LOVE">
+    <MNGLayout title="LOVE">
       <Center m={9} color="#B895B9">
         <Text>LOT OF LOVE BRINGING THIS TOGETHER</Text>
       </Center>
-    </Layout>
+    </MNGLayout>
   )
 }

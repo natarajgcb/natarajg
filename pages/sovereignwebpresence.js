@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import MNGLayout from '../components/mnglayout'
 import {
   Flex,
   Box,
@@ -11,10 +11,10 @@ import {
 
 export default function SovereignWebPresence() {
   return (
-    <Layout title="SOVEREIGN WEB PRESENCE">
+    <MNGLayout title="SOVEREIGN WEB PRESENCE">
       <Center m={9} color="#B895B9">
         <Text>SOVEREIGN WEB PRESENCE</Text>
       </Center>
-    </Layout>
+    </MNGLayout>
   )
 }

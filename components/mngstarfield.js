@@ -1,9 +1,9 @@
-import styles from './starfield.module.scss'
+import styles from './mngstarfield.module.scss'
 
-export default function Starfield() {
+export default function MNGStarfield() {
   return (
-    <div className={styles.spacebg}>
-      <div className={styles.starfield}>
+    <div className={styles.mngspacebg}>
+      <div className={styles.mngstarfield}>
         <div className={styles['stars-sm']}></div>
         <div className={styles['stars-md']}></div>
         <div className={styles['stars-lg']}></div>

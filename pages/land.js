@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import MNGLayout from '../components/mnglayout'
 import {
   Flex,
   Box,
@@ -11,10 +11,10 @@ import {
 
 export default function Land() {
   return (
-    <Layout title="LAND">
+    <MNGLayout title="LAND">
       <Center m={9} color="#B895B9">
         <Text>BHOOMI MATA BLESS</Text>
       </Center>
-    </Layout>
+    </MNGLayout>
   )
 }

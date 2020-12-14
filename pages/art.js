@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import MNGLayout from '../components/mnglayout'
 import {
   Flex,
   Box,
@@ -11,10 +11,10 @@ import {
 
 export default function Art() {
   return (
-    <Layout title="ART">
+    <MNGLayout title="ART">
       <Center m={9} color="#B895B9">
         <Text>... PIECES COMING SOON ...</Text>
       </Center>
-    </Layout>
+    </MNGLayout>
   )
 }

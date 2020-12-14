@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Starfield from '../components/starfield'
-import Header from '../components/header'
+import MNGStarfield from './mngstarfield'
+import MNGHeader from './mngheader'
 import {
   Box,
   Container,
@@ -14,7 +14,7 @@ import {
 
 export const siteTitle = 'Master Nataraj G'
 
-export default function Layout({
+export default function MNGLayout({
   children,
   title = "Shanti Pyar"
 }) {
@@ -31,9 +31,9 @@ export default function Layout({
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Starfield />
+      <MNGStarfield />
 
-      <Header />
+      <MNGHeader />
 
       {children}
 

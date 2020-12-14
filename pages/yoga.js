@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import MNGLayout from '../components/mnglayout'
 import {
   Flex,
   Box,
@@ -11,10 +11,10 @@ import {
 
 export default function Yoga() {
   return (
-    <Layout title="YOGA">
+    <MNGLayout title="YOGA">
       <Center m={9} color="#B895B9">
         <Text>YOGA FOR CONNECTION, PROTECTION, GUIDANCE</Text>
       </Center>
-    </Layout>
+    </MNGLayout>
   )
 }
