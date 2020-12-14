@@ -11,7 +11,7 @@ import {
 
 export default function Home() {
   return (
-    <Layout title="Home">
+    <Layout title="HOME">
       <Flex w={960} maxW={960} mx="auto">
         <Stack spacing={24}>
           <Image src="/img/masterNatarajG.jpg" alt="Master Nataraj G" title="Master Nataraj G" />

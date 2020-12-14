@@ -8,6 +8,7 @@ import {
   Image,
   Text
 } from '@chakra-ui/react'
+import Link from 'next/link'
 
 import styles from './header.module.scss'
 
@@ -25,21 +26,39 @@ export default function Header() {
           </MenuButton>
           <MenuList>
             <MenuGroup>
-              <MenuItem>भूमि LAND</MenuItem>
-              <MenuItem>खाना FOOD</MenuItem>
-              <MenuItem>योग YOGA</MenuItem>
-              <MenuItem>कला ART</MenuItem>
-              <MenuItem>प्यार LOVE</MenuItem>
+              <MenuItem>
+                <ChakraLink as={Link} href="/land">भूमि LAND</ChakraLink>
+              </MenuItem>
+              <MenuItem>
+                <ChakraLink as={Link} href="/food">खाना FOOD</ChakraLink>
+              </MenuItem>
+              <MenuItem>
+                <ChakraLink as={Link} href="/yoga">योग YOGA</ChakraLink>
+              </MenuItem>
+              <MenuItem>
+                <ChakraLink as={Link} href="/art">कला ART</ChakraLink>
+              </MenuItem>
+              <MenuItem>
+                <ChakraLink as={Link} href="/love">प्यार LOVE</ChakraLink>
+              </MenuItem>
             </MenuGroup>
             <MenuDivider />
             <MenuGroup>
-              <MenuItem>SOVEREIGN WEB PRESENCE</MenuItem>
-              <MenuItem>MADE ON TONGVALAND</MenuItem>
-              <MenuItem>CREDITS</MenuItem>
+              <MenuItem>
+                <ChakraLink as={Link} href="/sovereignwebpresence">SOVEREIGN WEB PRESENCE</ChakraLink>
+              </MenuItem>
+              <MenuItem>
+                <ChakraLink as={Link} href="/madeontongvaland">MADE ON TONGVALAND</ChakraLink>
+              </MenuItem>
+              <MenuItem>
+                <ChakraLink as={Link} href="/love#credits">CREDITS</ChakraLink>
+              </MenuItem>
             </MenuGroup>
             <MenuDivider />
             <MenuGroup>
-              <MenuItem>TIP $ DONATE</MenuItem>
+              <MenuItem>
+                <ChakraLink as={Link} href="/tip$donate">TIP $ DONATE</ChakraLink>
+              </MenuItem>
             </MenuGroup>
           </MenuList>
         </Menu>
