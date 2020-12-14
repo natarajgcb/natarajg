@@ -66,21 +66,21 @@ export default function Header() {
 
       <Spacer />
 
-      <Center w={296} h={150} color="#F8CDF9">
-        <Flex>
-          <Box textAlign="center" mr={6} pt={2}>
+      <ChakraLink as={Link} href="/"><a>
+        <Center w={296} h={150} color="#F8CDF9">
+          <Box textAlign="center" mr={6}>
             <Text fontSize="2xl">शांति</Text>
             <Text fontSize="sm" mt="-6px">PEACE</Text>
           </Box>
           <Box align="center">
             <Image className={styles.gauralok} borderRadius="full" boxShadow="0px 0px 39px 0px #96731C" src="/img/gauralok.png" alt="Gauralok" title="Gauralok" />
           </Box>
-          <Box textAlign="center" ml={6} pt={2}>
+          <Box textAlign="center" ml={6}>
             <Text fontSize="2xl">प्यार</Text>
             <Text fontSize="sm" mt="-6px">LOVE</Text>
           </Box>
-        </Flex>
-      </Center>
+        </Center>
+      </a></ChakraLink>
 
       <Spacer />
 
