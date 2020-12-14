@@ -37,9 +37,9 @@ export default function Layout({
 
       {children}
 
-      <Container as="footer">
+      <Center as="footer" color="#B895B9" m={9}>
         <Text>Place footer content here...</Text>
-      </Container>
+      </Center>
     </div>
   )
 }
