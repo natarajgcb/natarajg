@@ -96,6 +96,14 @@ export default function Home() {
                   <Button bg="#6E0A70" color="#F8CDF9" px={8}
                     _hover={{ background: "#510653" }}>SEE YOGA</Button>
                 </ChakraLink>
+                <ChakraLink as={Link} href="/food">
+                  <Button bg="#6E0A70" color="#F8CDF9" px={8}
+                    _hover={{ background: "#510653" }}>SEE FOOD</Button>
+                </ChakraLink>
+                <ChakraLink as={Link} href="/art">
+                  <Button bg="#6E0A70" color="#F8CDF9" px={8}
+                    _hover={{ background: "#510653" }}>SEE ART</Button>
+                </ChakraLink>
               </HStack>
             </VStack>
             <Image w={222} borderRadius="full"
