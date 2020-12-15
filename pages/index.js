@@ -35,6 +35,10 @@ export default function Home() {
 
       <Flex w={960} maxW={960} mt={24} mx="auto">
         <Stack spacing={24}>
+          <Center py={16}>
+            <Image src="/img/hummingbirdDivider.png" w="600px" />
+          </Center>
+
           <Flex align="center">
             <VStack ml={36}>
               <Text textAlign="center" fontSize="27px" color="#B895B9">Nataraj G
@@ -406,6 +410,10 @@ export default function Home() {
               </HStack>
             </VStack>
           </Flex>
+
+          <Center py={16}>
+            <Image src="/img/hummingbirdDivider.png" w="600px" />
+          </Center>
 
         </Stack>
       </Flex>

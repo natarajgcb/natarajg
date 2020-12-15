@@ -18,7 +18,7 @@ export default function Yoga() {
           <Box textAlign="center">
             <Heading as="h1" fontSize="108px" fontWeight="400" color="#E652E9">योग</Heading>
             <Heading as="h2" fontSize="63px" fontWeight="400" color="#B895B9">YOGA</Heading>
-            <Text fontSize="27px" color="#B895B9" mt={9}>
+            <Text fontSize="27px" color="#B895B9" mt={4}>
               The practice of Yoga has blossomed all over the globe while evolving and
               growing as a result of Yoga’s intrinsic methods for connecting with our truest
               and highest selves. Yogic practice creates the conditions within each one
@@ -186,6 +186,10 @@ export default function Yoga() {
               border="0.1618rem solid #F2B90B"
             />
           </Flex>
+
+          <Center>
+            <Image src="/img/hummingbirdDivider.png" w="600px" />
+          </Center>
 
         </Stack>
       </Flex>
