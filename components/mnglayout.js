@@ -1,17 +1,7 @@
 import Head from 'next/head'
 import MNGStarfield from './mngstarfield'
 import MNGHeader from './mngheader'
-import MNGMenu from './mngmenu'
-import {
-  Box,
-  Container,
-  Button,
-  Link as ChakraLink,
-  Menu, MenuButton, MenuList, MenuGroup, MenuDivider, MenuItem,
-  Flex, Spacer, Center,
-  Image,
-  Text
-} from '@chakra-ui/react'
+import MNGFooter from './mngfooter'
 
 export const siteTitle = 'Master Nataraj G'
 
@@ -38,9 +28,7 @@ export default function MNGLayout({
 
       {children}
 
-      <Center as="footer">
-        <MNGMenu />
-      </Center>
+      <MNGFooter />
     </div>
   )
 }
