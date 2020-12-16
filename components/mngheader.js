@@ -18,45 +18,81 @@ export default function MNGHeader() {
       <Center w={150} h={150}>
         <Menu as="nav">
           <MenuButton as={Button} border="none" bg="none" p={0} borderRadius={0}
-            _hover={{
-              bg: "#300931"
-            }}
+            _hover={{bg: "#300931"}}
+            _focus={{bg: "#300931"}}
+            _active={{bg: "#300931"}}
           >
             <Image src="/img/tilak.png" alt="Menu Open" />
           </MenuButton>
-          <MenuList>
+          <MenuList bg="#300931" border="0.1618rem solid #100008" color="#F8CDF9">
             <MenuGroup>
-              <MenuItem>
+              <MenuItem
+                _hover={{bg: "#9F08A2"}}
+                _focus={{bg: "#9F08A2"}}
+                _active={{bg: "#9F08A2"}}
+              >
                 <ChakraLink as={Link} href="/land">भूमि LAND</ChakraLink>
               </MenuItem>
-              <MenuItem>
+              <MenuItem
+                _hover={{bg: "#9F08A2"}}
+                _focus={{bg: "#9F08A2"}}
+                _active={{bg: "#9F08A2"}}
+              >
                 <ChakraLink as={Link} href="/food">खाना FOOD</ChakraLink>
               </MenuItem>
-              <MenuItem>
+              <MenuItem
+                _hover={{bg: "#9F08A2"}}
+                _focus={{bg: "#9F08A2"}}
+                _active={{bg: "#9F08A2"}}
+              >
                 <ChakraLink as={Link} href="/yoga">योग YOGA</ChakraLink>
               </MenuItem>
-              <MenuItem>
+              <MenuItem
+                _hover={{bg: "#9F08A2"}}
+                _focus={{bg: "#9F08A2"}}
+                _active={{bg: "#9F08A2"}}
+              >
                 <ChakraLink as={Link} href="/art">कला ART</ChakraLink>
               </MenuItem>
-              <MenuItem>
+              <MenuItem
+                _hover={{bg: "#9F08A2"}}
+                _focus={{bg: "#9F08A2"}}
+                _active={{bg: "#9F08A2"}}
+              >
                 <ChakraLink as={Link} href="/love">प्यार LOVE</ChakraLink>
               </MenuItem>
             </MenuGroup>
             <MenuDivider />
             <MenuGroup>
-              <MenuItem>
+              <MenuItem
+                _hover={{bg: "#9F08A2"}}
+                _focus={{bg: "#9F08A2"}}
+                _active={{bg: "#9F08A2"}}
+              >
                 <ChakraLink as={Link} href="/sovereignwebpresence">SOVEREIGN WEB PRESENCE</ChakraLink>
               </MenuItem>
-              <MenuItem>
+              <MenuItem
+                _hover={{bg: "#9F08A2"}}
+                _focus={{bg: "#9F08A2"}}
+                _active={{bg: "#9F08A2"}}
+              >
                 <ChakraLink as={Link} href="/madeontongvaland">MADE ON TONGVALAND</ChakraLink>
               </MenuItem>
-              <MenuItem>
+              <MenuItem
+                _hover={{bg: "#9F08A2"}}
+                _focus={{bg: "#9F08A2"}}
+                _active={{bg: "#9F08A2"}}
+              >
                 <ChakraLink as={Link} href="/love#credits">CREDITS</ChakraLink>
               </MenuItem>
             </MenuGroup>
             <MenuDivider />
             <MenuGroup>
-              <MenuItem>
+              <MenuItem
+                _hover={{bg: "#9F08A2"}}
+                _focus={{bg: "#9F08A2"}}
+                _active={{bg: "#9F08A2"}}
+              >
                 <ChakraLink as={Link} href="/tip$donate">TIP $ DONATE</ChakraLink>
               </MenuItem>
             </MenuGroup>
