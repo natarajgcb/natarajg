@@ -39,7 +39,7 @@ export default function Home() {
             <Image src="/img/hummingbirdDivider.png" w="600px" />
           </Center>
 
-          <Flex align="center">
+          <Flex align="center" justify="flex-end">
             <VStack ml={36}>
               <Text textAlign="center" fontSize="27px" color="#B895B9">Nataraj G
                 revealed to me the most beautiful flower with the sweetest nectar
@@ -88,7 +88,7 @@ export default function Home() {
             </VStack>
           </Flex>
 
-          <Flex align="center">
+          <Flex align="center" justify="flex-end">
             <VStack ml={36}>
               <Text textAlign="center" fontSize="27px" color="#B895B9">No one on
                 this Earth is doing what Master Nataraj G is doing for the Divine
