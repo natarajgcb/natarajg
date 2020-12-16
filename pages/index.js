@@ -26,12 +26,26 @@ export default function Home() {
           <Box textAlign="center">
             <Heading as="h1" fontSize="108px" fontWeight="400" color="#E652E9">मुक्ति की कला</Heading>
             <Heading as="h2" fontSize="63px" fontWeight="400" color="#B895B9">The Art of Liberation</Heading>
-            <Text fontSize="27px" color="#B895B9" mt={4}>How do we live abundantly as our truest and highest selves?</Text>
+            <Text fontSize="27px" color="#B895B9" mt={4}>How do we live
+              abundantly as our truest and highest selves?
+            </Text>
+            <Text fontSize="27px" color="#B895B9" mt={4}><em>Start here...</em></Text>
+            <ChakraLink as={Link} href="/land">
+              <Button bg="#6E0A70" color="#F8CDF9" px={8} h={200} w={200} mt={4}
+                borderRadius="full" boxShadow="0 0 40px 6px rgba(48,9,49,0.69)"
+                _hover={{ bg: "#510653" }}>
+                <VStack spacing={2}>
+                  <Heading as="h5" fontSize="54px" fontWeight="400">भूमि</Heading>
+                  <Heading as="h6" fontSize="27px" fontWeight="400">LAND</Heading>
+                </VStack>
+              </Button>
+            </ChakraLink>
+            <Text fontSize="27px" color="#B895B9" mt={4}>
+              <em>... always start here.</em>
+            </Text>
           </Box>
         </VStack>
       </Flex>
-
-      <MNGMenu />
 
       <Flex id="love" w={960} maxW={960} mt={24} mx="auto">
         <Stack spacing={24}>
