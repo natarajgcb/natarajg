@@ -50,29 +50,37 @@ export default function Love() {
               These offerings and this Sovereign Web Presence is made manifest
               through the love shared by so many. Master Nataraj G bows in
               Gratitude to You, All and:
-              <br/><br/>All those that shared <ChakraLink as={Link}
-                href="/#love">words of love on the HOME page</ChakraLink>.
+              <br/><br/>All those that shared <u><ChakraLink as={Link}
+                href="/#love">words of love on the HOME page</ChakraLink></u>.
               <br/><br/>NASA's Jet Propulsion Laboratory at Caltech, Spitzer
-                Space Telescope team for the <ChakraLink as={Link}
+                Space Telescope team for the <u><ChakraLink as={Link}
                 href="https://photojournal.jpl.nasa.gov/catalog/PIA22564">Supernova
-                Remnant HBH 3 image</ChakraLink> set as the background for this site.
+                Remnant HBH 3 image</ChakraLink></u> set as the background for this site.
               <br/><br/>NASA's Earth Polychromatic Imaging Camera (EPIC) team for
-                the <ChakraLink as={Link} href="https://epic.gsfc.nasa.gov/about">Earth
-                image</ChakraLink> set at the base of this site.
-              <br/><br/>Saransh Sinha for the <ChakraLink as={Link}
+                the <u><ChakraLink as={Link} href="https://epic.gsfc.nasa.gov/about">Earth
+                image</ChakraLink></u> set at the base of this site.
+              <br/><br/>Saransh Sinha for the <u><ChakraLink as={Link}
                 href="https://codepen.io/saransh/pen/BKJun">Pure CSS Parallax
-                Pixel Stars CSS animation</ChakraLink> that the Starfield for
+                Pixel Stars CSS animation</ChakraLink></u> that the Starfield for
                 this site was based on.
-              <br/><br/><ChakraLink as={Link} href="https://chakra-ui.com/">Segun
-                Adebayo and the Chakra UI team</ChakraLink> for the interface
+              <br/><br/><u><ChakraLink as={Link} href="https://chakra-ui.com/">Segun
+                Adebayo and the Chakra UI team</ChakraLink></u> for the interface
                 framework that makes manifest our vision and designs for this
                 site while keeping the site highly accessible for those with
                 different senses and abilities.
-              <br/><br/><ChakraLink as={Link} href="https://nextjs.org/">Guillermo
-                Rauch and the Next.js team</ChakraLink> for an elegant web framework
-                that empowers us to build this <ChakraLink as={Link}
-                href="/sovereignwebpresence">Sovereign Web Presence</ChakraLink> and
+              <br/><br/><u><ChakraLink as={Link} href="https://nextjs.org/">Guillermo
+                Rauch and the Next.js team</ChakraLink></u> for an elegant web framework
+                that empowers us to build this <u><ChakraLink as={Link}
+                href="/sovereignwebpresence">Sovereign Web Presence</ChakraLink></u> and
                 share it with the New World.
+              <br/><br/>The <u><ChakraLink as={Link} href="https://www.blockstack.org/">Blockstack
+                Foundation, Ecosystem of dApps and Community</ChakraLink></u> for
+                guidance and leadership in building the <u><ChakraLink as={Link}
+                href="/sovereignwebpresence">Decentralized Web</ChakraLink></u>.
+              <br/><br/>The <u><ChakraLink as={Link} href="https://runkod.com/">Runkod
+                team</ChakraLink></u> for a <u><ChakraLink as={Link}
+                href="/sovereignwebpresence">decentralized</ChakraLink></u> hosting
+                platform that shares the same name as our Mother Earth, GAIA.
             </Text>
           </Box>
         </Stack>

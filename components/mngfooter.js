@@ -28,10 +28,10 @@ export default function MNGFooter() {
       </ChakraLink>
       <Text textAlign="center" fontSize="18px" color="#B895B9">
         GRATEFUL FOR ALL INVOLVED IN CREATING THIS<br/>
-        <ChakraLink as={Link} href="/sovereignwebpresence" color="#F8CDF9"
-          _hover={{color:"#9F08A2"}}>SOVEREIGN WEB PRESENCE</ChakraLink>
-        &nbsp;— <ChakraLink as={Link} href="/love#credits" color="#F8CDF9"
-          _hover={{color:"#9F08A2"}}>SEE CREDITS</ChakraLink>
+        <u><ChakraLink as={Link} href="/sovereignwebpresence" color="#F8CDF9"
+          _hover={{color:"#9F08A2"}}>SOVEREIGN WEB PRESENCE</ChakraLink></u>
+        &nbsp;— <u><ChakraLink as={Link} href="/love#credits" color="#F8CDF9"
+          _hover={{color:"#9F08A2"}}>SEE CREDITS</ChakraLink></u>
       </Text>
       <Center mb="390px">
         <ChakraLink as={Link} href="/tip$donate">
