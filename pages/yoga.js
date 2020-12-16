@@ -13,7 +13,7 @@ export default function Yoga() {
     <MNGLayout title="YOGA">
       <Flex w={960} maxW={960} mx="auto">
         <Stack spacing={24}>
-          <Image src="/img/MasterNatarajGYoga.jpg" alt="Master Nataraj G Yoga" title="Master Nataraj G Yoga" />
+          <Image w={600} mx="auto" src="/img/MasterNatarajGYoga.jpg" alt="Master Nataraj G Yoga" title="Master Nataraj G Yoga" />
 
           <Box textAlign="center">
             <Heading as="h1" fontSize="108px" fontWeight="400" color="#E652E9">योग</Heading>

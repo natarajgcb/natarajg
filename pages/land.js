@@ -31,22 +31,29 @@ export default function Land() {
               sovereign living and fully honoring the sanctity of the land and all beings
               is continually unfolding and requires conscious action to realize.
             </Text>
-            <Text fontSize="27px" color="#B895B9" mt={9}>
+          </Box>
+
+          <Box textAlign="center">
+            <Heading as="h3" fontSize="69px" fontWeight="400" color="#9F08A2">प्रस्ताव</Heading>
+            <Heading as="h4" fontSize="36px" fontWeight="400" color="#B895B9">OFFERINGS</Heading>
+            <Text fontSize="27px" color="#B895B9" mt={2}>
               We honor the <ChakraLink as={Link} href="/madeontongvaland">Tongva
               Land</ChakraLink> we are on and share these offerings with you so
               we may all live in abundance, aligned with our highest and truest
               Infinite Self, for a New World rooted in the Divine Energies of
               Peace, Love, Joy, Balance and Gratitude.
             </Text>
+          </Box>
+
+          <Box textAlign="center">
             <Text fontSize="27px" color="#B895B9" mt={9}>
               // for the rest of this page -- links to each section:
               <br/><br/>FOOD - it's from the land. From Mother Earth. Food of different kinds for
               our body (physical, fruits, vegetables, seeds, nuts) -- mind,
               soul, heart, spirit.
-              <br/><br/>ART - to feed the mind, heart and soul.
               <br/><br/>YOGA - to feed it all and keep us connected, guided and protected
               by our highest and truest SELF -- which is ONE.
-              <br/><br/>// links to all the above
+              <br/><br/>ART - to feed the mind, heart and soul.
             </Text>
             <Text fontSize="27px" color="#B895B9" mt={9}>
               PENs from Gma Gloria, Lydia Auntie, adrienne maree brown, Sadhguru

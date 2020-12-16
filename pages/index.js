@@ -17,8 +17,8 @@ export default function Home() {
   return (
     <MNGLayout title="HOME">
       <Flex w={960} maxW={960} mx="auto">
-        <Stack spacing={24}>
-          <Image src="/img/MasterNatarajG.jpg" alt="Master Nataraj G" title="Master Nataraj G" />
+        <VStack spacing={24} mx="auto">
+          <Image w={600} src="/img/MasterNatarajG.jpg" alt="Master Nataraj G" title="Master Nataraj G" />
           <Box textAlign="center">
             <Heading as="h3" fontSize="69px" fontWeight="400" color="#9F08A2">गुरु नटराज जी</Heading>
             <Heading as="h4" fontSize="36px" fontWeight="400" color="#B895B9">MASTER NATARAJ G</Heading>
@@ -26,16 +26,16 @@ export default function Home() {
           <Box textAlign="center">
             <Heading as="h1" fontSize="108px" fontWeight="400" color="#E652E9">मुक्ति की कला</Heading>
             <Heading as="h2" fontSize="63px" fontWeight="400" color="#B895B9">The Art of Liberation</Heading>
-            <Text fontSize="27px" color="#B895B9">How do we live abundantly as our truest and highest selves?</Text>
+            <Text fontSize="27px" color="#B895B9" mt={4}>How do we live abundantly as our truest and highest selves?</Text>
           </Box>
-        </Stack>
+        </VStack>
       </Flex>
 
       <MNGMenu />
 
       <Flex id="love" w={960} maxW={960} mt={24} mx="auto">
         <Stack spacing={24}>
-          <Center py={16}>
+          <Center>
             <Image src="/img/hummingbirdDivider.png" w="600px" />
           </Center>
 

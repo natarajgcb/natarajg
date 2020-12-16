@@ -13,7 +13,7 @@ export default function Food() {
     <MNGLayout title="FOOD">
       <Flex w={960} maxW={960} mx="auto">
         <Stack spacing={24}>
-          <Image src="/img/MasterNatarajGFood.jpg" alt="Master Nataraj G Food" title="Master Nataraj G Food" />
+          <Image w={600} mx="auto" src="/img/MasterNatarajGFood.jpg" alt="Master Nataraj G Food" title="Master Nataraj G Food" />
 
           <Box textAlign="center">
             <Heading as="h1" fontSize="108px" fontWeight="400" color="#E652E9">खाना</Heading>
