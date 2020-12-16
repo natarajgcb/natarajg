@@ -33,7 +33,7 @@ export default function Home() {
 
       <MNGMenu />
 
-      <Flex w={960} maxW={960} mt={24} mx="auto">
+      <Flex id="love" w={960} maxW={960} mt={24} mx="auto">
         <Stack spacing={24}>
           <Center py={16}>
             <Image src="/img/hummingbirdDivider.png" w="600px" />

@@ -1,13 +1,12 @@
 import MNGLayout from '../components/mnglayout'
 import {
-  Flex,
-  Box,
-  Image,
-  Text,
-  Heading,
-  Stack,
-  Center
+  Flex, Box, Center,
+  Image, Text, Heading,
+  Button,
+  Stack, VStack,
+  Link as ChakraLink
 } from '@chakra-ui/react'
+import Link from 'next/link'
 
 export default function Love() {
   return (
@@ -21,16 +20,59 @@ export default function Love() {
             <Heading as="h1" fontSize="108px" fontWeight="400" color="#E652E9">प्यार</Heading>
             <Heading as="h2" fontSize="63px" fontWeight="400" color="#B895B9">LOVE</Heading>
             <Text fontSize="27px" color="#B895B9" mt={4}>
-              We are in it.
-              <br/>It is all around us.
-              <br/>It is us.
+              We are in it
+              <br/>It is all around us
+              <br/>It is us
               <br/>If we sit quietly
-              <br/>And listen.
-              <br/><br/><strong>Deep gratitude</strong> to the land, Mother Earth, the Infinite
-                One Self, family, friends, teachers, spirit guides, lovers,
+              <br/>And listen
+              <br/><strong>Beyond death</strong>
+              <br/><br/>All of existence weaves together to share this with you.
+              <br/><br/>You are here because our Infinite, Highest, Truest Self
+                brought us together for a Divine Purpose.
+              <br/><br/>Thank You. Bless You.
+              <br/><br/>Deep Gratitude for
+              <br/>the Land, Mother Earth, the Infinite
+                One Self, family, friends, teachers, spirit guides, Lovers,
                 Eucalyptus, Cedar, Hummingbird, Dragonfly, Deer, Turtle, Sage, Bee.
-              <br/><br/>// listing of people with brief one-line connection msg and learn more links?
-              <br/><br/>CREDITS for site
+              <br/><br/>Aho Mitakuye Oyasin
+              <br/>All Our Relations
+              <br/><br/>ॐ शांति प्यार
+              <br/>Om Shanti Pyar
+            </Text>
+          </Box>
+
+          <Image w={960} mx="auto" src="/img/MasterNatarajGOmShantiPyar.jpg"
+            alt="Master Nataraj G Om Shanti Pyar" title="Master Nataraj G Om Shanti Pyar" />
+
+          <Box id="credits" textAlign="center">
+            <Heading as="h3" fontSize="36px" fontWeight="400" color="#B895B9">SITE CREDITS</Heading>
+            <Text fontSize="27px" color="#B895B9" mt={4}>
+              These offerings and this Sovereign Web Presence is made manifest
+              through the love shared by so many. Master Nataraj G bows in
+              Gratitude to You, All and:
+              <br/><br/>All those that shared <ChakraLink as={Link}
+                href="/#love">words of love on the HOME page</ChakraLink>.
+              <br/><br/>NASA's Jet Propulsion Laboratory at Caltech, Spitzer
+                Space Telescope team for the <ChakraLink as={Link}
+                href="https://photojournal.jpl.nasa.gov/catalog/PIA22564">Supernova
+                Remnant HBH 3 image</ChakraLink> set as the background for this site.
+              <br/><br/>NASA's Earth Polychromatic Imaging Camera (EPIC) team for
+                the <ChakraLink as={Link} href="https://epic.gsfc.nasa.gov/about">Earth
+                image</ChakraLink> set at the base of this site.
+              <br/><br/>Saransh Sinha for the <ChakraLink as={Link}
+                href="https://codepen.io/saransh/pen/BKJun">Pure CSS Parallax
+                Pixel Stars CSS animation</ChakraLink> that the Starfield for
+                this site was based on.
+              <br/><br/><ChakraLink as={Link} href="https://chakra-ui.com/">Segun
+                Adebayo and the Chakra UI team</ChakraLink> for the interface
+                framework that makes manifest our vision and designs for this
+                site while keeping the site highly accessible for those with
+                different senses and abilities.
+              <br/><br/><ChakraLink as={Link} href="https://nextjs.org/">Guillermo
+                Rauch and the Next.js team</ChakraLink> for an elegant web framework
+                that empowers us to build this <ChakraLink as={Link}
+                href="/sovereignwebpresence">Sovereign Web Presence</ChakraLink> and
+                share it with the New World.
             </Text>
           </Box>
         </Stack>
