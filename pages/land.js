@@ -159,6 +159,42 @@ export default function Land() {
             </VStack>
           </Flex>
 
+          <Flex>
+            <ChakraLink as={Link} href="/sovereignwebpresence">
+              <VStack align="center" _hover={{cursor:"pointer"}} mr={6} spacing={4}>
+                <Image w={327} borderRadius="full" mt={4}
+                  src="/img/MasterNatarajGConsult.jpg"
+                  alt="Master Nataraj G Sovereign Technology"
+                  title="Master Nataraj G Sovereign Technology"
+                  boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
+                  border="0.1618rem solid #F2B90B"
+                  _hover={{
+                    boxShadow: "0 0 10px 3px rgba(48,9,49,0.99)",
+                    border: "0.1618rem solid #9F08A2"
+                  }}
+                />
+                <ChakraLink as={Link} href="/sovereignwebpresence">
+                  <Button bg="#6E0A70" color="#F8CDF9" px={8}
+                    _hover={{ background: "#510653" }}>SEE SOVEREIGN WEB PRESENCE</Button>
+                </ChakraLink>
+              </VStack>
+            </ChakraLink>
+
+            <VStack align="flex-start" spacing={6} w="593px">
+              <Text textAlign="left" fontSize="36px" fontWeight="bold"
+                color="#F8CDF9" _hover={{color:"#9F08A2"}}>
+                <ChakraLink as={Link} href="/sovereignwebpresence">SOVEREIGN WEB PRESENCE</ChakraLink></Text>
+              <Text textAlign="left" fontSize="27px" color="#B895B9">
+                SOVEREIGN WEB PRESENCE provides our well-fed bodies a place to
+                live, express and continue to nourish ourselves freely. Free from
+                the influence of colonial forces, governments, nations and banks
+                that aim to harvest our energy, corrupt our minds, control our
+                feelings of self-worth and in any way limit the Infinite Supreme
+                Power, Authority and Value that we all intrinsically embody.
+              </Text>
+            </VStack>
+          </Flex>
+
           <Center>
             <Image src="/img/hummingbirdDivider.png" w="600px" />
           </Center>
