@@ -72,7 +72,7 @@ export default function Land() {
                 <ChakraLink as={Link} href="/food">FOOD</ChakraLink></Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
                 FOOD nourishes our bodies, minds, hearts, spirits and souls. Each of these
-                bodies are sustained by different foods. Our physical body here is
+                bodies are sustained by different foods. Our physical body is
                 wholly fed by our Mother Earth with the tastiest abundance of plants,
                 fruits, seeds, nuts, mushrooms and more. Even with the rapid
                 decline of capitalism and a New World rising amidst devastating
@@ -111,15 +111,15 @@ export default function Land() {
                 color="#F8CDF9" _hover={{color:"#9F08A2"}}>
                 <ChakraLink as={Link} href="/yoga">YOGA</ChakraLink></Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                YOGA allows us to see and feed our bodies that are not physical.
-                Our heart-body (emotions), our mind-body (thoughts),
+                YOGA allows us to see and feed our bodies that are not physical:
+                our heart-body (emotions), our mind-body (thoughts),
                 our spirit-body (energy), our soul-body (highest and truest Self).
                 Yoga is an ancient, global tradition that has been constrained
                 and packaged into a relaxation or exercise routine, especially in
                 the West, where the seeds of domination, exploitation and colonization
                 have given rise to capitalism, thankfully now in rapid decline.
                 We need to delve more deeply into the practice of Yoga beyond
-                how it may serve us and into the emotional, mental and energetic
+                how it may serve us and explore the emotional, mental and energetic
                 realms for greater Peace, Love, Joy, Balance and Gratitude.
               </Text>
             </VStack>
