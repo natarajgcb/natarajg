@@ -411,7 +411,7 @@ export default function Home() {
             </VStack>
           </Flex>
 
-          <Center py={16}>
+          <Center>
             <Image src="/img/hummingbirdDivider.png" w="600px" />
           </Center>
 
