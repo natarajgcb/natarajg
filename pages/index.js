@@ -18,7 +18,7 @@ export default function Home() {
     <MNGLayout title="HOME">
       <Flex w={960} maxW={960} mx="auto">
         <VStack spacing={24} mx="auto">
-          <Image w={600} mx="auto" src="/img/MasterNatarajG.jpg" alt="Master Nataraj G" title="Master Nataraj G" />
+          <Image w={600} mx="auto" src="/img/MasterNatarajGHome.jpg" alt="Master Nataraj G" title="Master Nataraj G" />
           <Box textAlign="center">
             <Heading as="h3" fontSize="69px" fontWeight="400" color="#9F08A2">गुरु नटराज जी</Heading>
             <Heading as="h4" fontSize="36px" fontWeight="400" color="#B895B9">MASTER NATARAJ G</Heading>
