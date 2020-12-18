@@ -186,7 +186,7 @@ export default function Land() {
                 <ChakraLink as={Link} href="/sovereignwebpresence">SOVEREIGN WEB PRESENCE</ChakraLink></Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
                 SOVEREIGN WEB PRESENCE provides our well-fed bodies a place to
-                live, express and continue to nourish ourselves freely. Free from
+                live, express and sustainably nourish ourselves freely. Free from
                 the influence of colonial forces, governments, nations and banks
                 that aim to harvest our energy, corrupt our minds, control our
                 feelings of self-worth and in any way limit the Infinite Supreme
