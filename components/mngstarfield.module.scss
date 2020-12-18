@@ -44,7 +44,7 @@ $stars-lg: createStars(300, $s3);
 
 .mngstarfield::before {
   content: " ";
-  background-image: url('https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA22564_hires.jpg');
+  background-image: url('/img/PIA22564_hires_tinypng.jpg');
   background-size: cover;
   position: absolute;
   top: 0px;
