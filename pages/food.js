@@ -193,7 +193,7 @@ export default function Food() {
 
           <Flex align="center">
             <VStack ml={36}>
-              <Text textAlign="center" fontSize="27px" color="#B895B9">Nataraj G
+              <Text textAlign="center" fontSize="27px" color="#B895B9">Master Nataraj G
                 revealed to me the most beautiful flower with the sweetest nectar
                 this world has to offer. Bless you child. Thank you.</Text>
               <Text fontFamily="Georgia,serif" fontSize="25px"
@@ -215,8 +215,8 @@ export default function Food() {
               border="0.1618rem solid #F2B90B"
             />
             <VStack ml={4}>
-              <Text textAlign="center" fontSize="27px" color="#B895B9">Nataraj G
-                is capturing pure beauty<br/>with every bite.</Text>
+              <Text textAlign="center" fontSize="27px" color="#B895B9">Master Nataraj G
+                is capturing<br/>pure beauty with every bite.</Text>
               <Text fontFamily="Georgia,serif" fontSize="25px"
                 color="#B895B9"><em>In Love, Jack Nicholson</em></Text>
             </VStack>

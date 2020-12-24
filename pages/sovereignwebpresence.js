@@ -143,8 +143,8 @@ export default function SovereignWebPresence() {
               border="0.1618rem solid #F2B90B"
             />
             <VStack ml={4}>
-              <Text textAlign="center" fontSize="27px" color="#B895B9">Nataraj G
-                is capturing pure beauty<br/>with every bite.</Text>
+              <Text textAlign="center" fontSize="27px" color="#B895B9">Master Nataraj G
+                is capturing<br/>pure beauty with every bite.</Text>
               <Text fontFamily="Georgia,serif" fontSize="25px"
                 color="#B895B9"><em>In Love, Jack Nicholson</em></Text>
             </VStack>

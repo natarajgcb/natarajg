@@ -201,7 +201,7 @@ export default function Land() {
 
           <Flex align="center" justify="flex-end">
             <VStack ml={36}>
-              <Text textAlign="center" fontSize="27px" color="#B895B9">Nataraj G
+              <Text textAlign="center" fontSize="27px" color="#B895B9">Master Nataraj G
                 revealed to me the most beautiful flower with the sweetest nectar
                 this world has to offer. Bless you child. Thank you.</Text>
               <Text fontFamily="Georgia,serif" fontSize="25px" color="#B895B9"><em>In Love, Grandmother Gloria Arellanes</em></Text>

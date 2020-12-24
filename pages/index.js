@@ -55,7 +55,7 @@ export default function Home() {
 
           <Flex align="center" justify="flex-end">
             <VStack ml={36}>
-              <Text textAlign="center" fontSize="27px" color="#B895B9">Nataraj G
+              <Text textAlign="center" fontSize="27px" color="#B895B9">Master Nataraj G
                 revealed to me the most beautiful flower with the sweetest nectar
                 this world has to offer. Bless you child. Thank you.</Text>
               <Text fontFamily="Georgia,serif" fontSize="25px" color="#B895B9"><em>In Love, Grandmother Gloria Arellanes</em></Text>
@@ -87,7 +87,7 @@ export default function Home() {
             />
             <VStack ml={4}>
               <Text textAlign="center" fontSize="27px" color="#B895B9">Sound
-                can manifest REALITY.<br/>Sound can change MATTER.<br/>Nataraj G revealed to me.</Text>
+                can manifest REALITY.<br/>Sound can change MATTER.<br/>Master Nataraj G revealed to me.</Text>
               <Text fontFamily="Georgia,serif" fontSize="25px" color="#B895B9"><em>In Love, Stevie Wonder</em></Text>
               <HStack spacing={4} pt={2}>
                 <ChakraLink as={Link} href="/art">
@@ -140,8 +140,8 @@ export default function Home() {
               border="0.1618rem solid #F2B90B"
             />
             <VStack ml={4}>
-              <Text textAlign="center" fontSize="27px" color="#B895B9">Nataraj G
-                is capturing pure beauty<br/>with every bite.</Text>
+              <Text textAlign="center" fontSize="27px" color="#B895B9">Master Nataraj G
+                is capturing<br/>pure beauty with every bite.</Text>
               <Text fontFamily="Georgia,serif" fontSize="25px"
                 color="#B895B9"><em>In Love, Jack Nicholson</em></Text>
               <HStack spacing={4} pt={2}>
@@ -160,7 +160,7 @@ export default function Home() {
           <Flex align="center" justify="flex-end">
             <VStack mx={4}>
               <Text textAlign="center" fontSize="27px" color="#B895B9">Peaceful
-                warrior, Nataraj G is.<br/>The truth is, Nataraj G
+                warrior, Master Nataraj G is.<br/>The truth is, Master Nataraj G
                 is afraid of nothing.
               </Text>
               <Text fontFamily="Georgia,serif" fontSize="25px"
