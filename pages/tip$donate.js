@@ -21,15 +21,6 @@ export default function Tip$Donate() {
             border="0.1618rem solid #300931"
             alt="Master Nataraj G GAURALOK" title="Master Nataraj G GAURALOK" />
 
-          <Center>
-            <ChakraLink as={Link} href="https://checkout.square.site/merchant/MLQQHJDY0X309/checkout/JVIOVWY5YWA2UUS5QZ52I32M">
-              <Button size="lg" bg="#6E0A70" color="#F8CDF9" px={8}
-                _hover={{ background: "#510653" }}>
-                TIP $ DONATE
-              </Button>
-            </ChakraLink>
-          </Center>
-
           <Box textAlign="center">
             <Heading as="h1" fontSize="108px" fontWeight="400" color="#E652E9">दान</Heading>
             <Heading as="h2" fontSize="63px" fontWeight="400" color="#B895B9">TIP $ DONATE</Heading>
@@ -49,12 +40,14 @@ export default function Tip$Donate() {
           </Box>
 
           <Center>
-            <ChakraLink as={Link} href="https://checkout.square.site/merchant/MLQQHJDY0X309/checkout/JVIOVWY5YWA2UUS5QZ52I32M">
-              <Button size="lg" bg="#6E0A70" color="#F8CDF9" px={8}
-                _hover={{ background: "#510653" }}>
-                TIP $ DONATE
-              </Button>
-            </ChakraLink>
+            <iframe
+              width="600px" height="960px"
+              src="https://app.giveforms.com/campaigns/masternatarajg/donate"
+            ></iframe>
+          </Center>
+
+          <Center>
+            <Image src="/img/hummingbirdDivider.png" w="600px" />
           </Center>
 
         </Stack>
