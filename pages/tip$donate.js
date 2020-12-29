@@ -24,25 +24,25 @@ export default function Tip$Donate() {
           <Box textAlign="center">
             <Heading as="h1" fontSize="108px" fontWeight="400" color="#E652E9">दान</Heading>
             <Heading as="h2" fontSize="63px" fontWeight="400" color="#B895B9">TIP $ DONATE</Heading>
-            <Text fontSize="27px" color="#B895B9" mt={4}>
+            <Text fontSize="27px" color="#B895B9" display="none">
               Independent Spiritual and Creative Practice that serves people and
               planet directly while not producing capitalistic "value" requires
               direct support from community to materially sustain.
 
-              Master Nataraj G has lived without secure housing or regular income for years and is
+              <br/>Master Nataraj G has lived without secure housing or regular income for years and is
               constantly serving all beings to collectively build a New World
               of Peace, Love, Joy, Balance and Gratitude regardless of
               monetary gain.
 
-              <br/><br/>Your donation supports housing, food and
+              <br/>Your donation supports housing, food and
               spiritual practice for Master Nataraj G and his family.
             </Text>
           </Box>
 
           <Center>
             <iframe
-              width="600px" height="960px"
-              src="https://app.giveforms.com/campaigns/masternatarajg/donate"
+              width="600px" height="1200px"
+              src="https://masternatarajg.giveforms.com/donate"
             ></iframe>
           </Center>
 
