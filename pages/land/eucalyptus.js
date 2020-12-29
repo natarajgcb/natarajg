@@ -330,8 +330,63 @@ export default function Eucalyptus() {
                 entire process for you to enjoy to the max
               </Text>
             </VStack>
-
           </VStack>
+
+          <Center>
+            <Image w={450} mx="auto" src="/img/land/MasterNatarajGEucalyptusSeedPods.jpg"
+              alt="Master Nataraj G Eucalyptus Seed Pods"
+              title="Master Nataraj G Eucalyptus Seed Pods"
+              boxShadow="0 0 90px 10px rgba(48,9,49,0.69)"
+              borderRadius="full" />
+          </Center>
+
+          <Center>
+            <VStack w={600} spacing={6} align="flex-start">
+              <Heading textAlign="left" as="h4" fontSize="36px" fontWeight="700"
+                color="#B895B9">OUR LETTER TO OUR PEOPLE</Heading>
+              <Text textAlign="left" fontSize="27px" color="#B895B9">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A glorious, blessed and healing holiday season to you and your
+                family. &nbsp;Our relative, the Eucalyptus Tree, exceptionally healing
+                for our respiratory systems, is telling us we are amazing,
+                beautiful, Infinite Beings that deserve to breathe clean, fresh
+                air. &nbsp;To be one with the rhythm and flow of life.<br/><br/>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Do not harm us, do not harm your Self,"
+                she says. &nbsp;For when you do, it is harm to All.
+                &nbsp;We all want nothing more than to live in constant
+                Peace, Love, Joy, Balance and Gratitude and offer these healing
+                leaves for you to enjoy at a time of widespread panic amidst
+                attacks on our respiratory systems &mdash; COVID-19 is a respiratory
+                disease which still has no sustainable cure, air pollution
+                continues to smog up cities while forests are chopped down and
+                Big Tobacco is projected to grow to $1.08 Trillion by
+                2027<sup>[1]</sup> while the US Centers for Disease Control and Prevention (CDC)
+                report that, "Tobacco use is the leading cause of preventable
+                disease, disability and death in the United States."<sup>[2]</sup>
+
+                <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please enjoy these healing Eucalyptus Leaves
+                hand-picked, cleansed and prepared for You in a
+                TEA, VAPOR BATH or BURNED DRY.
+
+                <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With best wishes for health, balance and growth for us all.
+
+                <br/><br/><em>In Peace, Love, Joy, Balance and Gratitude,</em>
+                <br/><em>Master Nataraj G</em> <Image src="/img/tilak.png" pl={16} pt={2} />
+              </Text>
+              <Text textAlign="left" fontSize="18px" color="#B895B9" pt={6}>
+                <u><ChakraLink as={Link}
+                  title="View research reference source at Grand View Research"
+                  href="https://www.grandviewresearch.com/press-release/global-tobacco-market">[1] Tobacco
+                    Market Size Worth $1.08 Trillion By 2027</ChakraLink></u>, Grand View Research, May 2020
+                <br/><u><ChakraLink as={Link}
+                  title="View research reference source at the Centers for Disease Control and Prevention"
+                  href="https://www.cdc.gov/chronicdisease/resources/publications/factsheets/tobacco.htm">[2] Tobacco
+                    Use</ChakraLink></u>, Centers for Disease Control and Prevention (CDC),
+                    National Center for Chronic Disease Prevention and Health Promotion (NCCDPHP),
+                    Fact Sheet last reviewed 21 Sept 2020
+              </Text>
+            </VStack>
+          </Center>
 
           <Center>
             <Image src="/img/hummingbirdDivider.png" w="600px" />
