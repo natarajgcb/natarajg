@@ -3,7 +3,7 @@ import {
   Flex, Box, Center,
   Image, Text, Heading,
   Button,
-  Stack, VStack,
+  Stack, VStack, HStack,
   Link as ChakraLink
 } from '@chakra-ui/react'
 import Link from 'next/link'
@@ -52,7 +52,7 @@ export default function Eucalyptus() {
               <Text textAlign="right" fontSize="27px" color="#B895B9">
                 Sooth your spirit, sooth your soul from the inside out with this
                 healing light tea. To prepare, choose how many cups you would
-                like to make: one leaf, one cup &emdash; Mother Nature makes it
+                like to make: one leaf, one cup &mdash; Mother Nature makes it
                 easy for us.
               </Text>
               <Text textAlign="right" fontSize="27px" color="#B895B9">
@@ -166,12 +166,172 @@ export default function Eucalyptus() {
           </Flex>
 
           <Center>
-            <Image w={600} mx="auto" src="/img/land/MasterNatarajGEucalyptusSeedPods.jpg"
-              borderRadius="full"
-              alt="Master Nataraj G Eucalyptus Seed Pods"
-              title="Master Nataraj G Eucalyptus Seed Pods"
-              boxShadow="0 0 90px 10px rgba(48,9,49,0.69)" />
+            <Image w={360} mx="auto" src="/img/land/MasterNatarajGEucalyptusVibration.jpg"
+              alt="Master Nataraj G Eucalyptus Vibration"
+              title="Master Nataraj G Eucalyptus Vibration" />
           </Center>
+
+          <VStack spacing={0}>
+            <Box w={600}>
+              <Heading textAlign="left" as="h4" fontSize="36px" fontWeight="700"
+                color="#B895B9">HEALTH BENEFITS</Heading>
+              <Text fontSize="18px" color="#B895B9"><em>Research
+                backed by Master Nataraj G's
+                Community and <u><ChakraLink as={Link}
+                  href="https://www.healthline.com/nutrition/eucalyptus-leaves"
+                  title="View Healthline.com Research on Eucalyptus Leaves">Healthline.com</ChakraLink></u></em>
+              </Text>
+            </Box>
+            <Center w={600}>
+              <Text textAlign="left" fontSize="27px" color="#B895B9" mt={6}>
+                All parts of our dear relative, the Eucalyptus Tree, are
+                exceptionally healing for our entire respiratory systems:
+                healthier, happier breathing, smelling, tasting, eating,
+                swallowing and circulating life-giving Oxygen throughout our
+                entire being. Following are a few health benefits you will enjoy
+                with your Eucalyptus Leaves:
+                <br/><br/> • <strong>heals respiratory ailments</strong>
+                <br/><br/> • <strong>improves mental clarity</strong>
+                <br/><br/> • <strong>relieves cold symptoms</strong>
+                <br/><br/> • <strong>reduces pain</strong>
+                <br/><br/> • <strong>promotes relaxation</strong>
+                <br/><br/> • <strong>keeps your teeth and gums healthy</strong>
+
+                <br/><br/>Do you feel other health benefits when interacting with
+                Eucalyptus Leaves? <u><ChakraLink as={Link}
+                  href="mailto:nataraj.g@protonmail.com?subject=Eucalyptus%20Leaf%20Experience">Drop
+                  us a line</ChakraLink></u> and let us know.
+              </Text>
+            </Center>
+          </VStack>
+
+          <Center>
+            <Image w={360} mx="auto" src="/img/land/MasterNatarajGEucalyptusEye.jpg"
+              alt="Master Nataraj G Eucalyptus Eye"
+              title="Master Nataraj G Eucalyptus Eye" />
+          </Center>
+
+          <VStack spacing={9}>
+            <VStack w={600} align="flex-start" justify="center">
+              <Heading textAlign="left" as="h4" fontSize="36px" fontWeight="700"
+                color="#B895B9">OUR PROCESS</Heading>
+              <Text fontSize="18px" color="#B895B9"><em>Eucalyptus is native to
+                Australia. Ours is harvested locally in the Westwood neighborhood
+                of Los Angeles, California on Tongvaland.</em>
+              </Text>
+            </VStack>
+
+            <VStack align="center" justify="center">
+              <Text textAlign="left" fontSize="27px" color="#B895B9">
+                CEREMONY
+              </Text>
+              <Image w={360} src="/img/land/euc/0ceremony.jpeg"
+                alt="Master Nataraj G Eucalyptus Ceremony"
+                title="Master Nataraj G Eucalyptus Ceremony" />
+              <Text textAlign="left" fontSize="16px" color="#B895B9">
+                We honor the land, our ancestors, our Selves,<br/>the Spirit of
+                Eucalyptus and All Our Relations,<br/>ॐ शांति प्यार: Om Shanti Pyar: Divine Peace Love
+              </Text>
+            </VStack>
+
+            <VStack align="center" justify="center">
+              <Text textAlign="left" fontSize="27px" color="#B895B9">
+                GARDEN
+              </Text>
+              <Image w={360} src="/img/land/euc/1garden.jpeg"
+                alt="Master Nataraj G Eucalyptus Garden"
+                title="Master Nataraj G Eucalyptus Garden" />
+              <Text textAlign="left" fontSize="16px" color="#B895B9">
+                Where we rest, restore, rejuvenate,<br/>connect and learn in Peace
+              </Text>
+            </VStack>
+
+            <VStack align="center" justify="center">
+              <Text textAlign="left" fontSize="27px" color="#B895B9">
+                CONNECT
+              </Text>
+              <Center>
+                <Box>
+                  <Image w={320} src="/img/land/euc/2eucalyptusSpirit.jpeg"
+                    alt="Master Nataraj G Eucalyptus Spirit"
+                    title="Master Nataraj G Eucalyptus Spirit" />
+                  <Text textAlign="left" fontSize="16px" color="#B895B9">
+                    We hear the Eucalyptus Tree talk:<br/>"We will protect you"
+                  </Text>
+                </Box>
+                <Box>
+                  <Image w={320} src="/img/land/euc/2eucalyptusTalks.jpeg"
+                    alt="Master Nataraj G Eucalyptus Talks"
+                    title="Master Nataraj G Eucalyptus Talks" />
+                  <Text textAlign="left" fontSize="16px" color="#B895B9">
+                    We hear her tell us: "We speak all<br/>languages"
+                    (both in Hindi and in English)
+                  </Text>
+                </Box>
+                <Box>
+                  <Image w={320} src="/img/land/euc/2purpleOne.jpeg"
+                    alt="Master Nataraj G Eucalyptus Purple One"
+                    title="Master Nataraj G Eucalyptus Purple One" />
+                  <Text textAlign="left" fontSize="16px" color="#B895B9">
+                    <em>The Purple One Sees You<br/>The Purple One Loves You</em>
+                  </Text>
+                </Box>
+              </Center>
+            </VStack>
+
+            <VStack align="center" justify="center">
+              <Text textAlign="left" fontSize="27px" color="#B895B9">
+                COLLECT
+              </Text>
+              <Image w={360} src="/img/land/euc/3collectGifts.jpg"
+                alt="Master Nataraj G Eucalyptus Collect Gifts"
+                title="Master Nataraj G Eucalyptus Collect Gifts" />
+              <Text textAlign="left" fontSize="16px" color="#B895B9">
+                After a fall windstorm, she drops entire branches<br/>
+                amidst many individual leaves, freely at our feet
+              </Text>
+            </VStack>
+
+            <VStack align="center" justify="center">
+              <Text textAlign="left" fontSize="27px" color="#B895B9">
+                CLEANSE & DRY
+              </Text>
+              <Center>
+                <Box>
+                  <Image w={360} src="/img/land/euc/4cleanse.jpeg"
+                    alt="Master Nataraj G Eucalyptus Cleanse"
+                    title="Master Nataraj G Eucalyptus Cleanse" />
+                  <Text textAlign="left" fontSize="16px" color="#B895B9">
+                    We pick and hand-bathe each leaf, ensuring<br/>
+                    they are clean and ready for your enjoyment
+                  </Text>
+                </Box>
+                <Box>
+                  <Image w={360} src="/img/land/euc/4dry.jpeg"
+                    alt="Master Nataraj G Eucalyptus Dry"
+                    title="Master Nataraj G Eucalyptus Dry" />
+                  <Text textAlign="left" fontSize="16px" color="#B895B9">
+                    After their baths, each individual leaf<br/>
+                    is air-dried naturally&mdash;no chemicals
+                  </Text>
+                </Box>
+              </Center>
+            </VStack>
+
+            <VStack align="center" justify="center">
+              <Text textAlign="left" fontSize="27px" color="#B895B9">
+                BUNDLE
+              </Text>
+              <Image w={360} src="/img/land/euc/5bundle.jpeg"
+                alt="Master Nataraj G Eucalyptus Bundle"
+                title="Master Nataraj G Eucalyptus Bundle" />
+              <Text textAlign="left" fontSize="16px" color="#B895B9">
+                Sacred thread to bind the leaves and seal the<br/>
+                entire process for you to enjoy to the max
+              </Text>
+            </VStack>
+
+          </VStack>
 
           <Center>
             <Image src="/img/hummingbirdDivider.png" w="600px" />
