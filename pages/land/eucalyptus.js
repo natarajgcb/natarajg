@@ -211,8 +211,7 @@ export default function Eucalyptus() {
               title="Master Nataraj G Eucalyptus Eye" />
           </Center>
 
-
-          <Center>
+          <Center display="none">
             <ChakraLink as={Link} href="https://checkout.square.site/merchant/MLQQHJDY0X309/checkout/JVIOVWY5YWA2UUS5QZ52I32M">
               <Button size="lg" bg="#6E0A70" color="#F8CDF9" px={8}
                 _hover={{ background: "#510653" }}>
