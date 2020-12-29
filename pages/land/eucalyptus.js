@@ -211,6 +211,16 @@ export default function Eucalyptus() {
               title="Master Nataraj G Eucalyptus Eye" />
           </Center>
 
+
+          <Center>
+            <ChakraLink as={Link} href="https://checkout.square.site/merchant/MLQQHJDY0X309/checkout/JVIOVWY5YWA2UUS5QZ52I32M">
+              <Button size="lg" bg="#6E0A70" color="#F8CDF9" px={8}
+                _hover={{ background: "#510653" }}>
+                ORDER MORE LEAVES
+              </Button>
+            </ChakraLink>
+          </Center>
+
           <VStack spacing={9}>
             <VStack w={600} align="flex-start" justify="center">
               <Heading textAlign="left" as="h4" fontSize="36px" fontWeight="700"
