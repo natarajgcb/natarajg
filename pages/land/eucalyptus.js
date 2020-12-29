@@ -222,7 +222,7 @@ export default function Eucalyptus() {
             </VStack>
 
             <VStack align="center" justify="center">
-              <Text textAlign="left" fontSize="27px" color="#B895B9">
+              <Text textAlign="left" fontSize="27px" fontWeight="700" color="#B895B9">
                 CEREMONY
               </Text>
               <Image w={360} src="/img/land/euc/0ceremony.jpeg"
@@ -235,7 +235,7 @@ export default function Eucalyptus() {
             </VStack>
 
             <VStack align="center" justify="center">
-              <Text textAlign="left" fontSize="27px" color="#B895B9">
+              <Text textAlign="left" fontSize="27px" fontWeight="700" color="#B895B9">
                 GARDEN
               </Text>
               <Image w={360} src="/img/land/euc/1garden.jpeg"
@@ -247,7 +247,7 @@ export default function Eucalyptus() {
             </VStack>
 
             <VStack align="center" justify="center">
-              <Text textAlign="left" fontSize="27px" color="#B895B9">
+              <Text textAlign="left" fontSize="27px" fontWeight="700" color="#B895B9">
                 CONNECT
               </Text>
               <Center>
@@ -280,7 +280,7 @@ export default function Eucalyptus() {
             </VStack>
 
             <VStack align="center" justify="center">
-              <Text textAlign="left" fontSize="27px" color="#B895B9">
+              <Text textAlign="left" fontSize="27px" fontWeight="700" color="#B895B9">
                 COLLECT
               </Text>
               <Image w={360} src="/img/land/euc/3collectGifts.jpg"
@@ -293,7 +293,7 @@ export default function Eucalyptus() {
             </VStack>
 
             <VStack align="center" justify="center">
-              <Text textAlign="left" fontSize="27px" color="#B895B9">
+              <Text textAlign="left" fontSize="27px" fontWeight="700" color="#B895B9">
                 CLEANSE & DRY
               </Text>
               <Center>
@@ -319,7 +319,7 @@ export default function Eucalyptus() {
             </VStack>
 
             <VStack align="center" justify="center">
-              <Text textAlign="left" fontSize="27px" color="#B895B9">
+              <Text textAlign="left" fontSize="27px" fontWeight="700" color="#B895B9">
                 BUNDLE
               </Text>
               <Image w={360} src="/img/land/euc/5bundle.jpeg"
