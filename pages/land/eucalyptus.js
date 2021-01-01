@@ -380,7 +380,7 @@ export default function Eucalyptus() {
                 <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With best wishes for health, balance and growth for us all.
 
                 <br/><br/><em>In Peace, Love, Joy, Balance and Gratitude,</em>
-                <br/><em>Master Nataraj G</em> <Image src="/img/tilak.png" pl={16} pt={2} />
+                <br/><em>Master Nataraj G</em> <Image src="/img/MasterNatarajGSignature75.JPG" borderRadius="full" ml={12} mt={2} />
               </Text>
               <Text textAlign="left" fontSize="18px" color="#B895B9" pt={6}>
                 <u><ChakraLink as={Link}
