@@ -20,7 +20,7 @@ export default function Eucalyptus() {
 
           <Box textAlign="center">
             <Heading as="h1" fontSize="108px" fontWeight="400" color="#E652E9">EUCALYPTUS</Heading>
-            <Heading as="h2" fontSize="63px" fontWeight="400" color="#B895B9">HEALING HOLIDAY 2020</Heading>
+            <Heading as="h2" fontSize="63px" fontWeight="400" color="#B895B9">HEALING IN EACH BREATH</Heading>
             <Text fontSize="27px" color="#B895B9" mt={4}>
               A glorious, blessed and healing holiday season to you and your
               family. Our relative, the Eucalyptus Tree, exceptionally healing
