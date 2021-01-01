@@ -39,7 +39,7 @@ export default function MNGFooter() {
             _hover={{ background: "#510653" }}>TIP $ DONATE</Button>
         </ChakraLink>
       </Center>
-      <Image src="/img/earth.png" pos="absolute" bottom="0" mx="auto" />
+      <Image src="/img/earth.png" pos="absolute" bottom="0" mx="auto" zIndex="-1" />
     </Stack>
   )
 }
