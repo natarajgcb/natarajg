@@ -331,13 +331,26 @@ export default function Eucalyptus() {
               <Text textAlign="left" fontSize="27px" fontWeight="700" color="#B895B9">
                 BUNDLE
               </Text>
-              <Image w={360} src="/img/land/euc/5bundle.jpeg"
-                alt="Master Nataraj G Eucalyptus Bundle"
-                title="Master Nataraj G Eucalyptus Bundle" />
-              <Text textAlign="left" fontSize="16px" color="#B895B9">
-                Sacred thread to bind the leaves and seal the<br/>
-                entire process for you to enjoy to the max
-              </Text>
+              <Center>
+                <Box>
+                  <Image w={360} src="/img/land/euc/5bundle.jpeg"
+                    alt="Master Nataraj G Eucalyptus Bundle Sacred String"
+                    title="Master Nataraj G Eucalyptus Bundle Sacred String" />
+                  <Text textAlign="left" fontSize="16px" color="#B895B9">
+                    Sacred thread to bind the leaves and seal the<br/>
+                    entire process for you to enjoy all the healing
+                  </Text>
+                </Box>
+                <Box>
+                  <Image w={360} src="/img/land/euc/5leafbundle.jpg"
+                    alt="Master Nataraj G Eucalyptus Leaf Bundle"
+                    title="Master Nataraj G Eucalyptus Leaf Bundle" />
+                  <Text textAlign="left" fontSize="16px" color="#B895B9">
+                    These beautiful leaves have natural imperfections<br/>
+                    to remind us that we are perfect, no matter what
+                  </Text>
+                </Box>
+              </Center>
             </VStack>
           </VStack>
 
