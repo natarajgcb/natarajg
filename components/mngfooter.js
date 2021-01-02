@@ -10,6 +10,7 @@ import Link from 'next/link'
 export default function MNGFooter() {
   return (
     <Stack as="footer" spacing={24}>
+      <Image src="/img/earth.png" pos="absolute" bottom="0" mx="auto" />
       <MNGMenu />
       <ChakraLink as={Link} href="/madeontongvaland">
         <VStack role="group" _hover={{
@@ -39,7 +40,6 @@ export default function MNGFooter() {
             _hover={{ background: "#510653" }}>TIP $ DONATE</Button>
         </ChakraLink>
       </Center>
-      <Image src="/img/earth.png" pos="absolute" bottom="0" mx="auto" zIndex="-1" />
     </Stack>
   )
 }
