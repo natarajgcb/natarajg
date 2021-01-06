@@ -22,17 +22,18 @@ export default function YogaFriendsNFam() {
             <Heading as="h2" fontSize="63px" fontWeight="400" color="#B895B9">YOGA</Heading>
             <Text fontSize="27px" color="#B895B9" mt={4}>
               Dear Friends &amp; Family,
-              <br/><br/>Thank you for your love, support and commitment to learn
-              together.
+              <br/><br/><strong>Thank you</strong> for your love, support and
+              commitment<br/>to learn, heal, change and build our New World together.
               <br/><br/>We honor the <ChakraLink as={Link} href="/madeontongvaland">Tongva
               Land</ChakraLink> we are on and share these teachings with you so
               we may all live in abundance, aligned with our highest and truest
               Infinite Self, for a New World rooted in the Divine Energies of
               Peace, Love, Joy, Balance and Gratitude.
-              <br/><br/>Please click below for your special discounted rate of
-              USD $1,000 for 1 month of 1-on-1 Yoga Training.
+              <br/><br/>Please click below for your special discounted rate of <strong>USD $1,000</strong>
+              <br/>for 1 month of 1-on-1 Yoga Training
+              with Master Nataraj G.
             </Text>
-            <MNGStripeButton size="lg" label="ACCEPT $1,000 OFFER" />
+            <MNGStripeButton size="lg" label="ACCEPT $1,000 OFFER" mt={12} />
           </Box>
 
           <Flex>
@@ -67,9 +68,13 @@ export default function YogaFriendsNFam() {
               <Text color="#F8CDF9" fontSize="27px">
                 USD <Text as="span" fontWeight="bold" fontSize="36px">$1,000</Text>
               </Text>
-              <MNGStripeButton size="lg" label="ACCEPT" />
+              <MNGStripeButton label="ACCEPT" />
             </VStack>
           </Flex>
+
+          <Center>
+            <Image src="/img/hummingbirdDivider.png" w="600px" />
+          </Center>
 
         </Stack>
       </Flex>

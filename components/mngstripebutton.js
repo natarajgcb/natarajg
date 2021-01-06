@@ -9,12 +9,11 @@ const stripePromise = loadStripe('pk_live_51I323eKOxPIlITGP2wJgqwTN9pU7vnP2cEOxE
 
 export default function MNGStripeButton({
   size = "md",
+  mt = 0,
   label = "ACCEPT"
 }) {
   var errorMessage = ""
   const handleClick = async (event) => {
-    console.log('handleClick')
-
     // Get Stripe.js instance
     const stripe = await stripePromise
 
@@ -43,7 +42,7 @@ export default function MNGStripeButton({
   }
 
   return (
-    <Box>
+    <Box mt={mt}>
       <Button
         bg="#6E0A70"
         size={size}
