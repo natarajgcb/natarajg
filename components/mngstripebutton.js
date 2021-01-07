@@ -50,7 +50,7 @@ export default function MNGStripeButton({
         px={8}
         onClick={handleClick}
         _hover={{
-          background: "#510653"
+          bg: "#510653"
       }}>
         {label}
       </Button>

@@ -23,7 +23,7 @@ export default function YogaFriendsNFam() {
             <Text fontSize="27px" color="#B895B9" mt={4}>
               Dear Friends &amp; Family,
               <br/><br/><strong>Thank you</strong> for your love, support and
-              commitment<br/>to learn, heal, change and build our New World together.
+              commitment<br/>to heal, change and build our New World together.
               <br/><br/>We honor the <ChakraLink as={Link} href="/madeontongvaland">Tongva
               Land</ChakraLink> we are on and share these teachings with you so
               we may all live in abundance, aligned with our highest and truest
