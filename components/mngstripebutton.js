@@ -6,13 +6,17 @@ import Link from 'next/link'
 import { loadStripe } from '@stripe/stripe-js'
 
 const stripePromise = loadStripe('pk_live_51I323eKOxPIlITGP2wJgqwTN9pU7vnP2cEOxERgqkuqZngs03MY2NvX8pldjcDxSCwxsZMPC58BatendDLtvtMw900QJ48Fpls')
+// const stripePromise = loadStripe('pk_test_51I323eKOxPIlITGP4PAGdAqbRAX37U95omjMUzAckSRz97xmOV6r8ZrV5h0rzN18G937CTNSQ4u5WdoMvLjiwp5S00umLcI3fC')
 
 export default function MNGStripeButton({
-  size = "md",
-  mt = 0,
-  label = "ACCEPT"
+  size       = "md",
+  mt         = 0,
+  label      = "ACCEPT",
+  priceid    = 'price_1I6Jm8KOxPIlITGPDMjnfBPh',
+  successUrl = '/yoga/welcome',
+  cancelUrl  = '/yoga'
 }) {
-  var errorMessage = ""
+  var errorMessage  = ""
   const handleClick = async (event) => {
     // Get Stripe.js instance
     const stripe = await stripePromise
@@ -22,7 +26,7 @@ export default function MNGStripeButton({
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1I6Jm8KOxPIlITGPDMjnfBPh', quantity: 1}],
+      lineItems: [{price: priceid, quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
@@ -31,8 +35,8 @@ export default function MNGStripeButton({
        * Instead use one of the strategies described in
        * https://stripe.com/docs/payments/checkout/fulfill-orders
        */
-      successUrl: window.location.protocol + '//natarajg.vercel.app/yoga/welcome',
-      cancelUrl: window.location.protocol + '//natarajg.vercel.app/yoga',
+      successUrl: 'https://natarajg.space' + successUrl,
+      cancelUrl: 'https://natarajg.space' + cancelUrl,
     })
     .then(function (result) {
       if (result.error) {

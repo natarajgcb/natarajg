@@ -33,7 +33,14 @@ export default function YogaFriendsNFam() {
               <br/>for 1 month of 1-on-1 Yoga Training
               with Master Nataraj G.
             </Text>
-            <MNGStripeButton size="lg" label="ACCEPT $1,000 OFFER" mt={12} />
+            <MNGStripeButton
+              size       = "lg"
+              mt         = {12}
+              label      = "ACCEPT $1,000 OFFER"
+              priceid    = 'price_1I6Jm8KOxPIlITGPDMjnfBPh'
+              successUrl = '/yoga/welcome'
+              cancelUrl  = '/yoga'
+            />
           </Box>
 
           <Flex>
@@ -68,7 +75,12 @@ export default function YogaFriendsNFam() {
               <Text color="#F8CDF9" fontSize="27px">
                 USD <Text as="span" fontWeight="bold" fontSize="36px">$1,000</Text>
               </Text>
-              <MNGStripeButton label="ACCEPT" />
+              <MNGStripeButton
+                label      = "ACCEPT"
+                priceid    = 'price_1I6Jm8KOxPIlITGPDMjnfBPh'
+                successUrl = '/yoga/welcome'
+                cancelUrl  = '/yoga'
+              />
             </VStack>
           </Flex>
 
