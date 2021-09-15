@@ -73,21 +73,12 @@ export default function Food() {
               <Text textAlign="left" fontSize="36px" fontWeight="bold"
                 color="#F8CDF9" _hover={{color:"#9F08A2"}}>
                 <ChakraLink as={Link}
-                  href="https://checkout.square.site/buy/4PNR5DKEXDEBQHVLQ6FW5FST">Visit
-                  the Farmer's Market &amp; Cook Together</ChakraLink></Text>
+                  href="https://checkout.square.site/buy/4PNR5DKEXDEBQHVLQ6FW5FST">Visit the Farmer's Market &amp; Cook Together</ChakraLink></Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                Connect with Master Nataraj G to share a ceremony connecting us
-                more deeply with the land through food. Visit a local Farmer's Market
-                and craft a menu together based on what is most fresh and
-                healing for you. Then travel to your kitchen to cook together or
-                leave it to Master Nataraj G while learning new techniques,
-                health benefits of foods and discussing how to stay healthy with
-                the changing seasons.
+                Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Visit a local Farmer's Market and craft a menu together based on what is most fresh and healing for you. Then travel to your kitchen to cook together or leave it to Master Nataraj G while learning new techniques, health benefits of foods and discussing how to stay healthy with the changing seasons.
               </Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                Preparation of at least 8 servings or more are included, based on
-                your needs and market variability. Menu, health benefits and sources
-                are documented for you to keep.
+                Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and sources are documented for you to keep.
               </Text>
             </VStack>
           </Flex>
@@ -124,19 +115,10 @@ export default function Food() {
                   href="https://checkout.square.site/buy/A6NGOAPNXLVCC3BXAUR34LWS">Cook
                   a Farmer's Market Fresh Meal Together</ChakraLink></Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                Connect with Master Nataraj G to share a ceremony connecting us
-                more deeply with the land through food. Share your favorite foods,
-                health and dietary needs with Master Nataraj G before he makes a local
-                Farmer's Market run, crafts a menu and shows up at your home to
-                cook together. Dive into the kitchen to prepare the meal together or
-                leave it to Master Nataraj G while learning new techniques,
-                health benefits of foods and discussing how to stay healthy with
-                the changing seasons.
+                Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Share your favorite foods, health and dietary needs with Master Nataraj G before he makes a local Farmer's Market run, crafts a menu and shows up at your home to cook together. Dive into the kitchen to prepare the meal together or leave it to Master Nataraj G while learning new techniques, health benefits of foods and discussing how to stay healthy with the changing seasons.
               </Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                Preparation of at least 8 servings or more are included, based on
-                your needs and market variability. Menu, health benefits and
-                sources are documented for you to keep.
+                Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and sources are documented for you to keep.
               </Text>
             </VStack>
           </Flex>
@@ -173,16 +155,10 @@ export default function Food() {
                   href="https://checkout.square.site/buy/K6IER4VHBHD4OSXB6FBJ5G3D">Get
                   a Farmer's Market Fresh Meal Delivered</ChakraLink></Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                Connect with Master Nataraj G to share a ceremony connecting us
-                more deeply with the land through food. Share your favorite foods,
-                health and dietary needs with Master Nataraj G before he makes a local
-                Farmer's Market run, crafts a menu, cooks a meal and shows up at
-                your home to deliver blessings passed on from Mother Earth.
+                Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Share your favorite foods, health and dietary needs with Master Nataraj G before he makes a local Farmer's Market run, crafts a menu, cooks a meal and shows up at your home to deliver blessings passed on from Mother Earth.
               </Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                Preparation of at least 8 servings or more are included, based on
-                your needs and market variability. Menu, health benefits and
-                sources are documented for you to keep.
+                Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and sources are documented for you to keep.
               </Text>
             </VStack>
           </Flex>
