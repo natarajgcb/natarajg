@@ -51,38 +51,38 @@ export default function MadeOnTongvaland() {
           </Box>
 
           <Flex>
-            <VStack align="center" mr={6} spacing={4}>
-              <Image w={327} borderRadius="full" mt={4}
-                src="/img/MadeOnTongvaland.jpg"
-                alt="Made On Tongvaland Seal"
-                title="Made On Tongvaland Seal"
-                boxShadow="0 0 10px 3px rgba(48,9,49,0.69)"
-              />
-              <Text color="#F8CDF9" fontSize="27px">
-                USD <Text as="span" fontWeight="bold" fontSize="36px">$39</Text>
-              </Text>
-              <MNGStripeButton
-                label      = "ACCEPT"
-                priceid    = 'price_1IM5G1KOxPIlITGPXA9b8n41'
-                successUrl = '/madeontongvaland/welcome'
-                cancelUrl  = '/madeontongvaland'
-              />
-            </VStack>
+            <ChakraLink as={Link}
+              href="https://buy.stripe.com/cN201e5gmfFT0JGdQV">
+              <VStack align="center" _hover={{cursor:"pointer"}} mr={6} spacing={4}>
+                <Image w={327} borderRadius="full" mt={4}
+                  src="/img/MadeOnTongvaland.jpg"
+                  alt="Made On Tongvaland Seal"
+                  title="Made On Tongvaland Seal"
+                  boxShadow="0 0 10px 3px rgba(48,9,49,0.69)"
+                  _hover={{
+                    boxShadow: "0 0 10px 3px rgba(252,255,0,0.5)"
+                  }}
+                />
+                <Text color="#F8CDF9" _hover={{color:"#9F08A2"}} fontSize="27px">
+                  USD <Text as="span" fontWeight="bold" fontSize="36px">$39</Text>
+                </Text>
+                <ChakraLink as={Link} href="https://buy.stripe.com/cN201e5gmfFT0JGdQV">
+                  <Button bg="#6E0A70" color="#F8CDF9" px={8}
+                    _hover={{ background: "#510653" }}>ACCEPT</Button>
+                </ChakraLink>
+              </VStack>
+            </ChakraLink>
 
             <VStack align="flex-start" spacing={6} w="593px">
               <Text textAlign="left" fontSize="36px" fontWeight="bold"
-                color="#F8CDF9">Made On Tongvaland Seal</Text>
+                color="#F8CDF9" _hover={{color:"#9F08A2"}}>
+                <ChakraLink as={Link}
+                  href="https://buy.stripe.com/cN201e5gmfFT0JGdQV">Made On Tongvaland Seal</ChakraLink></Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                Download the high resolution, transparent Made On Tongvaland Seal
-                and join the Made On Tongvaland Community. Join other Creators
-                on Tongvaland honoring the land, supporting one another and
-                building for Indigenous Sovereignty, Peace, Love, Joy, Balance
-                and Gratitude for All Our Relations — AHO Mitakuye Oyasin.
+                Download the high resolution, transparent Made On Tongvaland Seal and join the Made On Tongvaland Community. Join other Creators on Tongvaland honoring the land, supporting one another and building for Indigenous Sovereignty, Peace, Love, Joy, Balance and Gratitude for All Our Relations — AHO Mitakuye Oyasin.
               </Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                All funds are put toward growing Native Creators and realizing
-                dreams, visions and intentions shared amongst the Made On Tongvaland
-                Community.
+                All funds are put toward growing Native Creators and realizing dreams, visions and intentions shared amongst the Made On Tongvaland Community.
               </Text>
             </VStack>
           </Flex>
