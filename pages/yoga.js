@@ -44,7 +44,7 @@ export default function Yoga() {
               <Text textAlign="right" fontSize="36px" fontWeight="bold"
                 color="#F8CDF9" _hover={{color:"#9F08A2"}}>
                 <ChakraLink as={Link}
-                  href="https://checkout.square.site/buy/D262M4F7HZT3UYKYWNYAPHAZ">1-on-1
+                  href="https://buy.stripe.com/eVag0cfV00KZ1NKdQQ">1-on-1
                   Yoga Training, 1 month</ChakraLink></Text>
               <Text textAlign="right" fontSize="27px" color="#B895B9">
                 Share your life's journey, dreams and intentions with Master
@@ -62,7 +62,7 @@ export default function Yoga() {
             </VStack>
 
             <ChakraLink as={Link}
-              href="https://checkout.square.site/buy/D262M4F7HZT3UYKYWNYAPHAZ">
+              href="https://buy.stripe.com/eVag0cfV00KZ1NKdQQ">
               <VStack align="center" spacing={4} _hover={{cursor:"pointer"}}>
                 <Image w={327} borderRadius="full" mt={4}
                   src="/img/yoga/MNGYogaTraining1mo.jpg"
@@ -78,7 +78,7 @@ export default function Yoga() {
                 <Text color="#F8CDF9" _hover={{color:"#9F08A2"}} fontSize="27px">
                   USD <Text as="span" fontWeight="bold" fontSize="36px">$2,000</Text>
                 </Text>
-                <ChakraLink as={Link} href="https://checkout.square.site/buy/D262M4F7HZT3UYKYWNYAPHAZ">
+                <ChakraLink as={Link} href="https://buy.stripe.com/eVag0cfV00KZ1NKdQQ">
                   <Button bg="#6E0A70" color="#F8CDF9" px={8}
                     _hover={{ background: "#510653" }}>ACCEPT</Button>
                 </ChakraLink>
@@ -88,12 +88,12 @@ export default function Yoga() {
 
           <Flex>
             <ChakraLink as={Link}
-              href="https://checkout.square.site/buy/OCPNNKBX57OSESPJHQYVPNVY">
+              href="https://buy.stripe.com/9AQ4hucIO79n8c87st">
               <VStack align="center" _hover={{cursor:"pointer"}} mr={6} spacing={4}>
                 <Image w={327} borderRadius="full" mt={4}
                   src="/img/yoga/MNGBreathTraining.jpg"
-                  alt="Master Nataraj G 1-on-1 Yoga Training for 1 month"
-                  title="Master Nataraj G 1-on-1 Yoga Training for 1 month"
+                  alt="Master Nataraj G 1-on-1 Breath Training"
+                  title="Master Nataraj G 1-on-1 Breath Training"
                   boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
                   border="0.1618rem solid #F2B90B"
                   _hover={{
@@ -104,7 +104,7 @@ export default function Yoga() {
                 <Text color="#F8CDF9" _hover={{color:"#9F08A2"}} fontSize="27px">
                   USD <Text as="span" fontWeight="bold" fontSize="36px">$369</Text>
                 </Text>
-                <ChakraLink as={Link} href="https://checkout.square.site/buy/D262M4F7HZT3UYKYWNYAPHAZ">
+                <ChakraLink as={Link} href="https://buy.stripe.com/9AQ4hucIO79n8c87st">
                   <Button bg="#6E0A70" color="#F8CDF9" px={8}
                     _hover={{ background: "#510653" }}>ACCEPT</Button>
                 </ChakraLink>
@@ -115,16 +115,15 @@ export default function Yoga() {
               <Text textAlign="left" fontSize="36px" fontWeight="bold"
                 color="#F8CDF9" _hover={{color:"#9F08A2"}}>
                 <ChakraLink as={Link}
-                  href="https://checkout.square.site/buy/OCPNNKBX57OSESPJHQYVPNVY">1-on-1
+                  href="https://buy.stripe.com/9AQ4hucIO79n8c87st">1-on-1
                   Breath Training, 3 sessions</ChakraLink></Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                One of Yoga’s 8 Limbs is प्राणायाम (pranayam): Life Force Extension
-                through Breath Control.
+                One of Yoga’s 8 Limbs is प्राणायाम (pranayam): Life Force Extension through Breath Control.
               </Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
                 Connect with Master Nataraj G to practice ancient breathing
                 techniques that allow you to direct your breath and life force
-                and gain instant access to deeper and greater levels of Clarity,
+                for instant access to deeper and greater levels of Clarity,
                 Peace, Love, Joy, Balance and Gratitude.
               </Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
@@ -140,9 +139,7 @@ export default function Yoga() {
 
           <Flex align="center">
             <VStack ml={36}>
-              <Text textAlign="center" fontSize="27px" color="#B895B9">No one on
-                this Earth is doing what Master Nataraj G is doing for the Divine
-                Energies of<br/>Peace, Love, Joy, Balance and Gratitude.</Text>
+              <Text textAlign="center" fontSize="27px" color="#B895B9">No one on this Earth is doing what Master Nataraj G is doing for the Divine Energies of<br/>Peace, Love, Joy, Balance and Gratitude.</Text>
               <Text fontFamily="Georgia,serif" fontSize="25px"
                 color="#B895B9"><em>In Love, Sadhguru</em></Text>
             </VStack>

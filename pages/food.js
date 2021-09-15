@@ -46,7 +46,7 @@ export default function Food() {
 
           <Flex>
             <ChakraLink as={Link}
-              href="https://checkout.square.site/buy/4PNR5DKEXDEBQHVLQ6FW5FST">
+              href="https://buy.stripe.com/14kcO04ci79ndwsfZ0">
               <VStack align="center" _hover={{cursor:"pointer"}} mr={6} spacing={4}>
                 <Image w={327} borderRadius="full" mt={4}
                   src="/img/food/MasterNatarajGFoodMarket.jpg"
@@ -62,7 +62,7 @@ export default function Food() {
                 <Text color="#F8CDF9" _hover={{color:"#9F08A2"}} fontSize="27px">
                   USD <Text as="span" fontWeight="bold" fontSize="36px">$1,000</Text>
                 </Text>
-                <ChakraLink as={Link} href="https://checkout.square.site/buy/4PNR5DKEXDEBQHVLQ6FW5FST">
+                <ChakraLink as={Link} href="https://buy.stripe.com/14kcO04ci79ndwsfZ0">
                   <Button bg="#6E0A70" color="#F8CDF9" px={8}
                     _hover={{ background: "#510653" }}>ACCEPT</Button>
                 </ChakraLink>
@@ -73,19 +73,19 @@ export default function Food() {
               <Text textAlign="left" fontSize="36px" fontWeight="bold"
                 color="#F8CDF9" _hover={{color:"#9F08A2"}}>
                 <ChakraLink as={Link}
-                  href="https://checkout.square.site/buy/4PNR5DKEXDEBQHVLQ6FW5FST">Visit the Farmer's Market &amp; Cook Together</ChakraLink></Text>
+                  href="https://buy.stripe.com/14kcO04ci79ndwsfZ0">Visit the Farmer's Market &amp; Cook Together</ChakraLink></Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
                 Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Visit a local Farmer's Market and craft a menu together based on what is most fresh and healing for you. Then travel to your kitchen to cook together or leave it to Master Nataraj G while learning new techniques, health benefits of foods and discussing how to stay healthy with the changing seasons.
               </Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and sources are documented for you to keep.
+                Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and information on food sources are documented for you to keep.
               </Text>
             </VStack>
           </Flex>
 
           <Flex>
             <ChakraLink as={Link}
-              href="https://checkout.square.site/buy/A6NGOAPNXLVCC3BXAUR34LWS">
+              href="https://buy.stripe.com/aEU9BO6kq2T7dws5kn">
               <VStack align="center" _hover={{cursor:"pointer"}} mr={6} spacing={4}>
                 <Image w={327} borderRadius="full" mt={4}
                   src="/img/food/MasterNatarajGFoodTogether.jpg"
@@ -101,7 +101,7 @@ export default function Food() {
                 <Text color="#F8CDF9" _hover={{color:"#9F08A2"}} fontSize="27px">
                   USD <Text as="span" fontWeight="bold" fontSize="36px">$1,000</Text>
                 </Text>
-                <ChakraLink as={Link} href="https://checkout.square.site/buy/A6NGOAPNXLVCC3BXAUR34LWS">
+                <ChakraLink as={Link} href="https://buy.stripe.com/aEU9BO6kq2T7dws5kn">
                   <Button bg="#6E0A70" color="#F8CDF9" px={8}
                     _hover={{ background: "#510653" }}>ACCEPT</Button>
                 </ChakraLink>
@@ -112,20 +112,20 @@ export default function Food() {
               <Text textAlign="left" fontSize="36px" fontWeight="bold"
                 color="#F8CDF9" _hover={{color:"#9F08A2"}}>
                 <ChakraLink as={Link}
-                  href="https://checkout.square.site/buy/A6NGOAPNXLVCC3BXAUR34LWS">Cook
+                  href="https://buy.stripe.com/aEU9BO6kq2T7dws5kn">Cook
                   a Farmer's Market Fresh Meal Together</ChakraLink></Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
                 Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Share your favorite foods, health and dietary needs with Master Nataraj G before he makes a local Farmer's Market run, crafts a menu and shows up at your home to cook together. Dive into the kitchen to prepare the meal together or leave it to Master Nataraj G while learning new techniques, health benefits of foods and discussing how to stay healthy with the changing seasons.
               </Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and sources are documented for you to keep.
+                Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and information on food sources are documented for you to keep.
               </Text>
             </VStack>
           </Flex>
 
           <Flex>
             <ChakraLink as={Link}
-              href="https://checkout.square.site/buy/K6IER4VHBHD4OSXB6FBJ5G3D">
+              href="https://buy.stripe.com/cN23dqdMS0KZfEAfZ2">
               <VStack align="center" _hover={{cursor:"pointer"}} mr={6} spacing={4}>
                 <Image w={327} borderRadius="full" mt={4}
                   src="/img/food/MasterNatarajGFoodDeliver.jpg"
@@ -141,7 +141,7 @@ export default function Food() {
                 <Text color="#F8CDF9" _hover={{color:"#9F08A2"}} fontSize="27px">
                   USD <Text as="span" fontWeight="bold" fontSize="36px">$1,000</Text>
                 </Text>
-                <ChakraLink as={Link} href="https://checkout.square.site/buy/K6IER4VHBHD4OSXB6FBJ5G3D">
+                <ChakraLink as={Link} href="https://buy.stripe.com/cN23dqdMS0KZfEAfZ2">
                   <Button bg="#6E0A70" color="#F8CDF9" px={8}
                     _hover={{ background: "#510653" }}>ACCEPT</Button>
                 </ChakraLink>
@@ -152,13 +152,13 @@ export default function Food() {
               <Text textAlign="left" fontSize="36px" fontWeight="bold"
                 color="#F8CDF9" _hover={{color:"#9F08A2"}}>
                 <ChakraLink as={Link}
-                  href="https://checkout.square.site/buy/K6IER4VHBHD4OSXB6FBJ5G3D">Get
+                  href="https://buy.stripe.com/cN23dqdMS0KZfEAfZ2">Get
                   a Farmer's Market Fresh Meal Delivered</ChakraLink></Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
                 Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Share your favorite foods, health and dietary needs with Master Nataraj G before he makes a local Farmer's Market run, crafts a menu, cooks a meal and shows up at your home to deliver blessings passed on from Mother Earth.
               </Text>
               <Text textAlign="left" fontSize="27px" color="#B895B9">
-                Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and sources are documented for you to keep.
+                Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and information on food sources are documented for you to keep.
               </Text>
             </VStack>
           </Flex>
