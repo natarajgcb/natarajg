@@ -57,17 +57,12 @@ export default function SovereignWebPresence() {
               <Text textAlign="right" fontSize="36px" fontWeight="bold"
                 color="#F8CDF9" _hover={{color:"#9F08A2"}}>
                 <ChakraLink as={Link}
-                  href="https://checkout.square.site/buy/SMTLM436Z4QUS5U5ROPXEBF7">Sovereign Tech Consult, 1 hour</ChakraLink></Text>
+                  href="https://buy.stripe.com/cN2eW8eQWbpD3VS14a">Sovereign Tech Consult, 1 hour</ChakraLink></Text>
               <Text textAlign="right" fontSize="27px" color="#B895B9">
                 Want to express your Self freely, forever? Let's talk.
               </Text>
               <Text textAlign="right" fontSize="27px" color="#B895B9">
-                Connect with Master Nataraj G for a one hour conversation to share
-                your creative practice and how Sovereign Technologies can work
-                for you to sustain a lifestyle based solely on the activities that
-                bring you the most Peace, Love, Joy, Balance and Gratitude. After
-                the conversation, a customized guide and resources are created
-                and yours to keep.
+                Connect with Master Nataraj G for a one hour conversation to discuss your creative practice and how a Sovereign Web Presence can empower you to sustain a lifestyle based on the activities that bring you and our Mother Earth the most Peace, Love, Joy, Balance and Gratitude. After the conversation, a customized guide with resources are created and yours to keep.
               </Text>
               <Text textAlign="right" fontSize="27px" color="#B895B9">
                 All sessions may be conducted virtually.
@@ -75,7 +70,7 @@ export default function SovereignWebPresence() {
             </VStack>
 
             <ChakraLink as={Link}
-              href="https://checkout.square.site/buy/SMTLM436Z4QUS5U5ROPXEBF7">
+              href="https://buy.stripe.com/cN2eW8eQWbpD3VS14a">
               <VStack align="center" spacing={4} _hover={{cursor:"pointer"}}>
                 <Image w={327} borderRadius="full" mt={4}
                   src="/img/MasterNatarajGConsult.jpg"
@@ -91,7 +86,7 @@ export default function SovereignWebPresence() {
                 <Text color="#F8CDF9" _hover={{color:"#9F08A2"}} fontSize="27px">
                   USD <Text as="span" fontWeight="bold" fontSize="36px">$139</Text>
                 </Text>
-                <ChakraLink as={Link} href="https://checkout.square.site/buy/SMTLM436Z4QUS5U5ROPXEBF7">
+                <ChakraLink as={Link} href="https://buy.stripe.com/cN2eW8eQWbpD3VS14a">
                   <Button bg="#6E0A70" color="#F8CDF9" px={8}
                     _hover={{ background: "#510653" }}>ACCEPT</Button>
                 </ChakraLink>
