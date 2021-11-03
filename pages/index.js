@@ -167,7 +167,7 @@ export default function Home() {
       <MNGWordsOfLove align="right">
         <MNGWordsOfLoveText>
           <MNGBody mb="mngr.7">बोधिसत्त्व. Bodhisattva. Master Nataraj G is.</MNGBody>
-          <MNGBody variant="serifi">In Love, Lama Rod Owens</MNGBody>
+          <MNGBody variant="serifi">In Love, Brother Lama Rod Owens</MNGBody>
           <Center justifyContent="space-evenly">
             <MNGButton href="/yoga">SEE YOGA</MNGButton>
             <MNGButton href="/land">SEE LAND</MNGButton>
