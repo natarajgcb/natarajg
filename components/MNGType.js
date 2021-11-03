@@ -2,8 +2,9 @@ import { Box, Heading, Text, Button, Image, Link as ChakraLink} from '@chakra-ui
 import Link from 'next/link'
 
 export const MNGHindiTitle = (props) => {
+  const textAlign = props.left ? "left" : "center";
   return (
-    <Box w="100%" textAlign="center">
+    <Box w="100%" textAlign={textAlign}>
       <MNGTitle mt="mngr.44" mb="0">{props.hindiText}</MNGTitle>
       <MNGH2 mt="0">{props.engText}</MNGH2>
     </Box>
@@ -11,8 +12,9 @@ export const MNGHindiTitle = (props) => {
 }
 
 export const MNGHindiHeading = (props) => {
+  const textAlign = props.left ? "left" : "center";
   return (
-    <Box w="100%" textAlign="center">
+    <Box w="100%" textAlign={textAlign}>
       <MNGH1 mt="mngr.11" mb="0" fontWeight="400">{props.hindiText}</MNGH1>
       <MNGH3 mt="0" fontWeight="400">{props.engText}</MNGH3>
     </Box>

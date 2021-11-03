@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Flex, Link as ChakraLink } from '@chakra-ui/react'
 import MNGDrawer from './MNGDrawer'
 import { MNGFlyingHigh } from './MNGFlyingHigh'
@@ -14,9 +15,8 @@ export const MNGHeader = (props) => {
       >
         <MNGDrawer />
         <MNGBOLD>
-          <ChakraLink
+          <ChakraLink as={Link}
             href="/"
-            variant="noline"
           >
             MASTER NATARAJ G
           </ChakraLink>
