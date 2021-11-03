@@ -3,7 +3,7 @@ import { Flex, Box, Center, Image, Link as ChakraLink } from '@chakra-ui/react'
 import { MNGButton } from '../components/MNGButton'
 import { MNGPage } from '../components/MNGLayout'
 import {
-  MNGH3,
+  MNGH2,
   MNGBody,
   MNGHindiHeading,
   MNGHindiTitle,
@@ -50,7 +50,7 @@ export default function Land() {
         We honor the <ChakraLink as={Link} href="/madeontongvaland">Tongva Land</ChakraLink> we are on and share these offerings with you so we may all live in abundance, aligned with our highest and truest Infinite Self, for a New World rooted in the Divine Energies of Peace, Love, Joy, Balance and Gratitude.
       </MNGBody>
 
-      <MNGH3>FOOD</MNGH3>
+      <MNGH2>FOOD</MNGH2>
       <Flex>
         <Box width="61.803%" pr={6}>
           <MNGBody>
@@ -64,7 +64,8 @@ export default function Land() {
         </Box>
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="/food">
-            <Image src="/img/MasterNatarajGFoodSq.jpg" mb="mngr.11"
+            <Image src="/img/MasterNatarajGFoodSq.jpg"
+              my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
               _hover={{
@@ -77,7 +78,7 @@ export default function Land() {
         </Box>
       </Flex>
 
-      <MNGH3>YOGA</MNGH3>
+      <MNGH2>YOGA</MNGH2>
       <Flex>
         <Box width="61.803%" pr={6}>
           <MNGBody>
@@ -91,7 +92,8 @@ export default function Land() {
         </Box>
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="/yoga">
-            <Image src="/img/MasterNatarajGYogaSq.jpg" mb="mngr.11"
+            <Image src="/img/MasterNatarajGYogaSq.jpg"
+              my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
               _hover={{
@@ -104,7 +106,7 @@ export default function Land() {
         </Box>
       </Flex>
 
-      <MNGH3>ART</MNGH3>
+      <MNGH2>ART</MNGH2>
       <Flex>
         <Box width="61.803%" pr={6}>
           <MNGBody>
@@ -118,7 +120,8 @@ export default function Land() {
         </Box>
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="/art">
-            <Image src="/img/MasterNatarajGArtSq.jpg" mb="mngr.11"
+            <Image src="/img/MasterNatarajGArtSq.jpg"
+              my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
               _hover={{
@@ -131,7 +134,7 @@ export default function Land() {
         </Box>
       </Flex>
 
-      <MNGH3>SOVEREIGN WEB PRESENCE</MNGH3>
+      <MNGH2>SOVEREIGN WEB PRESENCE</MNGH2>
       <Flex>
         <Box width="61.803%" pr={6}>
           <MNGBody>

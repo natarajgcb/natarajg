@@ -109,6 +109,19 @@ export const MNGH3 = (props) => {
   )
 }
 
+export const MNGCalloutP = (props) => {
+  return (
+    <Text
+      fontWeight="600"
+      fontSize="mngr.h3"
+      lineHeight="mngr.h3"
+      marginTop="mngr.11"
+      marginBottom="mngr.11"
+      {...props}
+    />
+  )
+}
+
 export const MNGBody = (props) => {
   return (
     <Text
