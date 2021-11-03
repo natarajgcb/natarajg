@@ -3,12 +3,8 @@ import { Flex, Box, Center, Image, Link as ChakraLink } from '@chakra-ui/react'
 import { MNGButton } from '../components/MNGButton'
 import { MNGPage } from '../components/MNGLayout'
 import {
-  MNGTitle,
-  MNGH1,
-  MNGH2,
   MNGH3,
   MNGBody,
-  MNGFootP,
   MNGHindiHeading,
   MNGHindiTitle,
   MNGHummingbirdSpacer
