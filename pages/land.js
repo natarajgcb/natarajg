@@ -167,10 +167,6 @@ export default function Land() {
         <MNGWordsOfLoveText>
           <MNGBody mb="mngr.7">Master Nataraj G revealed to me the most beautiful flower with the sweetest nectar this world has to offer. Bless you child. Thank you.</MNGBody>
           <MNGBody variant="serifi">In Love, Grandmother Gloria Arellanes</MNGBody>
-          <Center justifyContent="space-evenly">
-            <MNGButton href="/land">SEE LAND</MNGButton>
-            <MNGButton href="/yoga">SEE YOGA</MNGButton>
-          </Center>
         </MNGWordsOfLoveText>
         <MNGWordsOfLoveFace imgsrc="/img/inlove/00gmagloria.jpg" />
       </MNGWordsOfLove>
@@ -180,10 +176,6 @@ export default function Land() {
         <MNGWordsOfLoveText>
           <MNGBody mb="mngr.7">The truth serum works for Master Nataraj G because Master Nataraj G is the truth.</MNGBody>
           <MNGBody variant="serifi">In Love, Lydia Poncé</MNGBody>
-          <Center justifyContent="space-evenly">
-            <MNGButton href="/land">SEE LAND</MNGButton>
-            <MNGButton href="/food">SEE FOOD</MNGButton>
-          </Center>
         </MNGWordsOfLoveText>
       </MNGWordsOfLove>
 
@@ -191,10 +183,6 @@ export default function Land() {
         <MNGWordsOfLoveText>
           <MNGBody mb="mngr.7">master nataraj g revealed to me that<br/>/they/ are the keeper of /our/ word.</MNGBody>
           <MNGBody variant="serifi">in love, adrienne maree brown</MNGBody>
-          <Center justifyContent="space-evenly">
-            <MNGButton href="/land">SEE LAND</MNGButton>
-            <MNGButton href="/art">SEE ART</MNGButton>
-          </Center>
         </MNGWordsOfLoveText>
         <MNGWordsOfLoveFace imgsrc="/img/inlove/09amb.jpg" />
       </MNGWordsOfLove>
