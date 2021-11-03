@@ -43,6 +43,19 @@ const MNGTheme = extendTheme({
     }
   },
   components: {
+    Link: {
+      variants: {
+        noline: {
+          paddingBottom: "0",
+          borderBottom: "none",
+          _hover: {
+            color: "mngr.link",
+            borderBottom: "none",
+            textDecoration: "none"
+          }
+        }
+      }
+    },
     Text: {
       variants: {
         serifi: {
