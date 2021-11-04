@@ -16,7 +16,7 @@ import {
   MNGWordsOfLoveFace
 } from '../components/MNGWordsOfLove'
 
-export default function SponsorTipDonate() {
+export default function Journal() {
   const mngprops = {
     meta: {
       title: "Journal * Master Nataraj G",
@@ -40,8 +40,8 @@ export default function SponsorTipDonate() {
 
       <MNGBody>
         Coming soon... a place where the Master Nataraj G Healing & Art Practice will regularly publish articles and interactive resources.
-        <br/><br/>Questions? Requests? Please <a href="mailto:one@natarajg.space?subject=MNG%20Journal">send Master Nataraj G a note.</a>
-        <br/><br/>Please let the following words of love from our Beloved Community guide you to other parts of our <ChakraLink as={Link} href="/sovereignwebpresence">Sovereign Web Presence</ChakraLink>...
+        <br/><br/>Questions? Requests? Please <a href="mailto:one@natarajg.space?subject=MNG%20Journal">send Master Nataraj G a note</a>.
+        <br/><br/>Please allow the following words of love from our Beloved Community guide you to other parts of our <ChakraLink as={Link} href="/sovereignwebpresence">Sovereign Web Presence</ChakraLink>...
       </MNGBody>
 
       <MNGHummingbirdSpacer />
