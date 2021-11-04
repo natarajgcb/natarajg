@@ -119,7 +119,7 @@ export default function FestivalOfLight() {
         </ListItem>
         <ListItem>
           <ListIcon as={MdCheckCircle} color="green.500" />
-          Bob&#39;s Red Mill Natural Whole Grain Peanut Butter &amp; Oats Bars
+          Natural Whole Grain Peanut Butter &amp; Oat Energy Bars
         </ListItem>
         <ListItem>
           <ListIcon as={MdCheckCircle} color="green.500" />
