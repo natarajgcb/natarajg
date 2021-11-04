@@ -19,7 +19,7 @@ import {
   MNGWordsOfLoveFace
 } from '../components/MNGWordsOfLove'
 
-export default function Love() {
+export default function MadeOnTongvaland() {
   const mngprops = {
     meta: {
       title: "Made on Tongvaland * Master Nataraj G",

@@ -19,7 +19,7 @@ import {
   MNGWordsOfLoveFace
 } from '../components/MNGWordsOfLove'
 
-export default function Love() {
+export default function SovereignWebPresence() {
   const mngprops = {
     meta: {
       title: "Sovereign Web Presence * Master Nataraj G",

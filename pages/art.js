@@ -19,7 +19,7 @@ import {
   MNGWordsOfLoveFace
 } from '../components/MNGWordsOfLove'
 
-export default function Love() {
+export default function Art() {
   const mngprops = {
     meta: {
       title: "Art * Master Nataraj G",

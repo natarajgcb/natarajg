@@ -5,6 +5,7 @@ import {
 } from '@chakra-ui/react'
 import { MNGFooter } from '../components/MNGFooter'
 import { MNGHeader } from '../components/MNGHeader'
+import MNGStarfield from '../components/MNGStarfield'
 import { MNGBody } from '../components/MNGType'
 
 export const MNGContainer = (props) => {
@@ -95,6 +96,7 @@ export const MNGPage = (props) => {
         <meta property="og:image" content={props.og.image} />
       </Head>
       <MNGContainer>
+        <MNGStarfield />
         <MNGHeader />
         {props.children}
       </MNGContainer>
