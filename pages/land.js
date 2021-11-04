@@ -65,6 +65,7 @@ export default function Land() {
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="/food">
             <Image src="/img/MasterNatarajGFoodSq.jpg"
+              alt="Master Nataraj G Food Offering"
               my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
@@ -93,6 +94,7 @@ export default function Land() {
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="/yoga">
             <Image src="/img/MasterNatarajGYogaSq.jpg"
+              alt="Master Nataraj G Yoga Offering"
               my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
@@ -121,6 +123,7 @@ export default function Land() {
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="/art">
             <Image src="/img/MasterNatarajGArtSq.jpg"
+              alt="Master Nataraj G Art Offering"
               my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
@@ -149,6 +152,7 @@ export default function Land() {
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="/sovereignwebpresence">
             <Image src="/img/MasterNatarajGConsult.jpg" mb="mngr.11"
+              alt="Master Nataraj G Sovereign Web Presence Offering"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
               _hover={{
@@ -191,6 +195,7 @@ export default function Land() {
 
       <Center>
         <Image src="/img/MasterNatarajGLandMaachliGang.jpg"
+          alt="Master Nataraj G Maachli Gang"
           w="100%" opacity="0.69" mb="mngr.88" />
       </Center>
 
