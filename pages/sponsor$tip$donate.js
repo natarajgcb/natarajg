@@ -1,15 +1,10 @@
-import Link from 'next/link'
 import {
-  Flex, Box, Text, Center, Image, Link as ChakraLink
+  Center, Image
 } from '@chakra-ui/react'
 import { MNGButton } from '../components/MNGButton'
-import { MNGPage, MNGNote } from '../components/MNGLayout'
+import { MNGPage } from '../components/MNGLayout'
 import {
-  MNGH1,
-  MNGH2,
   MNGBody,
-  MNGCalloutP,
-  MNGHindiHeading,
   MNGHindiTitle,
   MNGHummingbirdSpacer
 } from '../components/MNGType'
