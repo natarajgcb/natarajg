@@ -48,7 +48,7 @@ export default function Eucalyptus() {
       <MNGBody>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A glorious, blessed and healing holiday season to you and your family. &nbsp;Our relative, the Eucalyptus Tree, exceptionally healing for our respiratory systems, is telling us we are amazing, beautiful, Infinite Beings that deserve to breathe clean, fresh air. &nbsp;To be one with the rhythm and flow of life.
         <br/><br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Do not harm us, do not harm your Self," she says. &nbsp;For when you do, it is harm to All. &nbsp;We all want nothing more than to live in constant Peace, Love, Joy, Balance and Gratitude and offer these healing leaves for you to enjoy at a time of widespread panic amidst attacks on our respiratory systems &mdash; COVID-19 is a respiratory disease which still has no sustainable cure, air pollution continues to smog up cities while forests are chopped down and Big Tobacco is projected to grow to $1.08 Trillion by 2027<a href="#footnote-1"><sup>[1]</sup></a> while the US Centers for Disease Control and Prevention (CDC) report that, "Tobacco use is the leading cause of preventable disease, disability and death in the United States."<a href="#footnote-2"><sup>[2]</sup></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#34;Do not harm us, do not harm your Self,&#34; she says. &nbsp;For when you do, it is harm to All. &nbsp;We all want nothing more than to live in constant Peace, Love, Joy, Balance and Gratitude and offer these healing leaves for you to enjoy at a time of widespread panic amidst attacks on our respiratory systems &mdash; COVID-19 is a respiratory disease which still has no sustainable cure, air pollution continues to smog up cities while forests are chopped down and Big Tobacco is projected to grow to $1.08 Trillion by 2027<a href="#footnote-1"><sup>[1]</sup></a> while the US Centers for Disease Control and Prevention (CDC) report that, &#34;Tobacco use is the leading cause of preventable disease, disability and death in the United States.&#34;<a href="#footnote-2"><sup>[2]</sup></a>
         <br/><br/>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please enjoy these healing Eucalyptus Leaves hand-picked, cleansed and prepared for You in a TEA, VAPOR BATH or BURNED DRY.
         <br/><br/>
@@ -56,7 +56,9 @@ export default function Eucalyptus() {
         <br/><br/>
         In Peace, Love, Joy, Balance and Gratitude,
         <br/>
-        <strong>Master Nataraj G</strong>, Holiday 2020 <Image src="/img/MasterNatarajGSignature75.JPG" borderRadius="full" ml={6} mt={2} />
+        <strong>Master Nataraj G</strong>, Holiday 2020 <Image
+          src="/img/MasterNatarajGSignature75.JPG" borderRadius="full"
+          ml={6} mt={2} alt="Master Nataraj G Signature" />
       </MNGBody>
 
       <MNGFootP>
@@ -181,7 +183,7 @@ export default function Eucalyptus() {
       <MNGH3>Health Benefits</MNGH3>
 
       <MNGFootP>
-        <em>Research backed by Master Nataraj G Healing &amp; Art Community and <a href="https://www.healthline.com/nutrition/eucalyptus-leaves" target="_blank">Healthline.com</a></em>
+        <em>Research backed by Master Nataraj G Healing &amp; Art Community and <a href="https://www.healthline.com/nutrition/eucalyptus-leaves" target="_blank" rel="noreferrer">Healthline.com</a></em>
       </MNGFootP>
 
       <MNGBody>
@@ -262,7 +264,7 @@ export default function Eucalyptus() {
             alt="Master Nataraj G Eucalyptus Spirit"
             title="Master Nataraj G Eucalyptus Spirit" />
           <MNGFootP mt="mngr.7" px={2}>
-            We hear the Eucalyptus Tree talk: "We will protect you"
+            We hear the Eucalyptus Tree talk: &#34;We will protect you&#34;
           </MNGFootP>
         </Box>
         <Box w="33.333%">
@@ -270,7 +272,7 @@ export default function Eucalyptus() {
             alt="Master Nataraj G Eucalyptus Talks"
             title="Master Nataraj G Eucalyptus Talks" />
           <MNGFootP mt="mngr.7" px={2}>
-            We hear her tell us: "We speak all languages" (in Hindi and in English)
+            We hear her tell us: &#34;We speak all languages&#34; (in Hindi and in English)
           </MNGFootP>
         </Box>
         <Box w="33.333%">
