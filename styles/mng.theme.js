@@ -67,6 +67,10 @@ const MNGTheme = extendTheme({
           textTransform: "uppercase",
           fontSize: "0.69em",
           color: "mngr.dim"
+        },
+        subcap: {
+          fontSize: "0.69em",
+          color: "mngr.dim"
         }
       }
     }
