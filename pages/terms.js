@@ -32,9 +32,9 @@ export default function Terms() {
   return (
     <MNGPage meta={mngprops.meta} og={mngprops.og}>
       <Image mt="mngr.17" mb="mngr.44" width="100%"
-        src="/img/stubs/MNGPrivacy.jpg"
-        alt="Master Nataraj G Privacy Policy"
-        title="Master Nataraj G Privacy Policy" />
+        src="/img/stubs/MNGTerms.jpg"
+        alt="Master Nataraj G Terms"
+        title="Master Nataraj G Terms" />
 
       <MNGH1>Terms of Use Agreement: 50-50</MNGH1>
 

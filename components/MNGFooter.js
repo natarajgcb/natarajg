@@ -82,7 +82,7 @@ export const MNGFooter = (props) => {
             </a></ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/credits" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/love#credits" _hover={{ color: "mngr.link" }}><a>
               <MNGFootP>Credits</MNGFootP>
             </a></ChakraLink>
           </Box>
