@@ -92,6 +92,7 @@ export default function MadeOnTongvaland() {
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="https://buy.stripe.com/cN201e5gmfFT0JGdQV">
             <Image src="/img/MadeOnTongvaland.jpg"
+              alt="Made on Tongvaland Seal"
               my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
