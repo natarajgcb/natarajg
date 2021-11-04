@@ -53,17 +53,17 @@ export const MNGFooter = (props) => {
             </a></ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/sovereignwebpresence" _hover={{ color: "mngr.link" }}><a>
-              <MNGBody>Sovereign<br/>Web<br/>Presence</MNGBody>
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" textAlign="center">
             <ChakraLink as={Link} href="/about" _hover={{ color: "mngr.link" }}><a>
               <MNGBody>About<br/>Master<br/>Nataraj G</MNGBody>
             </a></ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/sponsor" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/sovereignwebpresence" _hover={{ color: "mngr.link" }}><a>
+              <MNGBody>Sovereign<br/>Web<br/>Presence</MNGBody>
+            </a></ChakraLink>
+          </Box>
+          <Box w="20%" textAlign="center">
+            <ChakraLink as={Link} href="/sponsor$tip$donate" _hover={{ color: "mngr.link" }}><a>
               <MNGBody>Sponsor</MNGBody>
             </a></ChakraLink>
           </Box>
