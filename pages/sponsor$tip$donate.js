@@ -37,7 +37,7 @@ export default function SponsorTipDonate() {
       <MNGHindiTitle hindiText="दान" engText="Sponsor $ Tip $ Donate" left />
 
       <MNGBody>
-        Independent Spiritual and Creative Practice that serves people and planet directly while not producing capitalistic "value" requires direct support from community to materially sustain.
+        Independent Spiritual and Creative Practice that serves people and planet directly while not producing capitalistic &#34;value&#34; requires direct support from community to materially sustain.
       </MNGBody>
       <MNGBody>
         Master Nataraj G has lived without secure housing or regular income for years and is constantly serving all beings to collectively build a New World of Peace, Love, Joy, Balance and Gratitude regardless of monetary gain.
