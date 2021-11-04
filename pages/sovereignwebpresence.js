@@ -50,7 +50,7 @@ export default function SovereignWebPresence() {
       </MNGNote>
 
       <MNGBody>
-        The above definition is from Webster's English Dictionary. As a colonial force in this world, English carries with it a layer of violence and oppression. In this definition, we see sovereignty being very closely tied to statehood, governance and hierarchy. There is no mention of Natural Order, Cosmic Law or Divine Alignment — the notion that we are born sovereign, we are never apart from an ever-present self-governing state. What are our bodies anyway? How about: <em>The People are already sovereign.</em>
+        The above definition is from Webster&#39;s English Dictionary. As a colonial force in this world, English carries with it a layer of violence and oppression. In this definition, we see sovereignty being very closely tied to statehood, governance and hierarchy. There is no mention of Natural Order, Cosmic Law or Divine Alignment — the notion that we are born sovereign, we are never apart from an ever-present self-governing state. What are our bodies anyway? How about: <em>The People are already sovereign.</em>
       </MNGBody>
 
       <MNGBody>
@@ -69,7 +69,7 @@ export default function SovereignWebPresence() {
       <Flex>
         <Box width="61.803%" pr={6}>
           <MNGBody>
-            Want to express your Self freely, forever? Let's talk.
+            Want to express your Self freely, forever? Let&#39;s talk.
           </MNGBody>
           <MNGBody>
             Connect with Master Nataraj G for a one hour conversation to discuss your creative practice and how a Sovereign Web Presence can empower you to sustain a lifestyle based on the activities that bring you and our Mother Earth the most Peace, Love, Joy, Balance and Gratitude. After the conversation, a customized guide with resources are created and yours to keep.
@@ -89,6 +89,7 @@ export default function SovereignWebPresence() {
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="https://buy.stripe.com/cN2eW8eQWbpD3VS14a">
             <Image src="/img/MasterNatarajGConsult.jpg"
+              alt="Master Nataraj G Consult"
               my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
