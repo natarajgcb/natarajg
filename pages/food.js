@@ -51,11 +51,11 @@ export default function Food() {
       <Image src="/img/food/MasterNatarajGFoodMenu.jpg" w="100%"
         alt="Master Nataraj G Food Menu" title="Master Nataraj G Food Menu" />
 
-      <MNGH2>Visit the Farmer's Market &amp; Cook Together</MNGH2>
+      <MNGH2>Visit the Farmer&#39;s Market &amp; Cook Together</MNGH2>
       <Flex>
         <Box width="61.803%" pr={6}>
           <MNGBody>
-            Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Visit a local Farmer's Market and craft a menu together based on what is most fresh and healing for you. Then travel to your kitchen to cook together or leave it to Master Nataraj G while learning new techniques, health benefits of foods and discussing how to stay healthy with the changing seasons.
+            Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Visit a local Farmer&#39;s Market and craft a menu together based on what is most fresh and healing for you. Then travel to your kitchen to cook together or leave it to Master Nataraj G while learning new techniques, health benefits of foods and discussing how to stay healthy with the changing seasons.
           </MNGBody>
           <MNGBody>
             Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and information on food sources are documented for you to keep.
@@ -72,6 +72,7 @@ export default function Food() {
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="https://buy.stripe.com/14kcO04ci79ndwsfZ0">
             <Image src="/img/food/MasterNatarajGFoodMarket.jpg"
+              alt="Master Nataraj G Farmers Market Food"
               my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
@@ -89,11 +90,11 @@ export default function Food() {
         </Box>
       </Flex>
 
-      <MNGH2>Cook a Farmer's Market Fresh Meal Together</MNGH2>
+      <MNGH2>Cook a Farmer&#39;s Market Fresh Meal Together</MNGH2>
       <Flex>
         <Box width="61.803%" pr={6}>
           <MNGBody>
-            Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Share your favorite foods, health and dietary needs with Master Nataraj G before he makes a local Farmer's Market run, crafts a menu and shows up at your home to cook together. Dive into the kitchen to prepare the meal together or leave it to Master Nataraj G while learning new techniques, health benefits of foods and discussing how to stay healthy with the changing seasons.
+            Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Share your favorite foods, health and dietary needs with Master Nataraj G before he makes a local Farmer&#39;s Market run, crafts a menu and shows up at your home to cook together. Dive into the kitchen to prepare the meal together or leave it to Master Nataraj G while learning new techniques, health benefits of foods and discussing how to stay healthy with the changing seasons.
           </MNGBody>
           <MNGBody>
             Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and information on food sources are documented for you to keep.
@@ -110,6 +111,7 @@ export default function Food() {
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="https://buy.stripe.com/aEU9BO6kq2T7dws5kn">
             <Image src="/img/food/MasterNatarajGFoodTogether.jpg"
+              alt="Master Nataraj G Cook Food Together"
               my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
@@ -127,11 +129,11 @@ export default function Food() {
         </Box>
       </Flex>
 
-      <MNGH2>Get a Farmer's Market Fresh Meal Delivered</MNGH2>
+      <MNGH2>Get a Farmer&#39;s Market Fresh Meal Delivered</MNGH2>
       <Flex>
         <Box width="61.803%" pr={6}>
           <MNGBody>
-            Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Share your favorite foods, health and dietary needs with Master Nataraj G before he makes a local Farmer's Market run, crafts a menu, cooks a meal and shows up at your home to deliver blessings passed on from Mother Earth.
+            Connect with Master Nataraj G to share a ceremony connecting us more deeply with the land through food. Share your favorite foods, health and dietary needs with Master Nataraj G before he makes a local Farmer&#39;s Market run, crafts a menu, cooks a meal and shows up at your home to deliver blessings passed on from Mother Earth.
           </MNGBody>
           <MNGBody>
             Includes a full six-course meal with drinks for eight, based on your needs and market availability. Menu, health benefits and information on food sources are documented for you to keep.
@@ -148,6 +150,7 @@ export default function Food() {
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="https://buy.stripe.com/cN23dqdMS0KZfEAfZ2">
             <Image src="/img/food/MasterNatarajGFoodDeliver.jpg"
+              alt="Master Nataraj G Food Delivery"
               my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
