@@ -74,16 +74,16 @@ export default function Love() {
         Gratitude to You, All and:
         <br/><br/>All those that shared <ChakraLink as={Link}
           href="/#love">words of love on the HOME page</ChakraLink>.
-        <br/><br/><ChakraLink as={Link} href="https://www.jpl.nasa.gov/">NASA's
+        <br/><br/><ChakraLink as={Link} href="https://www.jpl.nasa.gov/">NASA&#39;s
           Jet Propulsion Laboratory at Caltech</ChakraLink>, Spitzer
           Space Telescope team for the Supernova
           Remnant HBH 3 image set as the background for this site.
-        <br/><br/><ChakraLink as={Link} href="https://epic.gsfc.nasa.gov">NASA's
+        <br/><br/><ChakraLink as={Link} href="https://epic.gsfc.nasa.gov">NASA&#39;s
           Earth Polychromatic Imaging Camera (EPIC)</ChakraLink> team for
           the Earth image set at the base of this site.
         <br/><br/><ChakraLink as={Link} href="https://codepen.io/saransh/pen/BKJun">Saransh
           Sinha</ChakraLink> for the Pure CSS Parallax
-          Pixel Stars CSS animation that we modeled this site's Starfield background
+          Pixel Stars CSS animation that we modeled this site&#39;s Starfield background
           animation after.
         <br/><br/><ChakraLink as={Link} href="https://chakra-ui.com/">Segun
           Adebayo and the Chakra UI team</ChakraLink> for the interface
