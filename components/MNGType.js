@@ -41,7 +41,7 @@ export const MNGLandLaunchpad = (props) => {
 
 export const MNGHummingbirdSpacer = (props) => {
   return (
-    <Image w="100%" src="/img/hummingbirdDivider.png" mx="auto" my="mngr.88" {...props} />
+    <Image w="100%" src="/img/hummingbirdDivider.png" alt="Master Nataraj G Hummingbird Art" mx="auto" my="mngr.88" {...props} />
   )
 }
 

@@ -16,6 +16,7 @@ export const MNGWordsOfLoveFace = (props) => {
   return (
     <Box width="38.197%">
       <Image w="100%" src={props.imgsrc}
+        alt="Face of Love"
         borderRadius="full"
         boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
       />

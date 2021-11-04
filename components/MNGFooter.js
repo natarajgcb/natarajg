@@ -93,7 +93,7 @@ export const MNGFooter = (props) => {
           <MNGFootP mt="mngr.27" color="mngr.dim" display="inline">
             <a
               href="https://creativecommons.org/licenses/by-sa/4.0/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               style={{
                 borderBottom: "none"
               }}
@@ -101,7 +101,7 @@ export const MNGFooter = (props) => {
             >
               <RiCopyleftLine style={displayInline} />
               <Text as="span" display="inline">&nbsp;Copyleft&nbsp;</Text>
-              <Image display="inline" src="/img/cc-by-sa-80x15.png" />
+              <Image display="inline" src="/img/cc-by-sa-80x15.png" alt="CC-BY-SA badge" />
               <Text as="span" display="inline">&nbsp;CC-BY-SA Creative Commons Attribution ShareAlike</Text>
             </a>
           </MNGFootP>
@@ -118,7 +118,7 @@ export const MNGFooter = (props) => {
         <Center mt="mngr.7">
           <Box>
             <ChakraLink as={Link} href="/madeontongvaland" _hover={{ color: "mngr.link" }}><a>
-              <Image src="/img/MadeOnTongvaland160.jpg" borderRadius="full" />
+              <Image src="/img/MadeOnTongvaland160.jpg" borderRadius="full" alt="Made on Tongvaland Seal" />
             </a></ChakraLink>
           </Box>
         </Center>
@@ -143,7 +143,7 @@ export const MNGFooter = (props) => {
       </MNGContainer>
 
       <Center mt="mngr.17">
-        <Image src="/img/MNGNewEarth.png" />
+        <Image src="/img/MNGNewEarth.png" alt="Mother Earth" />
       </Center>
 
     </Box>
