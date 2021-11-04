@@ -1,11 +1,12 @@
 import { ChakraProvider } from "@chakra-ui/react"
+import MNGTheme from '../styles/mng.theme'
 
-function App({ Component, pageProps }) {
+function MNGApp({ Component, pageProps }) {
   return (
-    <ChakraProvider>
+    <ChakraProvider resetCSS theme={MNGTheme}>
       <Component {...pageProps} />
     </ChakraProvider>
   )
 }
 
-export default App
+export default MNGApp

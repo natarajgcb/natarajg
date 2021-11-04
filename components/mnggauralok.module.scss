@@ -1,0 +1,8 @@
+.gauralok {
+  animation: rotateplanet 108s linear infinite;
+}
+
+@keyframes rotateplanet {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
