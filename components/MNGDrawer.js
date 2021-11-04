@@ -13,6 +13,7 @@ import {
   Text,
   Divider
 } from "@chakra-ui/react"
+import { MNGTopNavItem, MNGNavItem } from './MNGLayout'
 import { MNGH2 } from './MNGType'
 import { Link as ChakraLink } from '@chakra-ui/react'
 import Link from 'next/link'
@@ -41,27 +42,29 @@ export default function MNGDrawer() {
             </DrawerHeader>
             <DrawerBody borderBottomWidth="1px">
               <List mt={4} spacing="1.688rem" lineHeight="1.688">
-                <ListItem fontSize="1.25rem" fontWeight="semibold"><Text as="span" fontSize="1.25rem">भूमि</Text> LAND</ListItem>
-                <ListItem fontSize="1.25rem" fontWeight="semibold"><Text as="span" fontSize="1.25rem">खाना</Text> FOOD</ListItem>
-                <ListItem fontSize="1.25rem" fontWeight="semibold"><Text as="span" fontSize="1.25rem">योग</Text> YOGA</ListItem>
-                <ListItem fontSize="1.25rem" fontWeight="semibold"><Text as="span" fontSize="1.25rem">कला</Text> ART</ListItem>
-                <ListItem fontSize="1.25rem" fontWeight="semibold"><Text as="span" fontSize="1.25rem">प्यार</Text> LOVE</ListItem>
+                <MNGTopNavItem href="/land" hindiText="भूमि" engText="LAND" />
+                <MNGTopNavItem href="/food" hindiText="खाना" engText="FOOD" />
+                <MNGTopNavItem href="/yoga" hindiText="योग" engText="YOGA" />
+                <MNGTopNavItem href="/art"  hindiText="कला" engText="ART" />
+                <MNGTopNavItem href="/love" hindiText="प्यार" engText="LOVE" />
+
                 <Divider borderColor="mngr.black" />
-                <ListItem>Library</ListItem>
-                <ListItem>Journal</ListItem>
-                <ListItem>Sovereign Web Presence</ListItem>
-                <ListItem>Made On Tongvaland</ListItem>
-                <ListItem>About Master Nataraj G</ListItem>
+
+                <MNGNavItem href="/library" label="Library" />
+                <MNGNavItem href="/journal" label="Journal" />
+                <MNGNavItem href="/sovereignwebpresence" label="Sovereign Web Presence" />
+                <MNGNavItem href="/madeontongvaland" label="Made On Tongvaland" />
+                <MNGNavItem href="/about" label="About Master Nataraj G" />
               </List>
             </DrawerBody>
 
             <DrawerFooter>
-              <List mt={4} spacing="1.688rem" lineHeight="1.688rem" fontSize="0.8rem">
-                <ListItem>Privacy</ListItem>
-                <ListItem>Terms</ListItem>
-                <ListItem>Credits</ListItem>
-                <ListItem>Copyleft CC-BY-NC</ListItem>
-                <ListItem>For Peace, Love, Joy, Balance &amp; Gratitude</ListItem>
+              <List mt={4} spacing="1.27rem" lineHeight="1.27rem">
+                <MNGNavItem fontSize="0.8rem" href="/privacy" label="Privacy" />
+                <MNGNavItem fontSize="0.8rem"href="/terms" label="Terms" />
+                <MNGNavItem fontSize="0.8rem" href="/love#credits" label="Credits" />
+                <MNGNavItem fontSize="0.8rem" href="https://creativecommons.org/licenses/by-sa/4.0/" label="MNG Copyleft CC-BY-SA 4.0" />
+                <ListItem fontSize="0.8rem"><em>For Peace, Love, Joy, Balance &amp; Gratitude</em></ListItem>
               </List>
             </DrawerFooter>
 

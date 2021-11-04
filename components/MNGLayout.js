@@ -1,7 +1,11 @@
 import Head from 'next/head'
-import { Container, Center, Text, Box } from '@chakra-ui/react'
+import Link from 'next/link'
+import {
+  Container, Center, Text, Box, ListItem, Link as ChakraLink
+} from '@chakra-ui/react'
 import { MNGFooter } from '../components/MNGFooter'
 import { MNGHeader } from '../components/MNGHeader'
+import { MNGBody } from '../components/MNGType'
 
 export const MNGContainer = (props) => {
   return (
@@ -50,6 +54,33 @@ export const MNGNavLink = (props) => {
     <Text fontSize="mngr.h3" {...props}>
       {props.children}
     </Text>
+  )
+}
+
+export const MNGTopNavItem = (props) => {
+  return (
+    <ListItem fontSize="1.25rem" fontWeight="semibold">
+      <ChakraLink as={Link}
+        href={props.href}
+        _hover={{ color: "mngr.link" }}
+      ><a style={{ borderBottom: "none" }}>
+        <Text as="span" fontSize="1.25rem">{props.hindiText}</Text>
+        &nbsp;{props.engText}
+      </a></ChakraLink>
+    </ListItem>
+  )
+}
+
+export const MNGNavItem = (props) => {
+  return (
+    <ListItem>
+      <ChakraLink as={Link}
+        href={props.href}
+        _hover={{ color: "mngr.link" }}
+      ><a style={{ borderBottom: "none" }}>
+        <MNGBody {...props}>{props.label}</MNGBody>
+      </a></ChakraLink>
+    </ListItem>
   )
 }
 

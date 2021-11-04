@@ -68,7 +68,7 @@ export default function Love() {
         title="Master Nataraj G Aum Shanti Pyar"
       />
 
-      <MNGH2>SITE CREDITS</MNGH2>
+      <MNGH2 id="credits">SITE CREDITS</MNGH2>
       <MNGBody>These offerings and this Sovereign Web Presence is made manifest
         through the love shared by so many. Master Nataraj G bows in
         Gratitude to You, All and:
