@@ -13,6 +13,7 @@ import {
   Text,
   Divider
 } from "@chakra-ui/react"
+import { MNGButton } from './MNGButton'
 import { MNGTopNavItem, MNGNavItem } from './MNGLayout'
 import { MNGH2 } from './MNGType'
 import { Link as ChakraLink } from '@chakra-ui/react'
@@ -37,8 +38,8 @@ export default function MNGDrawer() {
         <DrawerOverlay>
           <DrawerContent bg="mngr.dark">
             <DrawerCloseButton />
-            <DrawerHeader borderBottomWidth="1px" borderColor="mngr.black">
-              <MNGH2 mt="mngr.17">BLESSINGS</MNGH2>
+            <DrawerHeader borderBottomWidth="1px">
+              <MNGButton href="/sponsor$tip$donate">Sponsor $ Tip $ Donate</MNGButton>
             </DrawerHeader>
             <DrawerBody borderBottomWidth="1px">
               <List mt={4} spacing="1.688rem" lineHeight="1.688">

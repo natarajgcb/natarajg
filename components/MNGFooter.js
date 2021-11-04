@@ -1,5 +1,6 @@
 import { VStack, Flex, Box, Center, Image, Text, Link as ChakraLink } from '@chakra-ui/react'
 import Link from 'next/link'
+import { MNGButton } from './MNGButton'
 import { MNGContainer } from './MNGLayout'
 import { MNGHindiHeading, MNGBody, MNGFootP } from './MNGType'
 import { RiCopyleftLine } from 'react-icons/ri'
@@ -135,9 +136,13 @@ export const MNGFooter = (props) => {
           </Box>
         </Center>
 
+        <Center mt="mngr.44">
+          <MNGButton href="/sponsor$tip$donate">Sponsor $ Tip $ Donate</MNGButton>
+        </Center>
+
       </MNGContainer>
 
-      <Center>
+      <Center mt="mngr.17">
         <Image src="/img/MNGNewEarth.png" />
       </Center>
 

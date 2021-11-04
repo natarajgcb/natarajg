@@ -49,7 +49,7 @@ export default function Love() {
         </Box>
         <Spacer />
         <Box mt="mngr.27">
-          <MNGButton href="/tip$donate">TIP $</MNGButton>
+          <MNGButton href="/sponsor$tip$donate">TIP $</MNGButton>
         </Box>
       </Flex>
 
@@ -67,7 +67,7 @@ export default function Love() {
         </Box>
         <Spacer />
         <Box mt="mngr.27">
-          <MNGButton href="/tip$donate">TIP $</MNGButton>
+          <MNGButton href="/sponsor$tip$donate">TIP $</MNGButton>
         </Box>
       </Flex>
 
@@ -85,7 +85,7 @@ export default function Love() {
         </Box>
         <Spacer />
         <Box mt="mngr.27">
-          <MNGButton href="/tip$donate">TIP $</MNGButton>
+          <MNGButton href="/sponsor$tip$donate">TIP $</MNGButton>
         </Box>
       </Flex>
 
@@ -103,7 +103,7 @@ export default function Love() {
         </Box>
         <Spacer />
         <Box mt="mngr.27">
-          <MNGButton href="/tip$donate">TIP $</MNGButton>
+          <MNGButton href="/sponsor$tip$donate">TIP $</MNGButton>
         </Box>
       </Flex>
 
@@ -121,7 +121,7 @@ export default function Love() {
         </Box>
         <Spacer />
         <Box mt="mngr.27">
-          <MNGButton href="/tip$donate">TIP $</MNGButton>
+          <MNGButton href="/sponsor$tip$donate">TIP $</MNGButton>
         </Box>
       </Flex>
 
@@ -139,7 +139,7 @@ export default function Love() {
         </Box>
         <Spacer />
         <Box mt="mngr.27">
-          <MNGButton href="/tip$donate">TIP $</MNGButton>
+          <MNGButton href="/sponsor$tip$donate">TIP $</MNGButton>
         </Box>
       </Flex>
 
@@ -157,7 +157,7 @@ export default function Love() {
         </Box>
         <Spacer />
         <Box mt="mngr.27">
-          <MNGButton href="/tip$donate">TIP $</MNGButton>
+          <MNGButton href="/sponsor$tip$donate">TIP $</MNGButton>
         </Box>
       </Flex>
 
@@ -175,7 +175,7 @@ export default function Love() {
         </Box>
         <Spacer />
         <Box mt="mngr.27">
-          <MNGButton href="/tip$donate">TIP $</MNGButton>
+          <MNGButton href="/sponsor$tip$donate">TIP $</MNGButton>
         </Box>
       </Flex>
 
