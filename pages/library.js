@@ -1,9 +1,11 @@
+import Link from 'next/link'
 import {
-  Center, Image
+  Center, Image, Link as ChakraLink
 } from '@chakra-ui/react'
 import { MNGButton } from '../components/MNGButton'
 import { MNGPage } from '../components/MNGLayout'
 import {
+  MNGH1,
   MNGBody,
   MNGHindiTitle,
   MNGHummingbirdSpacer
@@ -17,43 +19,30 @@ import {
 export default function SponsorTipDonate() {
   const mngprops = {
     meta: {
-      title: "Sponsor $ Tip $ Donate * Master Nataraj G",
-      description: "Independent Spiritual and Creative Practice that serves people and planet directly while not producing capitalistic 'value' requires direct support from community to materially sustain. Your donation supports housing, food and spiritual practice for Master Nataraj G and his family."
+      title: "Library * Master Nataraj G",
+      description: "Enjoy all the Master Nataraj G Healing & Art Practice articles, books, videos, films, music and interactive resources."
     },
     og: {
-      title: "Sponsor $ Tip $ Donate * Master Nataraj G",
-      description: "Independent Spiritual and Creative Practice that serves people and planet directly while not producing capitalistic 'value' requires direct support from community to materially sustain. Your donation supports housing, food and spiritual practice for Master Nataraj G and his family.",
-      image: "/img/MasterNatarajGSponsorTipDonate.jpg"
+      title: "Library * Master Nataraj G",
+      description: "Enjoy all the Master Nataraj G Healing & Art Practice articles, books, videos, films, music and interactive resources.",
+      image: "/img/stubs/MNGLibrary.jpg"
     }
   };
 
   return (
     <MNGPage meta={mngprops.meta} og={mngprops.og}>
       <Image mt="mngr.17" mb="mngr.44" width="100%"
-        src="/img/MasterNatarajGSponsorTipDonate.jpg"
-        alt="Master Nataraj G Smiling in a Garden"
-        title="Master Nataraj G Smiling in a Garden" />
+        src="/img/stubs/MNGLibrary.jpg"
+        alt="Master Nataraj G Library In Progress"
+        title="Master Nataraj G Library In Progress" />
 
-      <MNGHindiTitle hindiText="दान" engText="Sponsor $ Tip $ Donate" left />
+      <MNGH1>Library</MNGH1>
 
       <MNGBody>
-        Independent Spiritual and Creative Practice that serves people and planet directly while not producing capitalistic "value" requires direct support from community to materially sustain.
+        Coming soon... a place where all the Master Nataraj G Healing & Art Practice articles, books, videos, films, music and interactive resources will be made available.
+        <br/><br/>Questions? Requests? Please <a href="mailto:one@natarajg.space?subject=MNG%20Library">send Master Nataraj G a note.</a>
+        <br/><br/>Please let the following words of love from our Beloved Community guide you to other parts of our <ChakraLink as={Link} href="/sovereignwebpresence">Sovereign Web Presence</ChakraLink>...
       </MNGBody>
-      <MNGBody>
-        Master Nataraj G has lived without secure housing or regular income for years and is constantly serving all beings to collectively build a New World of Peace, Love, Joy, Balance and Gratitude regardless of monetary gain.
-      </MNGBody>
-      <MNGBody>
-        Your donation supports housing, food and spiritual practice for Master Nataraj G and his family.
-      </MNGBody>
-      <MNGBody>
-        For details on sponsorship and partnering together,
-        please <a href="mailto:one@natarajg.space?subject=Sponsoring%20MNG">send Master Nataraj G a note.</a>
-      </MNGBody>
-
-      <iframe
-        width="100%" height="800px"
-        src="https://masternatarajg.giveforms.com/donate"
-      ></iframe>
 
       <MNGHummingbirdSpacer />
 
