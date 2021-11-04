@@ -57,7 +57,7 @@ export default function Yoga() {
       <Flex>
         <Box width="61.803%" pr={6}>
           <MNGBody>
-            Share your life's journey, dreams and intentions with Master Nataraj G and receive a customized schedule and complete Yogic practices for one month tailored for you.
+            Share your life&#39;s journey, dreams and intentions with Master Nataraj G and receive a customized schedule and complete Yogic practices for one month tailored for you.
           </MNGBody>
           <MNGBody>
             This usually takes form as one 30-minute initial conversation followed by 16 one-hour guided sessions with four sessions per week for four weeks and may be adjusted to your needs.
@@ -77,6 +77,7 @@ export default function Yoga() {
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="https://buy.stripe.com/eVag0cfV00KZ1NKdQQ">
             <Image src="/img/yoga/MNGYogaTraining.jpg"
+              alt="Master Nataraj G Yoga Training"
               my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
@@ -118,6 +119,7 @@ export default function Yoga() {
         <Box align="center" width="38.197%">
           <ChakraLink as={Link} href="https://buy.stripe.com/9AQ4hucIO79n8c87st">
             <Image src="/img/yoga/MNGBreathTraining.jpg"
+              alt="Master Nataraj G Breath Training"
               my="mngr.11"
               borderRadius="full"
               boxShadow="0 0 10px 3px rgba(252,255,0,0.5)"
