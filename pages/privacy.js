@@ -39,7 +39,7 @@ export default function Privacy() {
       <MNGH1>Privacy Policy: 50-50</MNGH1>
 
       <MNGBody>
-        We are here to take care of your privacy, security, safety and health. We do not collect any information or cookies from you. Anything we ask from you, we share with you about us in kind, 50-50, building an equal relationship. For example, your email address. Your email address comes to us via our donations and payment processors. Here is our email address: <a href="mailto:one@natarajg.space?subject=MNG%20Privacy">one@natarajg.space</a>. Drop us a line!
+        We are here to take care of your privacy, security, safety and health. We do not collect any information or cookies from you. Anything we ask from you, we share with you about us in kind, 50-50, building an equal relationship. For example, your email address. Your email address comes to us via our donations and payment processors if you choose to share a donation or payment with us. In a 50-50 exchange, here is our email address: <a href="mailto:one@natarajg.space?subject=MNG%20Privacy">one@natarajg.space</a>. Drop us a line!
 
         <br/><br/>If you choose to practice Yoga with us in a one-on-one capacity, we act as personal health practitioners for you and will share more detailed HIPAA-Compliant privacy policies with you. We hold your privacy, security, safety and health with care in the highest confidence to ensure you can be as open and honest with us about your needs, desires and experiences.
 
