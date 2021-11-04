@@ -117,7 +117,7 @@ export const MNGFooter = (props) => {
         <Center mt="mngr.7">
           <Box>
             <ChakraLink as={Link} href="/madeontongvaland" _hover={{ color: "mngr.link" }}><a>
-              <Image src="/img/MadeOnTongvaland.jpg" borderRadius="full" />
+              <Image src="/img/MadeOnTongvaland160.jpg" borderRadius="full" />
             </a></ChakraLink>
           </Box>
         </Center>
