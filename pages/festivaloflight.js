@@ -4,11 +4,12 @@ import {
   List, ListItem, ListIcon, UnorderedList
 } from '@chakra-ui/react'
 import { MNGButton } from '../components/MNGButton'
-import { MNGPage } from '../components/MNGLayout'
+import { MNGPage, MNGNote } from '../components/MNGLayout'
 import {
   MNGTitle,
   MNGH1,
   MNGH2,
+  MNGH3,
   MNGBody,
   MNGCalloutP,
   MNGHindiHeading,
@@ -41,6 +42,15 @@ export default function FestivalOfLight() {
         src="/img/MNGFestivalOfLight.jpg"
         alt="Photograph of Master Nataraj G Preparing for Festival of Light"
         title="Photograph of Master Nataraj G Preparing for Festival of Light" />
+
+      <MNGNote mt="mngr.44">
+        <MNGH3>
+          Thank You!
+        </MNGH3>
+        <MNGBody>
+          To all the neighbors, friends and community that shared their presence and energy at our first ever Festival of Light at Virginia Avenue Park. Please see our menu below for links to the food partners that made this beautiful Festival possible.
+        </MNGBody>
+      </MNGNote>
 
       <MNGH1 mt="mngr.44">
         Festival of Light
@@ -102,35 +112,55 @@ export default function FestivalOfLight() {
         </ListItem>
       </List>
 
+      <Center mt="mngr.88">
+        <Image src="/img/MNGFestivalOfLightFood.jpg" w="100%"
+          alt="Food at Master Nataraj G Festival of Light"
+          title="Food at Master Nataraj G Festival of Light" />
+      </Center>
+
       <MNGH2>
         Eat Healthy Food
       </MNGH2>
       <MNGBody>
-        We will be sharing fresh food prepared by neighbors that is 100% Vegan, Organic, Fresh and uses Local Farmers Market Produce:
+        We will be sharing fresh food prepared by neighbors that is 100% Vegan, Organic, Fresh and uses Local Farmers Market Produce. Our menu with sources, listed below. Please visit the listed vendors at the Pico Virginia Farmers Market on Saturdays and the Mar Vista Farmers Market on Sundays.
       </MNGBody>
       <List spacing={2}>
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" />
-          Kitchari with Tomato, Onion, Young Garlic, Ginger topped with nutrient-dense Sunflower Microgreens
+          <MNGH3><ListIcon as={MdCheckCircle} color="green.500" />
+            Kitchari</MNGH3>
+          <MNGBody>
+            <em>Kitchari is a foundational food in Ayurveda, the ancient natural medicine tradition of India. Kitchari is a plant-based complete protein that is very easy to digest and naturally cleanses the entire digestive system, leaving you feeling warm, nourished, balanced and calm. For more on the ingredients and health benefits of Kitchari, please <a href="https://www.banyanbotanicals.com/info/blog-the-banyan-insight/details/what-is-kitchari-why-we-eat-it-for-cleansing/" target="_blank" rel="noreferrer">see an article from our partners at Banyan Botanicals</a>.</em>
+          </MNGBody>
+          <MNGBody>
+            Our Kitchari is prepared with <strong>Yellow Mung Beans</strong> and <strong>Kitchari Spices</strong> from <a href="https://www.banyanbotanicals.com/kitchari-kit/" target="_blank" rel="noreferrer">Banyan Botanicals</a>, <strong>Long Grain Basmati Rice</strong> from <a href="https://goo.gl/maps/nH4pP3W156DdgtTx7" target="_blank" rel="noreferrer">Indo-Asian Foods</a>, <strong>Tomato</strong> from <a href="http://www.tamaifamilyfarms.com/home.html" target="_blank" rel="noreferrer">Tamai Family Farms in Oxnard</a>, <strong>Onion</strong>, <strong>Young Ginger</strong> and <strong>Garlic</strong> from Chao Family Farms, topped with delicious nutrient-dense Sunflower Microgreens from <a href="https://www.urbangreensdirect.com/" target="_blank" rel="noreferrer">Urban Greens Direct</a>.
+          </MNGBody>
         </ListItem>
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" />
-          Fresh Strawberry Coconut Milk Smoothie
+          <MNGH3><ListIcon as={MdCheckCircle} color="green.500" />
+            Fresh Strawberry Coconut Milk Smoothie</MNGH3>
+          <MNGBody>
+            with <strong>Fresh Strawberries</strong> from <a href="http://www.tamaifamilyfarms.com/home.html" target="_blank" rel="noreferrer">Tamai Family Farms in Oxnard</a> and fresh-pressed <strong>Coconut Milk</strong> from <a href="https://www.kokomoomilk.com/" target="_blank" rel="noreferrer">KOKOMOO Milk</a>.
+          </MNGBody>
         </ListItem>
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" />
-          Natural Whole Grain Peanut Butter &amp; Oat Energy Bars
+          <MNGH3><ListIcon as={MdCheckCircle} color="green.500" />
+            Natural Whole Grain Peanut Butter &amp; Oat Energy Bars</MNGH3>
+          <MNGBody>
+            with <strong>Honey</strong> and <strong>Banana</strong> from <a href="https://www.bobsredmill.com/peanut-butter-banana-and-oats-bars-12-pack.html" target="_blank" rel="noreferrer">Bob's Red Mill</a>
+          </MNGBody>
         </ListItem>
         <ListItem>
-          <ListIcon as={MdCheckCircle} color="green.500" />
-          Sunflowers! Beautiful food for our senses
+          <MNGH3><ListIcon as={MdCheckCircle} color="green.500" />
+            Sunflowers!</MNGH3>
+          <MNGBody>Beautiful food for our senses, spirits and souls from <a href="https://ccfc.org/farms/mayeda-cut-flower-co/" target="_blank" rel="noreferrer">Mayeda Farms</a> in Oxnard.
+          </MNGBody>
         </ListItem>
       </List>
 
       <MNGHindiTitle hindiText="दिवाली मुबारक" engText="Happy Diwali" left />
 
       <MNGBody>
-        In celebration of Diwali, the Festival of Light, and over nine months of continuous Healing &amp; Art Practice with our Beloved Community in the beautiful Pico Neighborhood in Santa Monica at Pico-Virgina Avenue Park, we are hosting our own Festival of Light in the park!  The festival is free to attend and open to all.
+        In celebration of Diwali, the Festival of Light, and over nine months of continuous Healing &amp; Art Practice with our Beloved Community in the beautiful Pico Neighborhood of Santa Monica at Pico-Virgina Avenue Park, we are hosting a local Festival of Light in the park!  The festival is free to attend and open to all.
         <br/><br/>
         Look forward to seeing you there! Please <a href="mailto:one@natarajg.space?subject=Festival%20of%20Light">let us know</a> if you have any questions, would like to share a Healing or Art activity or help cook and serve food.
         <br/><br/>
