@@ -52,6 +52,12 @@ export default function FestivalOfLight() {
         </MNGBody>
       </MNGNote>
 
+      <MNGHindiTitle hindiText="दिवाली मुबारक" engText="Happy Diwali" left />
+
+      <MNGBody>
+        In celebration of Diwali, the Festival of Light, and over nine months of continuous Healing &amp; Art Practice with our Beloved Community in the beautiful Pico Neighborhood of Santa Monica at Pico-Virgina Avenue Park, we are hosting a local Festival of Light in the park!  The festival is free to attend and open to all.
+      </MNGBody>
+
       <MNGH1 mt="mngr.44">
         Festival of Light
         <br/>
@@ -157,14 +163,22 @@ export default function FestivalOfLight() {
         </ListItem>
       </List>
 
-      <MNGHindiTitle hindiText="दिवाली मुबारक" engText="Happy Diwali" left />
-
+      <MNGH2>
+        Contributing to the Festival
+      </MNGH2>
       <MNGBody>
-        In celebration of Diwali, the Festival of Light, and over nine months of continuous Healing &amp; Art Practice with our Beloved Community in the beautiful Pico Neighborhood of Santa Monica at Pico-Virgina Avenue Park, we are hosting a local Festival of Light in the park!  The festival is free to attend and open to all.
-        <br/><br/>
-        Look forward to seeing you there! Please <a href="mailto:one@natarajg.space?subject=Festival%20of%20Light">let us know</a> if you have any questions, would like to share a Healing or Art activity or help cook and serve food.
+        Please <a href="mailto:one@natarajg.space?subject=Festival%20of%20Light">let us know</a> if you have any questions, would like to share a Healing or Art activity or help cook and serve food.
         <br/><br/>
         We will be serving community in the neighborhood that is in need of healthy food, permanent enjoyable housing and reliable sensitive healthcare. Please <a href="mailto:one@natarajg.space?subject=Festival%20of%20Light">reach out</a> if you have experience with healing in areas of mental health and working with systemically marginalized and oppressed groups to volunteer at this festival and our <ChakraLink as={Link} href="/yoga/pico">continuing Healing &amp; Art Practice in the Pico neighborhood</ChakraLink>.
+      </MNGBody>
+
+      <MNGH2>
+        Special Thanks
+      </MNGH2>
+      <MNGBody>
+        Big up to Brett and Rosa from <a href="https://avilaandsonsfarmsllc.com/" target="_blank" rel="noreferrer">Avila and Sons Farms</a> for kindly connecting with us and providing encouraging direction to further connect with more farmers that donated beautiful produce.
+        <br/><br/>
+        Deep Gratitude and blessings to Mila at <a href="https://eatsamopizza.com/" target="_blank" rel="noreferrer">SaMo Pizza</a> for sharing kindness, delicious food and drink to keep our team going while preparing and cooking for the Festival.
       </MNGBody>
 
       <MNGHummingbirdSpacer />
