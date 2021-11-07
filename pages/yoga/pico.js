@@ -47,11 +47,61 @@ export default function YogaPico() {
       </MNGH1>
 
       <MNGBody>
-        Every Mon, Weds, Fri and Sun morning at 9am, we offer free, donation-based healing and art practice at <a href="https://goo.gl/maps/Uk5Tm8rs9coDUEa26" rel="noreferrer" target="_blank">Virginia Avenue Park</a>.
+        Every <strong>Mon, Weds, Fri and Sun</strong> morning from <strong>9 am to 10 am</strong>, we offer free, donation-based healing and art practice at <a href="https://goo.gl/maps/Uk5Tm8rs9coDUEa26" rel="noreferrer" target="_blank">Virginia Avenue Park</a>.
       </MNGBody>
 
+      <MNGH2>
+        Heal Your Self
+      </MNGH2>
       <MNGBody>
-        Join us and <ChakraLink as={Link} href="/sponsor$tip$donate">share a donation</ChakraLink> if you are able to support our continued practice and sharing with neighbors and the world.
+        We share personalized healing practices in:
+      </MNGBody>
+      <List spacing={2}>
+        <ListItem>
+          <ListIcon as={MdCheckCircle} color="green.500" />
+          Breathwork
+        </ListItem>
+        <ListItem>
+          <ListIcon as={MdCheckCircle} color="green.500" />
+          Meditation
+        </ListItem>
+        <ListItem>
+          <ListIcon as={MdCheckCircle} color="green.500" />
+          Energy
+        </ListItem>
+        <ListItem>
+          <ListIcon as={MdCheckCircle} color="green.500" />
+          Yoga
+        </ListItem>
+      </List>
+
+      <MNGH2>
+        Create Art
+      </MNGH2>
+      <MNGBody>
+        We guide students to create:
+      </MNGBody>
+      <List spacing={2}>
+        <ListItem>
+          <ListIcon as={MdCheckCircle} color="green.500" />
+          Drawing
+        </ListItem>
+        <ListItem>
+          <ListIcon as={MdCheckCircle} color="green.500" />
+          Writing
+        </ListItem>
+        <ListItem>
+          <ListIcon as={MdCheckCircle} color="green.500" />
+          Music
+        </ListItem>
+        <ListItem>
+          <ListIcon as={MdCheckCircle} color="green.500" />
+          Film
+        </ListItem>
+      </List>
+
+      <MNGBody>
+        Please join us and <ChakraLink as={Link} href="/sponsor$tip$donate">share a donation</ChakraLink> if you are able. No one turned away for lack of funds. All funds support our continued practice so we may serve more neighbors, community and the world.
       </MNGBody>
 
       <MNGHummingbirdSpacer />
