@@ -146,7 +146,7 @@ export default function FestivalOfLight() {
           <MNGH3><ListIcon as={MdCheckCircle} color="green.500" />
             Natural Whole Grain Peanut Butter &amp; Oat Energy Bars</MNGH3>
           <MNGBody>
-            with <strong>Honey</strong> and <strong>Banana</strong> from <a href="https://www.bobsredmill.com/peanut-butter-banana-and-oats-bars-12-pack.html" target="_blank" rel="noreferrer">Bob's Red Mill</a>
+            with <strong>Honey</strong> and <strong>Banana</strong> from <a href="https://www.bobsredmill.com/peanut-butter-banana-and-oats-bars-12-pack.html" target="_blank" rel="noreferrer">Bob&#39;s Red Mill</a>
           </MNGBody>
         </ListItem>
         <ListItem>
