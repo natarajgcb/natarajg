@@ -52,6 +52,12 @@ export default function FestivalOfLight() {
         </MNGBody>
       </MNGNote>
 
+      <MNGHindiTitle hindiText="दिवाली मुबारक" engText="Happy Diwali" left />
+
+      <MNGBody>
+        In celebration of Diwali, the Festival of Light, and over nine months of continuous Healing &amp; Art Practice with our Beloved Community in the beautiful Pico Neighborhood of Santa Monica at Pico-Virgina Avenue Park, we are hosting a local Festival of Light in the park!  The festival is free to attend and open to all.
+      </MNGBody>
+
       <MNGH1 mt="mngr.44">
         Festival of Light
         <br/>
@@ -132,7 +138,7 @@ export default function FestivalOfLight() {
             <em>Kitchari is a foundational food in Ayurveda, the ancient natural medicine tradition of India. Kitchari is a plant-based complete protein that is very easy to digest and naturally cleanses the entire digestive system, leaving you feeling warm, nourished, balanced and calm. For more on the ingredients and health benefits of Kitchari, please <a href="https://www.banyanbotanicals.com/info/blog-the-banyan-insight/details/what-is-kitchari-why-we-eat-it-for-cleansing/" target="_blank" rel="noreferrer">see an article from our partners at Banyan Botanicals</a>.</em>
           </MNGBody>
           <MNGBody>
-            Our Kitchari is prepared with <strong>Yellow Mung Beans</strong> and <strong>Kitchari Spices</strong> from <a href="https://www.banyanbotanicals.com/kitchari-kit/" target="_blank" rel="noreferrer">Banyan Botanicals</a>, <strong>Long Grain Basmati Rice</strong> from <a href="https://goo.gl/maps/nH4pP3W156DdgtTx7" target="_blank" rel="noreferrer">Indo-Asian Foods</a>, <strong>Tomato</strong> from <a href="http://www.tamaifamilyfarms.com/home.html" target="_blank" rel="noreferrer">Tamai Family Farms in Oxnard</a>, <strong>Onion</strong>, <strong>Young Ginger</strong> and <strong>Garlic</strong> from Chao Family Farms, topped with delicious nutrient-dense Sunflower Microgreens from <a href="https://www.urbangreensdirect.com/" target="_blank" rel="noreferrer">Urban Greens Direct</a>.
+            Our Kitchari is prepared with <strong>Yellow Mung Beans</strong> and <strong>Kitchari Spices</strong> from <a href="https://www.banyanbotanicals.com/kitchari-kit/" target="_blank" rel="noreferrer">Banyan Botanicals</a>, <strong>Long Grain Basmati Rice</strong> from <a href="https://goo.gl/maps/nH4pP3W156DdgtTx7" target="_blank" rel="noreferrer">Indo-Asian Foods</a>, <strong>Tomato</strong> from <a href="http://www.tamaifamilyfarms.com/home.html" target="_blank" rel="noreferrer">Tamai Family Farms in Oxnard</a>, <strong>Onion</strong>, <strong>Young Ginger</strong> and <strong>Garlic</strong> from Fresno Evergreen Farms, topped with delicious nutrient-dense Sunflower Microgreens from <a href="https://www.urbangreensdirect.com/" target="_blank" rel="noreferrer">Urban Greens Direct</a>.
           </MNGBody>
         </ListItem>
         <ListItem>
@@ -146,7 +152,7 @@ export default function FestivalOfLight() {
           <MNGH3><ListIcon as={MdCheckCircle} color="green.500" />
             Natural Whole Grain Peanut Butter &amp; Oat Energy Bars</MNGH3>
           <MNGBody>
-            with <strong>Honey</strong> and <strong>Banana</strong> from <a href="https://www.bobsredmill.com/peanut-butter-banana-and-oats-bars-12-pack.html" target="_blank" rel="noreferrer">Bob's Red Mill</a>
+            with <strong>Honey</strong> and <strong>Banana</strong> from <a href="https://www.bobsredmill.com/peanut-butter-banana-and-oats-bars-12-pack.html" target="_blank" rel="noreferrer">Bob&#39;s Red Mill</a>
           </MNGBody>
         </ListItem>
         <ListItem>
@@ -157,14 +163,22 @@ export default function FestivalOfLight() {
         </ListItem>
       </List>
 
-      <MNGHindiTitle hindiText="दिवाली मुबारक" engText="Happy Diwali" left />
-
+      <MNGH2>
+        Contributing to the Festival
+      </MNGH2>
       <MNGBody>
-        In celebration of Diwali, the Festival of Light, and over nine months of continuous Healing &amp; Art Practice with our Beloved Community in the beautiful Pico Neighborhood of Santa Monica at Pico-Virgina Avenue Park, we are hosting a local Festival of Light in the park!  The festival is free to attend and open to all.
-        <br/><br/>
-        Look forward to seeing you there! Please <a href="mailto:one@natarajg.space?subject=Festival%20of%20Light">let us know</a> if you have any questions, would like to share a Healing or Art activity or help cook and serve food.
+        Please <a href="mailto:one@natarajg.space?subject=Festival%20of%20Light">let us know</a> if you have any questions, would like to share a Healing or Art activity or help cook and serve food.
         <br/><br/>
         We will be serving community in the neighborhood that is in need of healthy food, permanent enjoyable housing and reliable sensitive healthcare. Please <a href="mailto:one@natarajg.space?subject=Festival%20of%20Light">reach out</a> if you have experience with healing in areas of mental health and working with systemically marginalized and oppressed groups to volunteer at this festival and our <ChakraLink as={Link} href="/yoga/pico">continuing Healing &amp; Art Practice in the Pico neighborhood</ChakraLink>.
+      </MNGBody>
+
+      <MNGH2>
+        Special Thanks
+      </MNGH2>
+      <MNGBody>
+        Big up to Brett and Rosa from <a href="https://avilaandsonsfarmsllc.com/" target="_blank" rel="noreferrer">Avila and Sons Farms</a> for kindly connecting with us and providing encouraging direction to further connect with more farmers that donated beautiful produce.
+        <br/><br/>
+        Deep Gratitude and blessings to Mila at <a href="https://eatsamopizza.com/" target="_blank" rel="noreferrer">SaMo Pizza</a> for sharing kindness, delicious food and drink to keep our team going while preparing and cooking for the Festival.
       </MNGBody>
 
       <MNGHummingbirdSpacer />
