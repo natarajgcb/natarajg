@@ -51,7 +51,7 @@ export default function YogaPico() {
       </MNGBody>
 
       <MNGBody>
-        Please <a href="mailto:one@natarajg.space?subject=Yoga" rel="noreferrer" target="_blank">email Master Nataraj G</a> if you are interested in one-on-one sessions with a schedule that better suits you.
+        Please <a href="mailto:one@natarajg.space?subject=Yoga" rel="noreferrer" target="_blank">email Master Nataraj G</a> if you are interested in one-on-one sessions held virtually via secure, encrypted video chat with a schedule that better suits you.
       </MNGBody>
 
       <MNGH2>
