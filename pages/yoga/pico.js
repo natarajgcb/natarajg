@@ -50,6 +50,10 @@ export default function YogaPico() {
         Every <strong>Mon, Weds, Fri and Sun</strong> morning from <strong>9 am to 10 am</strong>, we offer free, donation-based healing and art practice at <a href="https://goo.gl/maps/Uk5Tm8rs9coDUEa26" rel="noreferrer" target="_blank">Virginia Avenue Park</a>.
       </MNGBody>
 
+      <MNGBody>
+        Please <a href="mailto:one@natarajg.space?subject=Yoga" rel="noreferrer" target="_blank">email Master Nataraj G</a> if you are interested in one-on-one sessions with a schedule that better suits you.
+      </MNGBody>
+
       <MNGH2>
         Heal Your Self
       </MNGH2>
