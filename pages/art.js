@@ -1,23 +1,14 @@
-import Link from 'next/link'
 import {
-  Flex, Box, Text, Spacer, Image, Link as ChakraLink
+  Flex, Box, Text, Spacer, Image
 } from '@chakra-ui/react'
 import { MNGButton } from '../components/MNGButton'
 import { MNGPage } from '../components/MNGLayout'
 import {
   MNGH2,
-  MNGH3,
   MNGBody,
-  MNGCalloutP,
-  MNGHindiHeading,
-  MNGHindiTitle,
   MNGHummingbirdSpacer
 } from '../components/MNGType'
-import {
-  MNGWordsOfLove,
-  MNGWordsOfLoveText,
-  MNGWordsOfLoveFace
-} from '../components/MNGWordsOfLove'
+import MNGVideo from '../components/MNGVideo'
 
 export default function Art() {
   const mngprops = {
@@ -32,11 +23,44 @@ export default function Art() {
     }
   };
 
+  const vidopts = {
+    autoplay: false,
+    controls: true,
+    responsive: true,
+    fluid: true,
+    muted: false,
+    poster: "/img/art/film/MNG@VanGogh.poster.q_best.w_600.jpg",
+    preload: "auto",
+    aspectRatio: "16:9",
+    sources: [{
+      src: 'https://ipfs.io/ipfs/Qmc7huPJqc7S1aSRGb4bfqukVwQwtYzcrLuAUHFkKc7FY4?filename=MNG%40VanGogh.4K.H264.AAC.mp4',
+      type: 'video/mp4'
+    }]
+  }
+
   return (
     <MNGPage meta={mngprops.meta} og={mngprops.og}>
 
+      <Box mt="mngr.17">
+        <MNGVideo options={vidopts} />
+      </Box>
+      <Flex>
+        <Box>
+          <MNGH2 mt="mngr.27">MNG @ Van Gogh</MNGH2>
+          <MNGBody>
+            September 2021.
+            <br/>Film. Cinematography, editing and distribution.
+            <br/><em>Visuals and music by Massimiliano Siccardi, Vittorio Guidotti, Luca Longobardi at <a href="https://www.vangoghla.com/creative-team/" target="_blank" rel="noreferrer">Immersive Van Gogh Exhibit Los Angeles</a>.</em>
+          </MNGBody>
+        </Box>
+        <Spacer />
+        <Box mt="mngr.27">
+          <MNGButton href="/sponsor$tip$donate">TIP $</MNGButton>
+        </Box>
+      </Flex>
+
       <Image src="/img/art/0MasterNatarajGOutMeditation.jpg"
-        w="100%" mt="mngr.17"
+        w="100%" mt="mngr.88"
         alt="Master Nataraj G OUT MEDITATION Art"
         title="Master Nataraj G OUT MEDITATION Art" />
       <Flex>
