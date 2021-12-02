@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: natarajg.space
+Token: 8347cc18171c50109a47401d62bd78c58985bc59f5ad933ad6a9edcda604e696
