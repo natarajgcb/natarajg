@@ -26,7 +26,7 @@ export default function VirtualStudio() {
   };
 
   return (
-    <MNGPage meta={mngprops.meta} og={mngprops.og} addEventScript="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js">
+    <MNGPage meta={mngprops.meta} og={mngprops.og}>
 
       <Center width="100%" paddingBottom="mngr.27" paddingTop="mngr.17">
         <iframe
@@ -58,16 +58,6 @@ export default function VirtualStudio() {
         Office Hours
       </MNGH2>
       <MNGBody>
-        <div title="Add to Calendar" className="addeventatc">
-          Add to Calendar
-          <span className="start">20-01-2022 15:00</span>
-          <span className="end">20-01-2022 18:00</span>
-          <span className="timezone">America/Los_Angeles</span>
-          <span className="title">Master Nataraj G Office Hours</span>
-          <span className="description">Open co-operation and collaboration sessions</span>
-          <span className="location">https://natarajg.space/virtualstudio</span>
-          <span className="recurring">FREQ=WEEKLY;BYDAY=TH</span>
-        </div>
         Every Thursday from 3-6pm Pacific.
       </MNGBody>
 
