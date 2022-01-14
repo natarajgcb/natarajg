@@ -94,6 +94,9 @@ export const MNGPage = (props) => {
         <meta property="og:title" content={props.og.title} />
         <meta property="og:description" content={props.og.description} />
         <meta property="og:image" content={props.og.image} />
+        {props.addEventScript &&
+          <script type="text/javascript" src={props.addEventScript} async defer></script>
+        }
       </Head>
       <MNGContainer>
         <MNGStarfield />
