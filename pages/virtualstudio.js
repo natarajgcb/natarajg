@@ -7,10 +7,8 @@ import { MNGPage } from '../components/MNGLayout'
 import {
   MNGTitle,
   MNGH1,
+  MNGH2,
   MNGBody,
-  MNGCalloutP,
-  MNGHindiHeading,
-  MNGHindiTitle,
   MNGHummingbirdSpacer
 } from '../components/MNGType'
 
@@ -54,6 +52,13 @@ export default function VirtualStudio() {
 
       <MNGBody>
         If you have any questions or challenges connecting, please <a href="mailto:one@natarajg.space?subject=Virtual%20Studio">contact Master Nataraj G</a>.
+      </MNGBody>
+
+      <MNGH2>
+        Office Hours
+      </MNGH2>
+      <MNGBody>
+        Every Thursday from 3-6pm Pacific.
       </MNGBody>
 
       <MNGHummingbirdSpacer />
