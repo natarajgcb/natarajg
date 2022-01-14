@@ -55,7 +55,7 @@ export default function FestivalOfLight() {
       <MNGHindiTitle hindiText="दिवाली मुबारक" engText="Happy Diwali" left />
 
       <MNGBody>
-        In celebration of Diwali, the Festival of Light, and over nine months of continuous Healing &amp; Art Practice with our Beloved Community in the beautiful Pico Neighborhood of Santa Monica at Pico-Virgina Avenue Park, we are hosting a local Festival of Light in the park!  The festival is free to attend and open to all.
+        In celebration of Diwali, the Festival of Light, and over nine months of continuous Healing &amp; Art Practice with our Beloved Community in the beautiful Pico Neighborhood of Santa Monica at Pico-Virginia Avenue Park, we are hosting a local Festival of Light in the park!  The festival is free to attend and open to all.
       </MNGBody>
 
       <MNGH1 mt="mngr.44">
