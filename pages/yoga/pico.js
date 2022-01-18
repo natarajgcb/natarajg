@@ -26,11 +26,11 @@ export default function YogaPico() {
   const mngprops = {
     meta: {
       title: "Yoga @ Pico * Master Nataraj G",
-      description: "Every Mon, Weds, Fri and Sun morning at 9am, we offer free, donation-based healing practice at Virginia Avenue Park."
+      description: "Every Mon, Weds, Fri and Sun morning at noon, we offer free, donation-based healing practice at Virginia Avenue Park."
     },
     og: {
       title: "Yoga @ Pico * Master Nataraj G",
-      description: "Every Mon, Weds, Fri and Sun morning at 9am, we offer free, donation-based healing practice at Virginia Avenue Park.",
+      description: "Every Mon, Weds, Fri and Sun morning at noon, we offer free, donation-based healing practice at Virginia Avenue Park.",
       image: "/img/yoga/MNGParkYogaTree.jpg"
     }
   };
@@ -47,7 +47,7 @@ export default function YogaPico() {
       </MNGH1>
 
       <MNGBody>
-        Every <strong>Mon, Weds, Fri and Sun</strong> morning from <strong>9 am to 10 am</strong>, we offer free, donation-based healing and art practice at <a href="https://goo.gl/maps/Uk5Tm8rs9coDUEa26" rel="noreferrer" target="_blank">Virginia Avenue Park</a>.
+        Every <strong>Mon, Weds, Fri and Sun</strong> morning from <strong>Noon to 1 pm</strong>, we offer free, donation-based healing and art practice at <a href="https://goo.gl/maps/Uk5Tm8rs9coDUEa26" rel="noreferrer" target="_blank">Virginia Avenue Park</a>.
       </MNGBody>
 
       <MNGBody>
