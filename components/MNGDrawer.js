@@ -59,17 +59,6 @@ export default function MNGDrawer() {
                 <MNGNavItem href="/madeontongvaland" label="Made On Tongvaland" />
               </List>
             </DrawerBody>
-
-            <DrawerFooter>
-              <List mt={4} spacing="1.27rem" lineHeight="1.27rem">
-                <MNGNavItem fontSize="0.8rem" href="/privacy" label="Privacy" />
-                <MNGNavItem fontSize="0.8rem"href="/terms" label="Terms" />
-                <MNGNavItem fontSize="0.8rem" href="/love#credits" label="Credits" />
-                <MNGNavItem fontSize="0.8rem" href="https://creativecommons.org/licenses/by-sa/4.0/" label="MNG Copyleft CC-BY-SA 4.0" />
-                <ListItem fontSize="0.8rem"><em>For Peace, Love, Joy, Balance &amp; Gratitude</em></ListItem>
-              </List>
-            </DrawerFooter>
-
           </DrawerContent>
         </DrawerOverlay>
       </Drawer>
