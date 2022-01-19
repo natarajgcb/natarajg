@@ -169,7 +169,7 @@ export default function PartnerSurvey() {
         The reason this is inevitable is because there are far more Peaceful, Loving, Joyful, Balanced and Grateful beings committed to living in an absolute Heaven on Earth than there are those that are attached to death, disease, domination, delusion and dissonance. Even if people believe Heaven is elsewhere and they are free to trash our Mother Earth and her People, their souls demand living in peace here on Earth, however twisted their private perspective of peace may be.
       </MNGBody>
       <MNGBody>
-        We are working to ensure they connect with their souls so their lives naturally move toward Peace. We look forward to our New World of Peace, Love, Joy, Balance and Gratitude.
+        We are working to ensure they connect with their souls so their lives naturally move toward Peace. We are enjoying our growing New World of Peace, Love, Joy, Balance and Gratitude.
       </MNGBody>
 
       <MNGH3>
