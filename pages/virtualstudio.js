@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Script from 'next/script'
 import {
   Flex, Box, Text, Center, Image, Link as ChakraLink
 } from '@chakra-ui/react'
@@ -27,6 +28,17 @@ export default function VirtualStudio() {
 
   return (
     <MNGPage meta={mngprops.meta} og={mngprops.og}>
+
+      <Script
+        src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js"
+        strategy="afterInteractive"
+        onLoad={() => {
+          console.log("[ ADDEVENT LOG ] AddEvent loaded")
+        }}
+        onError={(e) => {
+          console.error('[ ADDEVENT LOG ] AddEvent failed to load', e)
+        }}
+      />
 
       <Center width="100%" paddingBottom="mngr.27" paddingTop="mngr.17">
         <iframe
@@ -57,6 +69,17 @@ export default function VirtualStudio() {
       <MNGH2>
         Office Hours
       </MNGH2>
+
+      <div title="Add to Calendar" className="addeventatc">
+          Add to Calendar
+          <span className="start">02/04/2022 08:00 AM</span>
+          <span className="end">02/04/2022 10:00 AM</span>
+          <span className="timezone">America/Los_Angeles</span>
+          <span className="title">Summary of the event</span>
+          <span className="description">Description of the event</span>
+          <span className="location">Location of the event</span>
+      </div>
+
       <MNGBody>
         Every Thursday from 3-6pm Pacific.
       </MNGBody>
