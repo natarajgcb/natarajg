@@ -30,14 +30,14 @@ export const MNGNote = (props) => {
       marginBottom="mngr.27"
       {...props}
     >
-      <Text
+      <Box
         fontWeight="400"
         fontSize="mngr.body"
         lineHeight="mngr.body"
         color="mngr.dark"
       >
         {props.children}
-      </Text>
+      </Box>
     </Box>
   )
 }

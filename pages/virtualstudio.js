@@ -2,8 +2,9 @@ import Link from 'next/link'
 import {
   Flex, Box, Text, Center, Image, Link as ChakraLink
 } from '@chakra-ui/react'
+import { ImRocket, ImCalendar } from "react-icons/im";
 import { MNGButton } from '../components/MNGButton'
-import { MNGPage } from '../components/MNGLayout'
+import { MNGPage, MNGNote } from '../components/MNGLayout'
 import {
   MNGTitle,
   MNGH1,
@@ -57,8 +58,19 @@ export default function VirtualStudio() {
       <MNGH2>
         Office Hours
       </MNGH2>
+
+      <MNGNote>
+        <Flex alignItems="center">
+          <Box> <ImRocket /> </Box>
+          <Box marginLeft="mngr.11"> <ImCalendar /> </Box>
+          <MNGBody fontWeight="bold" marginBottom={0} marginLeft="mngr.11">
+            Every Thursday @ 3-6pm Pacific @ MNG Virtual Studio
+          </MNGBody>
+        </Flex>
+      </MNGNote>
+
       <MNGBody>
-        Every Thursday from 3-6pm Pacific.
+        Co-operate and collaborate with Master Nataraj G to heal, change and build our New World of Peace, Love, Joy, Balance and Gratitude together during open Office Hours. Join Office Hours from anywhere safely and securely using our encrypted Virtual Studio.
       </MNGBody>
 
       <MNGHummingbirdSpacer />
