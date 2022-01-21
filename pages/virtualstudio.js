@@ -3,7 +3,6 @@ import Script from 'next/script'
 import {
   Flex, Box, Text, Center, Image, Link as ChakraLink
 } from '@chakra-ui/react'
-import { MNGButton } from '../components/MNGButton'
 import { MNGPage } from '../components/MNGLayout'
 import {
   MNGTitle,
@@ -70,19 +69,25 @@ export default function VirtualStudio() {
         Office Hours
       </MNGH2>
 
-      <div title="Add to Calendar" className="addeventatc">
-          Add to Calendar
-          <span className="start">02/04/2022 08:00 AM</span>
-          <span className="end">02/04/2022 10:00 AM</span>
-          <span className="timezone">America/Los_Angeles</span>
-          <span className="title">Summary of the event</span>
-          <span className="description">Description of the event</span>
-          <span className="location">Location of the event</span>
-      </div>
-
       <MNGBody>
-        Every Thursday from 3-6pm Pacific.
+        Co-operate and collaborate with Master Nataraj G to heal, change and build our New World of Peace, Love, Joy, Balance and Gratitude together during open Office Hours. Join Office Hours from anywhere safely and securely using our encrypted Virtual Studio.
       </MNGBody>
+
+      <Flex alignItems="center">
+        <div title="Add to Calendar" className="addeventatc">
+          Add to Calendar
+          <span className="start">01/20/2022 03:00 PM</span>
+          <span className="end">01/20/2022 06:00 PM</span>
+          <span className="timezone">America/Los_Angeles</span>
+          <span className="title">Master Nataraj G Office Hours</span>
+          <span className="description">Co-operate and collaborate with Master Nataraj G to heal, change and build our New World of Peace, Love, Joy, Balance and Gratitude together.</span>
+          <span className="location">https://natarajg.space/virtualstudio</span>
+          <span className="recurring">FREQ=WEEKLY;BYDAY=TH</span>
+        </div>
+        <MNGBody marginBottom="0" marginLeft="mngr.17" fontWeight="bold">
+          Every Thursday from 3-6pm Pacific.
+        </MNGBody>
+      </Flex>
 
       <MNGHummingbirdSpacer />
 
