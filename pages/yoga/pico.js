@@ -26,11 +26,11 @@ export default function YogaPico() {
   const mngprops = {
     meta: {
       title: "Yoga @ Pico * Master Nataraj G",
-      description: "Every Mon, Weds, Fri and Sun morning at noon, we offer free, donation-based healing practice at Virginia Avenue Park."
+      description: "Every day (except Saturday) at Noon, we offer a Free Healing &amp; Art Practice at Virginia Avenue Park."
     },
     og: {
       title: "Yoga @ Pico * Master Nataraj G",
-      description: "Every Mon, Weds, Fri and Sun morning at noon, we offer free, donation-based healing practice at Virginia Avenue Park.",
+      description: "Every day (except Saturday) at Noon, we offer a Free Healing &amp; Art Practice at Virginia Avenue Park.",
       image: "/img/yoga/MNGParkYogaTree.jpg"
     }
   };
@@ -47,11 +47,7 @@ export default function YogaPico() {
       </MNGH1>
 
       <MNGBody>
-        Every <strong>Mon, Weds, Fri and Sun</strong> morning from <strong>Noon to 1 pm</strong>, we offer free, donation-based healing and art practice at <a href="https://goo.gl/maps/Uk5Tm8rs9coDUEa26" rel="noreferrer" target="_blank">Virginia Avenue Park</a>.
-      </MNGBody>
-
-      <MNGBody>
-        Please <a href="mailto:one@natarajg.space?subject=Yoga" rel="noreferrer" target="_blank">email Master Nataraj G</a> if you are interested in one-on-one sessions held virtually via secure, encrypted video chat with a schedule that better suits you.
+        Every day (except Saturday) from <strong>Noon to 1 pm</strong>, we offer a Free Healing &amp; Art Practice at <a href="https://goo.gl/maps/Uk5Tm8rs9coDUEa26" rel="noreferrer" target="_blank">Virginia Avenue Park</a>.
       </MNGBody>
 
       <MNGH2>
@@ -63,11 +59,11 @@ export default function YogaPico() {
       <List spacing={2}>
         <ListItem>
           <ListIcon as={MdCheckCircle} color="green.500" />
-          Breathwork
+          Breathwork (Pranayam)
         </ListItem>
         <ListItem>
           <ListIcon as={MdCheckCircle} color="green.500" />
-          Meditation
+          Meditation (Dhyana)
         </ListItem>
         <ListItem>
           <ListIcon as={MdCheckCircle} color="green.500" />
@@ -88,11 +84,11 @@ export default function YogaPico() {
       <List spacing={2}>
         <ListItem>
           <ListIcon as={MdCheckCircle} color="green.500" />
-          Drawing
+          Drawings, Paintings
         </ListItem>
         <ListItem>
           <ListIcon as={MdCheckCircle} color="green.500" />
-          Writing
+          Writings
         </ListItem>
         <ListItem>
           <ListIcon as={MdCheckCircle} color="green.500" />
@@ -106,6 +102,10 @@ export default function YogaPico() {
 
       <MNGBody>
         Please join us and <ChakraLink as={Link} href="/sponsor$tip$donate">share a donation</ChakraLink> if you are able. No one turned away for lack of funds. All funds support our continued practice so we may serve more neighbors, community and the world.
+      </MNGBody>
+
+      <MNGBody>
+        Please <a href="mailto:one@natarajg.space?subject=Yoga" rel="noreferrer" target="_blank">email Master Nataraj G</a> if our noontime community offerings do not work for you and you are interested in one-on-one sessions held virtually via secure, encrypted video chat with a schedule that better suits you.
       </MNGBody>
 
       <MNGHummingbirdSpacer />
