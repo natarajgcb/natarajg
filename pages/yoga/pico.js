@@ -47,7 +47,7 @@ export default function YogaPico() {
       </MNGH1>
 
       <MNGBody>
-        Every day (except Saturday) from <strong>Noon to 1 pm</strong>, we offer a Free Healing &amp; Art Practice at <a href="https://goo.gl/maps/Uk5Tm8rs9coDUEa26" rel="noreferrer" target="_blank">Virginia Avenue Park</a>.
+        Every day (except Saturday) from <strong>Noon to 1 pm</strong>, we offer a <strong>Free</strong> Healing &amp; Art Practice at <a href="https://goo.gl/maps/Uk5Tm8rs9coDUEa26" rel="noreferrer" target="_blank">Virginia Avenue Park</a>.
       </MNGBody>
 
       <MNGH2>
