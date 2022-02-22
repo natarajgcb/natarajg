@@ -73,6 +73,10 @@ export default function YogaPico() {
           <ListIcon as={MdCheckCircle} color="green.500" />
           Yoga
         </ListItem>
+        <ListItem>
+          <ListIcon as={MdCheckCircle} color="green.500" />
+          Natural Plant Medicine &amp; Nutrition (rooted in Ayurveda)
+        </ListItem>
       </List>
 
       <MNGH2>
