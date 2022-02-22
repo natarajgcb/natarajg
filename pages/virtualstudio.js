@@ -4,6 +4,7 @@ import {
   Flex, Box, Text, Center, Image, Link as ChakraLink
 } from '@chakra-ui/react'
 import { MNGPage } from '../components/MNGLayout'
+import { MNGAddEvent } from '../components/MNGAddEvent'
 import {
   MNGTitle,
   MNGH1,
@@ -28,29 +29,6 @@ export default function VirtualStudio() {
   return (
     <MNGPage meta={mngprops.meta} og={mngprops.og}>
 
-      <Script
-        src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js"
-        strategy="afterInteractive"
-        onLoad={() => {
-          console.log("[ ADDEVENT LOG ] AddEvent loaded")
-        }}
-        onError={(e) => {
-          console.error('[ ADDEVENT LOG ] AddEvent failed to load', e)
-        }}
-      />
-
-      <Center width="100%" paddingBottom="mngr.27" paddingTop="mngr.17">
-        <iframe
-          allow="camera; microphone; fullscreen; display-capture; autoplay"
-          src="https://meet.jit.si/MasterNatarajG"
-          style={{
-            width: "100%",
-            height: "309px",
-            border: "0px"
-          }}
-        ></iframe>
-      </Center>
-
       <MNGH1>Virtual Studio</MNGH1>
 
       <MNGBody>
@@ -74,16 +52,7 @@ export default function VirtualStudio() {
       </MNGBody>
 
       <Flex alignItems="center">
-        <div title="Add to Calendar" className="addeventatc">
-          Add to Calendar
-          <span className="start">01/20/2022 03:00 PM</span>
-          <span className="end">01/20/2022 06:00 PM</span>
-          <span className="timezone">America/Los_Angeles</span>
-          <span className="title">Master Nataraj G Office Hours</span>
-          <span className="description">Co-operate and collaborate with Master Nataraj G to heal, change and build our New World of Peace, Love, Joy, Balance and Gratitude together.</span>
-          <span className="location">https://natarajg.space/virtualstudio</span>
-          <span className="recurring">FREQ=WEEKLY;BYDAY=TH</span>
-        </div>
+        <MNGAddEvent />
         <MNGBody marginBottom="0" marginLeft="mngr.17" fontWeight="bold">
           Every Thursday from 3-6pm Pacific.
         </MNGBody>
