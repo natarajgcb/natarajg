@@ -118,7 +118,7 @@ export default function YogaPico() {
       </List>
 
       <MNGBody>
-        Please <a href="mailto:one@natarajg.space?subject=Yoga" rel="noreferrer" target="_blank">email Master Nataraj G</a> if you have any questions about the Pico Roots Revolutionary Garden.
+        Please <a href="https://goo.gl/maps/w91urxADWXNq1zhe8" target="_blank" rel="noreferrer">visit the garden Saturdays from Noon to 3 pm</a>, <a href="https://matrix.to/#/#picoroots:matrix.org" target="_blank" rel="noreferrer">join our chat room</a> or <a href="mailto:one@natarajg.space?subject=PicoRoots" rel="noreferrer" target="_blank">email Master Nataraj G</a> if you have any questions about the Pico Roots Revolutionary Garden.
       </MNGBody>
 
       <MNGHummingbirdSpacer />
