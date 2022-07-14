@@ -4,11 +4,12 @@ import {
   List, ListItem, ListIcon, UnorderedList
 } from '@chakra-ui/react'
 import { MNGButton } from '../../components/MNGButton'
-import { MNGPage } from '../../components/MNGLayout'
+import { MNGPage, MNGNote } from '../../components/MNGLayout'
 import {
   MNGTitle,
   MNGH1,
   MNGH2,
+  MNGH3,
   MNGBody,
   MNGCalloutP,
   MNGHindiHeading,
@@ -41,6 +42,18 @@ export default function YogaPico() {
         src="/img/yoga/MNGParkYogaTree.jpg"
         alt="Photograph of Master Nataraj G Practicing Yoga at Virginia Ave Park"
         title="Photograph of Master Nataraj G Practicing Yoga at Virginia Ave Park" />
+
+      <MNGNote mt="mngr.44">
+        <MNGBody>
+          <strong>ॐ शांति प्यार</strong>
+        </MNGBody>
+        <MNGH3>
+          On Summer Break
+        </MNGH3>
+        <MNGBody>
+          Peace, Love and Blessings, all. We are currently on summer break growing our practice. We are still conducting occasional sessions on an individual basis. If you would like to schedule a session, please <a href="mailto:one@natarajg.space?subject=Yoga" rel="noreferrer" target="_blank">email Master Nataraj G</a> to coordinate.
+        </MNGBody>
+      </MNGNote>
 
       <MNGH1 mt="mngr.44">
         Pico Neighborhood Yoga

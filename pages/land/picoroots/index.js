@@ -3,8 +3,8 @@ import {
   Flex, Box, Text, Center, Image, Link as ChakraLink,
   List, ListItem, ListIcon, UnorderedList
 } from '@chakra-ui/react'
-import { MNGButton } from '../../components/MNGButton'
-import { MNGPage, MNGNote } from '../../components/MNGLayout'
+import { MNGButton } from '../../../components/MNGButton'
+import { MNGPage, MNGNote } from '../../../components/MNGLayout'
 import {
   MNGTitle,
   MNGH1,
@@ -16,12 +16,12 @@ import {
   MNGHindiHeading,
   MNGHindiTitle,
   MNGHummingbirdSpacer
-} from '../../components/MNGType'
+} from '../../../components/MNGType'
 import {
   MNGWordsOfLove,
   MNGWordsOfLoveText,
   MNGWordsOfLoveFace
-} from '../../components/MNGWordsOfLove'
+} from '../../../components/MNGWordsOfLove'
 import { RiPlantFill } from 'react-icons/ri'
 
 export default function YogaPico() {
