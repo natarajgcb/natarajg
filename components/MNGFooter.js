@@ -109,17 +109,13 @@ export const MNGFooter = (props) => {
 
         <Center mt="mngr.27">
           <Box>
-            <ChakraLink as={Link} href="/madeontongvaland" _hover={{ color: "mngr.link" }}><a>
-              <MNGBody mb={0}>Made On Tongvaland</MNGBody>
-            </a></ChakraLink>
+            <MNGBody mb={0}>Made On Tongvaland</MNGBody>
           </Box>
         </Center>
 
         <Center mt="mngr.7">
           <Box>
-            <ChakraLink as={Link} href="/madeontongvaland" _hover={{ color: "mngr.link" }}><a>
-              <Image src="/img/MadeOnTongvaland160.jpg" borderRadius="full" alt="Made on Tongvaland Seal" />
-            </a></ChakraLink>
+            <Image src="/img/MadeOnTongvaland160.jpg" borderRadius="full" alt="Made on Tongvaland Seal" />
           </Box>
         </Center>
 
