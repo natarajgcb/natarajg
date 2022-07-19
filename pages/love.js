@@ -67,8 +67,6 @@ export default function Love() {
       <MNGBody>These offerings and this Sovereign Web Presence is made manifest
         through the love shared by so many. Master Nataraj G bows in
         Gratitude to You, All and:
-        <br/><br/>All those that shared <ChakraLink as={Link}
-          href="/#love">words of love on the HOME page</ChakraLink>.
         <br/><br/><ChakraLink as={Link} href="https://www.jpl.nasa.gov/">NASA&#39;s
           Jet Propulsion Laboratory at Caltech</ChakraLink>, Spitzer
           Space Telescope team for the Supernova
