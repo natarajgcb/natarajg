@@ -13,11 +13,6 @@ import {
   MNGHindiTitle,
   MNGHummingbirdSpacer
 } from '../components/MNGType'
-import {
-  MNGWordsOfLove,
-  MNGWordsOfLoveText,
-  MNGWordsOfLoveFace
-} from '../components/MNGWordsOfLove'
 
 export default function MadeOnTongvaland() {
   const mngprops = {
@@ -109,38 +104,6 @@ export default function MadeOnTongvaland() {
           <MNGButton href="https://buy.stripe.com/cN201e5gmfFT0JGdQV">ACCEPT</MNGButton>
         </Box>
       </Flex>
-
-      <MNGHummingbirdSpacer />
-
-      <MNGWordsOfLove align="right">
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">Master Nataraj G revealed to me the most beautiful flower with the sweetest nectar this world has to offer. Bless you child. Thank you.</MNGBody>
-          <MNGBody variant="serifi">In Love, Grandmother Gloria Arellanes</MNGBody>
-        </MNGWordsOfLoveText>
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/00gmagloria.jpg" />
-      </MNGWordsOfLove>
-
-      <MNGWordsOfLove align="left">
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/13lydiaponce.jpg" />
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">The truth serum works for Master Nataraj G because Master Nataraj G is the truth.</MNGBody>
-          <MNGBody variant="serifi">In Love, Lydia Poncé</MNGBody>
-        </MNGWordsOfLoveText>
-      </MNGWordsOfLove>
-
-      <MNGWordsOfLove align="right">
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">Master
-            Nataraj G revealed to me<br/>
-            that the crown<br/>
-            that sits atop our bodies<br/>
-            shines like the golden sun.<br/>
-            Aum Mani Padme Hum.
-          </MNGBody>
-          <MNGBody variant="serifi">In Love, Brother Curtis Robertson</MNGBody>
-        </MNGWordsOfLoveText>
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/11brocurtis.jpg" />
-      </MNGWordsOfLove>
 
       <MNGHummingbirdSpacer />
 

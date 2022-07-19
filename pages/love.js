@@ -12,11 +12,6 @@ import {
   MNGHindiTitle,
   MNGHummingbirdSpacer
 } from '../components/MNGType'
-import {
-  MNGWordsOfLove,
-  MNGWordsOfLoveText,
-  MNGWordsOfLoveFace
-} from '../components/MNGWordsOfLove'
 
 export default function Love() {
   const mngprops = {
@@ -104,6 +99,8 @@ export default function Love() {
           href="/sovereignwebpresence">decentralized</ChakraLink> hosting
           platform that shares the same name as our Mother Earth, GAIA.
       </MNGBody>
+
+      <MNGHummingbirdSpacer />
 
     </MNGPage>
   )

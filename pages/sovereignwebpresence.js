@@ -13,11 +13,6 @@ import {
   MNGHindiTitle,
   MNGHummingbirdSpacer
 } from '../components/MNGType'
-import {
-  MNGWordsOfLove,
-  MNGWordsOfLoveText,
-  MNGWordsOfLoveFace
-} from '../components/MNGWordsOfLove'
 
 export default function SovereignWebPresence() {
   const mngprops = {
@@ -106,32 +101,6 @@ export default function SovereignWebPresence() {
           <MNGButton href="https://buy.stripe.com/cN2eW8eQWbpD3VS14a">ACCEPT</MNGButton>
         </Box>
       </Flex>
-
-      <MNGHummingbirdSpacer />
-
-      <MNGWordsOfLove align="left">
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/07davidbyrne.jpg" />
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">We always look forward to what<br/>Master Nataraj G is cooking up next.</MNGBody>
-          <MNGBody variant="serifi">In Love, David Byrne</MNGBody>
-        </MNGWordsOfLoveText>
-      </MNGWordsOfLove>
-
-      <MNGWordsOfLove align="right">
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">Damn good hooks. Master Nataraj G<br/>got some DAMN. GOOD. HOOKS.</MNGBody>
-          <MNGBody variant="serifi">IN LOVE, YOUR BROTHER, SPIKE LEE</MNGBody>
-        </MNGWordsOfLoveText>
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/08spikelee.jpg" />
-      </MNGWordsOfLove>
-
-      <MNGWordsOfLove align="left">
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/03jack.jpg" />
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">Master Nataraj G is capturing<br/>pure beauty with every bite.</MNGBody>
-          <MNGBody variant="serifi">In Love, Jack Nicholson</MNGBody>
-        </MNGWordsOfLoveText>
-      </MNGWordsOfLove>
 
       <MNGHummingbirdSpacer />
 

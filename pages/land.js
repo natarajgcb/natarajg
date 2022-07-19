@@ -9,11 +9,6 @@ import {
   MNGHindiTitle,
   MNGHummingbirdSpacer
 } from '../components/MNGType'
-import {
-  MNGWordsOfLove,
-  MNGWordsOfLoveText,
-  MNGWordsOfLoveFace
-} from '../components/MNGWordsOfLove'
 
 export default function Land() {
   const mngprops = {
@@ -167,37 +162,13 @@ export default function Land() {
 
       <MNGHummingbirdSpacer />
 
-      <MNGWordsOfLove align="right">
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">Master Nataraj G revealed to me the most beautiful flower with the sweetest nectar this world has to offer. Bless you child. Thank you.</MNGBody>
-          <MNGBody variant="serifi">In Love, Grandmother Gloria Arellanes</MNGBody>
-        </MNGWordsOfLoveText>
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/00gmagloria.jpg" />
-      </MNGWordsOfLove>
-
-      <MNGWordsOfLove align="left">
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/13lydiaponce.jpg" />
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">The truth serum works for Master Nataraj G because Master Nataraj G is the truth.</MNGBody>
-          <MNGBody variant="serifi">In Love, Lydia Poncé</MNGBody>
-        </MNGWordsOfLoveText>
-      </MNGWordsOfLove>
-
-      <MNGWordsOfLove align="right">
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">master nataraj g revealed to me that<br/>/they/ are the keeper of /our/ word.</MNGBody>
-          <MNGBody variant="serifi">in love, adrienne maree brown</MNGBody>
-        </MNGWordsOfLoveText>
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/09amb.jpg" />
-      </MNGWordsOfLove>
-
-      <MNGHummingbirdSpacer />
-
       <Center>
         <Image src="/img/MasterNatarajGLandMaachliGang.jpg"
           alt="Master Nataraj G Maachli Gang"
-          w="100%" opacity="0.69" mb="mngr.88" />
+          w="100%" opacity="0.69" />
       </Center>
+
+      <MNGHummingbirdSpacer />
 
     </MNGPage>
   )

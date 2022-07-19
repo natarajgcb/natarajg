@@ -12,11 +12,6 @@ import {
   MNGHindiTitle,
   MNGHummingbirdSpacer
 } from '../components/MNGType'
-import {
-  MNGWordsOfLove,
-  MNGWordsOfLoveText,
-  MNGWordsOfLoveFace
-} from '../components/MNGWordsOfLove'
 
 export default function Yoga() {
   const mngprops = {
@@ -136,32 +131,6 @@ export default function Yoga() {
           <MNGButton href="https://buy.stripe.com/9AQ4hucIO79n8c87st">ACCEPT</MNGButton>
         </Box>
       </Flex>
-
-      <MNGHummingbirdSpacer />
-
-      <MNGWordsOfLove align="right">
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">No one on this Earth is doing what Master Nataraj G is doing for the Divine Energies of<br/>Peace, Love, Joy, Balance and Gratitude.</MNGBody>
-          <MNGBody variant="serifi">In Love, Sadhguru Jaggi Vasudev</MNGBody>
-        </MNGWordsOfLoveText>
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/02sadhguru.jpg" />
-      </MNGWordsOfLove>
-
-      <MNGWordsOfLove align="left">
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/06avag.jpg" />
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">That meditation with Master Nataraj G<br/>does a mind, body, soul and spirit good!</MNGBody>
-          <MNGBody variant="serifi">In Love, Ava DuVernay</MNGBody>
-        </MNGWordsOfLoveText>
-      </MNGWordsOfLove>
-
-      <MNGWordsOfLove align="right">
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">बोधिसत्त्व. Bodhisattva. Master Nataraj G is.</MNGBody>
-          <MNGBody variant="serifi">In Love, Brother Lama Rod Owens</MNGBody>
-        </MNGWordsOfLoveText>
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/10lamarod.jpg" />
-      </MNGWordsOfLove>
 
       <MNGHummingbirdSpacer />
 

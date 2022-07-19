@@ -12,11 +12,6 @@ import {
   MNGHindiTitle,
   MNGHummingbirdSpacer
 } from '../components/MNGType'
-import {
-  MNGWordsOfLove,
-  MNGWordsOfLoveText,
-  MNGWordsOfLoveFace
-} from '../components/MNGWordsOfLove'
 
 export default function Food() {
   const mngprops = {
@@ -167,32 +162,6 @@ export default function Food() {
           <MNGButton href="https://buy.stripe.com/cN23dqdMS0KZfEAfZ2">ACCEPT</MNGButton>
         </Box>
       </Flex>
-
-      <MNGHummingbirdSpacer />
-
-      <MNGWordsOfLove align="right">
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">Master Nataraj G revealed to me the most beautiful flower with the sweetest nectar this world has to offer. Bless you child. Thank you.</MNGBody>
-          <MNGBody variant="serifi">In Love, Grandmother Gloria Arellanes</MNGBody>
-        </MNGWordsOfLoveText>
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/00gmagloria.jpg" />
-      </MNGWordsOfLove>
-
-      <MNGWordsOfLove align="left">
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/03jack.jpg" />
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">Master Nataraj G is capturing<br/>pure beauty with every bite.</MNGBody>
-          <MNGBody variant="serifi">In Love, Jack Nicholson</MNGBody>
-        </MNGWordsOfLoveText>
-      </MNGWordsOfLove>
-
-      <MNGWordsOfLove align="right">
-        <MNGWordsOfLoveText>
-          <MNGBody mb="mngr.7">We always look forward to what<br/>Master Nataraj G is cooking up next.</MNGBody>
-          <MNGBody variant="serifi">In Love, David Byrne</MNGBody>
-        </MNGWordsOfLoveText>
-        <MNGWordsOfLoveFace imgsrc="/img/inlove/07davidbyrne.jpg" />
-      </MNGWordsOfLove>
 
       <MNGHummingbirdSpacer />
 
