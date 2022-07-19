@@ -56,7 +56,6 @@ export default function MNGDrawer() {
                 <MNGNavItem href="/about" label="About Master Nataraj G" />
                 <MNGNavItem href="/sovereignwebpresence" label="Sovereign Web Presence" />
                 <MNGNavItem href="/sponsor$tip$donate" label="Sponsor $ Tip $ Donate" />
-                <MNGNavItem href="/madeontongvaland" label="Made On Tongvaland" />
               </List>
             </DrawerBody>
           </DrawerContent>
