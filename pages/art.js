@@ -30,8 +30,34 @@ export default function Art() {
   return (
     <MNGPage meta={mngprops.meta} og={mngprops.og}>
 
+      <Box w="100%" mt="mngr.17">
+        <div style={{
+          padding:"42.19% 0 0 0",
+          position:"relative"
+        }}><iframe src="https://player.vimeo.com/video/749786152?h=6952cad158&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style={{
+            position:"absolute",
+            top:"0",
+            left:"0",
+            width:"100%",
+            height:"100%"
+          }} title="Taming The Dragon &amp;bull; Moving Meditations"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+      </Box>
+      <Flex>
+        <Box>
+          <MNGH2 mt="mngr.27">TAMING THE DRAGON</MNGH2>
+          <MNGBody>
+            August 2022.
+            <br/>Unreal Engine 5. <a href="https://www.youtube.com/watch?v=8b5k0M8wTBg" target="_blank" rel="noreferrer">Moving Meditations</a> project. A vision of Goddess Quanyin (right), The Buddha (left) and Wukong, The Monkey King (center), from <a href="https://www.learner.org/series/invitation-to-world-literature/journey-to-the-west/">A Journey to the West</a>.
+          </MNGBody>
+        </Box>
+        <Spacer />
+        <Box mt="mngr.27">
+          <MNGButton href="/sponsor$tip$donate">TIP $</MNGButton>
+        </Box>
+      </Flex>
+
       <Image src="/img/art/0MasterNatarajGOutMeditation.jpg"
-        w="100%" mt="mngr.17"
+        w="100%" mt="mngr.88"
         alt="Master Nataraj G OUT MEDITATION Art"
         title="Master Nataraj G OUT MEDITATION Art" />
       <Flex>
