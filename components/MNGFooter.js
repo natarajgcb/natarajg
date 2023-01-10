@@ -97,7 +97,6 @@ export const MNGFooter = (props) => {
               style={{
                 borderBottom: "none"
               }}
-              _hover={{ color: "mngr.link" }}
             >
               <RiCopyleftLine style={displayInline} />
               <Text as="span" display="inline">&nbsp;Copyleft&nbsp;</Text>

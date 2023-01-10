@@ -20,7 +20,7 @@ export default function Terms() {
     og: {
       title: "Terms * Master Nataraj G",
       description: "Terms of Use Agreement for the Master Nataraj G Healing and Art Practice: 50-50. We consider both us and you members of the same community committed to Healing and Art. By visiting our website and engaging with that which is published and shared here, you enter into an ongoing connection that weaves our Energy together to heal, change and build our New World rooted in the Divine Energies of Peace, Love, Joy, Balance and Gratitude.",
-      image: "/img/stubs/MNGTerms.jpg"
+      image: "/img/MasterNatarajGFlower.jpg"
     }
   };
 
@@ -36,7 +36,7 @@ export default function Terms() {
 
         <br/><br/>We ask that you remain respectful in all your interactions with us and the Master Nataraj G Healing and Art Practice Beloved Community. We will be adding more detailed terms soon, with you contributing to them as an equal partner, 50-50, in growing our community and how we co-operate.
 
-        <br/><br/>Questions? Requests? Please <a href="mailto:one@natarajg.space?subject=MNG%20Privacy">send Master Nataraj G a note</a>.
+        <br/><br/>Questions? Requests? Please <a href="mailto:one@natarajg.space?subject=MNG%20Terms">send Master Nataraj G a note</a>.
       </MNGBody>
 
       <MNGHummingbirdSpacer />
