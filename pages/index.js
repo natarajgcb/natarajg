@@ -18,14 +18,14 @@ export default function Home() {
     og: {
       title: "Master Nataraj G Healing & Art Practice",
       description: "How do we live abundantly as our highest and truest selves?",
-      image: "/img/MasterNatarajGHome.jpg"
+      image: "/img/MasterNatarajGFlower.jpg"
     }
   };
 
   return (
     <MNGPage meta={mngprops.meta} og={mngprops.og}>
       <Image mt="mngr.17" width="100%"
-        src="/img/MasterNatarajGHome.jpg"
+        src="/img/MasterNatarajGFlower.jpg"
         alt="Photograph of Master Nataraj G"
         title="Master Nataraj G" />
 
@@ -33,7 +33,7 @@ export default function Home() {
 
       <MNGHindiTitle hindiText="मुक्ति की कला" engText="The Art of Liberation" />
 
-      <MNGBody textAlign="center">How do we live abundantly as our truest and highest selves?</MNGBody>
+      <MNGBody textAlign="center">How do we live abundantly as our highest and truest selves?</MNGBody>
 
       <MNGLandLaunchpad />
 
