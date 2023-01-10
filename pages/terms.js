@@ -26,12 +26,8 @@ export default function Terms() {
 
   return (
     <MNGPage meta={mngprops.meta} og={mngprops.og}>
-      <Image mt="mngr.17" mb="mngr.44" width="100%"
-        src="/img/stubs/MNGTerms.jpg"
-        alt="Master Nataraj G Terms"
-        title="Master Nataraj G Terms" />
 
-      <MNGH1>Terms of Use Agreement: 50-50</MNGH1>
+      <MNGH1 mt='mngr.27'>Terms of Use Agreement: 50-50</MNGH1>
 
       <MNGBody>
         Welcome to the Master Nataraj G Healing and Art Practice.

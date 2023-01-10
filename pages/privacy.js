@@ -20,18 +20,14 @@ export default function Privacy() {
     og: {
       title: "Privacy * Master Nataraj G",
       description: "Privacy Policy for the Master Nataraj G Healing and Art Practice: 50-50. We do not collect any information or cookies from you. Anything we ask from you, we share with you about us in kind, 50-50, building an equal relationship.",
-      image: "/img/stubs/MNGPrivacy.jpg"
+      image: "/img/MasterNatarajGFlower.jpg"
     }
   };
 
   return (
     <MNGPage meta={mngprops.meta} og={mngprops.og}>
-      <Image mt="mngr.17" mb="mngr.44" width="100%"
-        src="/img/stubs/MNGPrivacy.jpg"
-        alt="Master Nataraj G Privacy Policy"
-        title="Master Nataraj G Privacy Policy" />
 
-      <MNGH1>Privacy Policy: 50-50</MNGH1>
+      <MNGH1 mt='mngr.27'>Privacy Policy: 50-50</MNGH1>
 
       <MNGBody>
         We are here to take care of your privacy, security, safety and health. We do not collect any information or cookies from you. Anything we ask from you, we share with you about us in kind, 50-50, building an equal relationship. For example, your email address. Your email address comes to us via our donations and payment processors if you choose to share a donation or payment with us. In a 50-50 exchange, here is our email address: <a href="mailto:one@natarajg.space?subject=MNG%20Privacy">one@natarajg.space</a>. Drop us a line!
