@@ -65,7 +65,7 @@ export const MNGNav = (props) => {
   return (
     <ChakraLink as={Link}
       href={props.href}
-    ><a marginBottom="mngr.11" style={{
+    ><a style={{
       borderBottom: borderBot,
       borderBottomColor: borderBotColor
     }}>
@@ -74,7 +74,6 @@ export const MNGNav = (props) => {
         fontSize="mngr.h3"
         lineHeight="mngr.h3"
         textTransform="uppercase"
-        marginBottom="mngr.11"
         marginBottom={0}
         _hover={{ color: "mngr.link" }}
         {...props}

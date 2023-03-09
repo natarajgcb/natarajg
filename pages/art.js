@@ -96,7 +96,7 @@ export default function Art() {
           <br/>March 2017.
         </MNGBody>
         <MNGBody>
-          "Aadhya, a polymath in another time and place, needs to make a mark on her cave wall in the face of impending doom."
+          &quot;Aadhya, a polymath in another time and place, needs to make a mark on her cave wall in the face of impending doom.&quot;
         </MNGBody>
       </Box>
 
@@ -192,7 +192,7 @@ export default function Art() {
           <br/>Dec 2017.
         </MNGBody>
         <MNGBody>
-          <em>Siren</em> is the first song from <em>We Are The West's</em> debut album, <em>The Golden Shore</em>.
+          <em>Siren</em> is the first song from <em>We Are The West&apos;s</em> debut album, <em>The Golden Shore</em>.
         </MNGBody>
       </Box>
 
