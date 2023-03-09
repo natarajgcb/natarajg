@@ -14,7 +14,7 @@ const MNGTheme = extendTheme({
   styles: {
     global: {
       html: {
-        fontSize: ["0.688rem", "0.813rem", "1rem", "1rem", "1rem"]
+        fontSize: ["1rem", "1rem", "1.39rem", "1.39rem", "1.39rem"]
       },
       body: {
         lineHeight: "mngr.body",

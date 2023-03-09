@@ -50,12 +50,62 @@ export const MNGBOLD = (props) => {
     <Heading as="h1"
       fontWeight="900"
       fontSize="mngr.h1"
-      lineHeight="1"
+      lineHeight="1.39"
       marginBottom="mngr.27"
       bgGradient="linear(to-l, #D5E6FF,#C9B4A9,#8F9BDD)"
       bgClip="text"
       {...props}
     />
+  )
+}
+
+export const MNGNav = (props) => {
+  const borderBot = props.borderBot ? "1px solid" : "none";
+  const borderBotColor = props.borderBot ? "#9F08A2" : "none";
+  return (
+    <ChakraLink as={Link}
+      href={props.href}
+    ><a marginBottom="mngr.11" style={{
+      borderBottom: borderBot,
+      borderBottomColor: borderBotColor
+    }}>
+      <Text
+        fontWeight="400"
+        fontSize="mngr.h3"
+        lineHeight="mngr.h3"
+        textTransform="uppercase"
+        marginBottom="mngr.11"
+        marginBottom={0}
+        _hover={{ color: "mngr.link" }}
+        {...props}
+      >
+        {props.children}
+      </Text>
+    </a></ChakraLink>
+  )
+}
+
+export const MNGNavLink = (props) => {
+  const borderBot = props.borderBot ? "1px solid" : "none";
+  const borderBotColor = props.borderBot ? "#9F08A2" : "none";
+  return (
+    <ChakraLink as={Link}
+      href={props.href}
+    ><a style={{
+      borderBottom: borderBot,
+      borderBottomColor: borderBotColor
+    }}>
+      <Text
+        fontWeight="400"
+        fontSize="mngr.body"
+        lineHeight="mngr.body"
+        marginBottom="mngr.11"
+        _hover={{ color: "mngr.link" }}
+        {...props}
+      >
+        {props.children}
+      </Text>
+    </a></ChakraLink>
   )
 }
 

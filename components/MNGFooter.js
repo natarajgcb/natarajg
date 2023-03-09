@@ -13,84 +13,8 @@ export const MNGFooter = (props) => {
 
       <MNGContainer pb={0}>
 
-        <Flex mt="mngr.44" w="100%" flexDirection="row" alignItems="center" justifyContent="space-between">
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/land" _hover={{ color: "mngr.link" }}><a>
-              <MNGHindiHeading hindiText="भूमि" engText="LAND" />
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/food" _hover={{ color: "mngr.link" }}><a>
-              <MNGHindiHeading hindiText="खाना" engText="FOOD" />
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/yoga" _hover={{ color: "mngr.link" }}><a>
-              <MNGHindiHeading hindiText="योग" engText="YOGA" />
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/art" _hover={{ color: "mngr.link" }}><a>
-              <MNGHindiHeading hindiText="कला" engText="ART" />
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/love" _hover={{ color: "mngr.link" }}><a>
-              <MNGHindiHeading hindiText="प्यार" engText="LOVE" />
-            </a></ChakraLink>
-          </Box>
-        </Flex>
-
-        <Flex mt="mngr.44" flexDirection="row" alignItems="flex-start" justifyContent="space-between">
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/library" _hover={{ color: "mngr.link" }}><a>
-              <MNGBody>Library</MNGBody>
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/journal" _hover={{ color: "mngr.link" }}><a>
-              <MNGBody>Journal</MNGBody>
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/about" _hover={{ color: "mngr.link" }}><a>
-              <MNGBody>About<br/>Master<br/>Nataraj G</MNGBody>
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/sovereignwebpresence" _hover={{ color: "mngr.link" }}><a>
-              <MNGBody>Sovereign<br/>Web<br/>Presence</MNGBody>
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/sponsor$tip$donate" _hover={{ color: "mngr.link" }}><a>
-              <MNGBody>Sponsor</MNGBody>
-            </a></ChakraLink>
-          </Box>
-        </Flex>
-
-        <Flex mt="mngr.27" flexDirection="row" alignItems="flex-start" justifyContent="space-between">
-          <Box w="20%" />
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/privacy" _hover={{ color: "mngr.link" }}><a>
-              <MNGFootP>Privacy</MNGFootP>
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/terms" _hover={{ color: "mngr.link" }}><a>
-              <MNGFootP>Terms</MNGFootP>
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/love#credits" _hover={{ color: "mngr.link" }}><a>
-              <MNGFootP>Credits</MNGFootP>
-            </a></ChakraLink>
-          </Box>
-          <Box w="20%" />
-        </Flex>
-
-        <Center>
-          <MNGFootP mt="mngr.27" color="mngr.dim" display="inline">
+        <Center mt="mngr.44">
+          <MNGFootP color="mngr.dim" display="inline">
             <a
               href="https://creativecommons.org/licenses/by-sa/4.0/"
               target="_blank" rel="noreferrer"
@@ -108,7 +32,7 @@ export const MNGFooter = (props) => {
 
         <Center mt="mngr.27">
           <Box>
-            <MNGBody mb={0}>Made On Tongvaland</MNGBody>
+            <MNGBody color="mngr.dim" mb={0}>Made On Tongvaland</MNGBody>
           </Box>
         </Center>
 
@@ -129,10 +53,6 @@ export const MNGFooter = (props) => {
               <br/>Gratitude
             </MNGFootP>
           </Box>
-        </Center>
-
-        <Center mt="mngr.44">
-          <MNGButton href="/sponsor$tip$donate">Sponsor $ Tip $ Donate</MNGButton>
         </Center>
 
       </MNGContainer>
