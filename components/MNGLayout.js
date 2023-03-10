@@ -7,6 +7,7 @@ import { MNGFooter } from '../components/MNGFooter'
 import { MNGHeader } from '../components/MNGHeader'
 import MNGStarfield from '../components/MNGStarfield'
 import { MNGBody } from '../components/MNGType'
+import MNGNavbar from './MNGNavbar'
 
 export const MNGContainer = (props) => {
   return (
@@ -95,9 +96,9 @@ export const MNGPage = (props) => {
         <meta property="og:description" content={props.og.description} />
         <meta property="og:image" content={props.og.image} />
       </Head>
+      <MNGNavbar />
       <MNGContainer>
         <MNGStarfield />
-        <MNGHeader />
         {props.children}
       </MNGContainer>
       <MNGFooter />

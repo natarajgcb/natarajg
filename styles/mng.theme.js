@@ -1,14 +1,13 @@
 import { extendTheme } from '@chakra-ui/react'
-import { createBreakpoints } from '@chakra-ui/theme-tools'
 
 // Chakra UI defaults
-const breakpoints = createBreakpoints({
+const breakpoints = {
   sm: "30em",
   md: "48em",
   lg: "62em",
   xl: "80em",
   "2xl": "96em"
-})
+}
 
 const MNGTheme = extendTheme({
   styles: {
@@ -117,6 +116,7 @@ const MNGTheme = extendTheme({
       button: "#6E0A70",
       button_h: "#510653",
       black: "#11101A",
+      blacka: "rgba(17, 16, 26, 0.8)",
       gold: "rgba(252,255,0,0.5)"
     }
   }

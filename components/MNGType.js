@@ -65,6 +65,7 @@ export const MNGNav = (props) => {
   return (
     <ChakraLink as={Link}
       href={props.href}
+      legacyBehavior
     ><a style={{
       borderBottom: borderBot,
       borderBottomColor: borderBotColor
@@ -90,6 +91,7 @@ export const MNGNavLink = (props) => {
   return (
     <ChakraLink as={Link}
       href={props.href}
+      legacyBehavior
     ><a style={{
       borderBottom: borderBot,
       borderBottomColor: borderBotColor

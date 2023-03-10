@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Flex, Spacer, HStack, Link as ChakraLink } from '@chakra-ui/react'
 import MNGDrawer from './MNGDrawer'
+import MNGNavbar from './MNGNavbar'
 import { MNGFlyingHigh } from './MNGFlyingHigh'
 import { MNGBOLD, MNGBody, MNGH3, MNGNav } from './MNGType'
 import { useRouter } from "next/router"
@@ -11,6 +12,7 @@ export const MNGHeader = (props) => {
 
   return (
     <>
+      <MNGNavbar />
       <Flex mt="mngr.27"
         justifyContent="flex-start"
         alignContent="center"
