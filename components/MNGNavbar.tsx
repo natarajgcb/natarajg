@@ -23,17 +23,19 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from '@chakra-ui/icons';
+import { MNGBOLD } from './MNGType';
+import NextLink from 'next/link';
 
 export default function MNGNavbar() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Box>
+    <Box position={'fixed'} w={'100%'} zIndex={999}>
       <Flex
         bg={'mngr.blacka'}
         color={'mngr.light'}
         minH={'60px'}
-        py={{ base: 2 }}
+        py={{ base: 3 }}
         px={{ base: 4 }}
         borderBottom={1}
         borderStyle={'solid'}
@@ -42,22 +44,23 @@ export default function MNGNavbar() {
 
         <Flex justify={{ base: 'center', md: 'start' }} w={{md:'100%'}}
           alignItems={'center'}>
-          <Image h={{base:30, md:39}} mr={'mngr.11'} src="/img/MNGSSDivineEagle.png" alt="MNG SS Divine Eagle Logo" />
-          <Text
-            textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-            fontFamily={'heading'}
-            color={'mngr.light'}>
-            Master Nataraj G Healing &amp; Art
-          </Text>
+          <NextLink href='/' style={{borderBottom: 'none'}}>
+            <Image h={{base:30, md:39}} mr={'mngr.11'} src="/img/MNGSSDivineEagle.png" alt="MNG SS Divine Eagle Logo" />
+          </NextLink>
+          <NextLink href='/' style={{borderBottom: 'none'}}>
+            <MNGBOLD>
+              Master Nataraj G Healing &amp; Art
+            </MNGBOLD>
+          </NextLink>
 
           <Spacer display={{ base: 'none', md: 'flex' }} />
 
-          <Flex display={{ base: 'none', md: 'flex' }} mr={'mngr.27'}>
+          <Flex display={{ base: 'none', md: 'flex' }}>
             <DesktopNav />
           </Flex>
 
           <Stack
-            display={{ base: 'none', md: 'inline-flex' }}
+            display={{ base: 'none', md: 'none' }}
             justify={'flex-end'}
             direction={'row'}
             spacing={6}>
@@ -102,7 +105,7 @@ export default function MNGNavbar() {
 const DesktopNav = () => {
   const linkColor = 'mngr.light';
   const linkHoverColor = 'mngr.link';
-  const popoverContentBgColor = 'mngr.black';
+  const popoverContentBgColor = 'mngr.blacka';
 
   return (
     <Stack direction={'row'} spacing={4}>
@@ -188,7 +191,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
 const MobileNav = () => {
   return (
     <Stack
-      bg={'gray.800'}
+      bg={'mngr.blacka'}
       p={4}
       display={{ md: 'none' }}>
       {NAV_ITEMS.map((navItem) => (
@@ -215,7 +218,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
         }}>
         <Text
           fontWeight={600}
-          color={'gray.200'}>
+          color={'mngr.light'}>
           {label}
         </Text>
         {children && (

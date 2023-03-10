@@ -49,9 +49,8 @@ export const MNGBOLD = (props) => {
   return (
     <Heading as="h1"
       fontWeight="900"
-      fontSize="mngr.h1"
+      fontSize="mngr.h3"
       lineHeight="1.39"
-      marginBottom="mngr.27"
       bgGradient="linear(to-l, #D5E6FF,#C9B4A9,#8F9BDD)"
       bgClip="text"
       {...props}
