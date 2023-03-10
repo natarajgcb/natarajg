@@ -42,7 +42,7 @@ export default function MNGNavbar() {
 
         <Flex justify={{ base: 'center', md: 'start' }} w={{md:'100%'}}
           alignItems={'center'}>
-          <Image h={{base:30, md:39}} mr={'mngr.11'} src="/img/MNGSSDivineEagle.png" />
+          <Image h={{base:30, md:39}} mr={'mngr.11'} src="/img/MNGSSDivineEagle.png" alt="MNG SS Divine Eagle Logo" />
           <Text
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
@@ -132,7 +132,7 @@ const DesktopNav = () => {
                 bg={popoverContentBgColor}
                 p={4}
                 rounded={'md'}
-                minW={'sm'}>
+                minW={'xs'}>
                 <Stack>
                   {navItem.children.map((child) => (
                     <DesktopSubNav key={child.label} {...child} />
@@ -156,7 +156,10 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
       variant={'noline'}
       p={2}
       rounded={'md'}
-      _hover={'mngr.dark'}>
+      _hover={{
+        textDecoration: 'none',
+        color: 'mngr.dark',
+      }}>
       <Stack direction={'row'} align={'center'}>
         <Box>
           <Text
