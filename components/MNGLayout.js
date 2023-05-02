@@ -64,10 +64,11 @@ export const MNGTopNavItem = (props) => {
       <ChakraLink as={Link}
         href={props.href}
         _hover={{ color: "mngr.link" }}
-      ><a style={{ borderBottom: "none" }}>
+        style={{ borderBottom: "none" }}
+      >
         <Text as="span" fontSize="1.25rem">{props.hindiText}</Text>
         &nbsp;{props.engText}
-      </a></ChakraLink>
+      </ChakraLink>
     </ListItem>
   )
 }
@@ -78,9 +79,10 @@ export const MNGNavItem = (props) => {
       <ChakraLink as={Link}
         href={props.href}
         _hover={{ color: "mngr.link" }}
-      ><a style={{ borderBottom: "none" }}>
+        style={{ borderBottom: "none" }}
+      >
         <MNGBody {...props}>{props.label}</MNGBody>
-      </a></ChakraLink>
+      </ChakraLink>
     </ListItem>
   )
 }

@@ -16,8 +16,6 @@ import {
 import { MNGButton } from './MNGButton'
 import { MNGTopNavItem, MNGNavItem } from './MNGLayout'
 import { MNGH2 } from './MNGType'
-import { Link as ChakraLink } from '@chakra-ui/react'
-import Link from 'next/link'
 
 export default function MNGDrawer() {
   const { isOpen, onOpen, onClose } = useDisclosure();

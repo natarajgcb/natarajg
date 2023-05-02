@@ -15,96 +15,79 @@ export const MNGFooter = (props) => {
 
         <Flex mt="mngr.44" w="100%" flexDirection="row" alignItems="center" justifyContent="space-between">
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/land" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/land" _hover={{ color: "mngr.link" }}>
               <MNGHindiHeading hindiText="भूमि" engText="LAND" />
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/food" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/food" _hover={{ color: "mngr.link" }}>
               <MNGHindiHeading hindiText="खाना" engText="FOOD" />
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/yoga" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/yoga" _hover={{ color: "mngr.link" }}>
               <MNGHindiHeading hindiText="योग" engText="YOGA" />
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/art" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/art" _hover={{ color: "mngr.link" }}>
               <MNGHindiHeading hindiText="कला" engText="ART" />
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/love" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/love" _hover={{ color: "mngr.link" }}>
               <MNGHindiHeading hindiText="प्यार" engText="LOVE" />
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
         </Flex>
 
         <Flex mt="mngr.44" flexDirection="row" alignItems="flex-start" justifyContent="space-between">
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/library" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/library" _hover={{ color: "mngr.link" }}>
               <MNGBody>Library</MNGBody>
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/journal" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/journal" _hover={{ color: "mngr.link" }}>
               <MNGBody>Journal</MNGBody>
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/about" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/about" _hover={{ color: "mngr.link" }}>
               <MNGBody>About<br/>Master<br/>Nataraj G</MNGBody>
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/sovereignwebpresence" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/sovereignwebpresence" _hover={{ color: "mngr.link" }}>
               <MNGBody>Sovereign<br/>Web<br/>Presence</MNGBody>
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/sponsor$tip$donate" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/sponsor$tip$donate" _hover={{ color: "mngr.link" }}>
               <MNGBody>Sponsor</MNGBody>
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
         </Flex>
 
         <Flex mt="mngr.27" flexDirection="row" alignItems="flex-start" justifyContent="space-between">
           <Box w="20%" />
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/privacy" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/privacy" _hover={{ color: "mngr.link" }}>
               <MNGFootP>Privacy</MNGFootP>
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/terms" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/terms" _hover={{ color: "mngr.link" }}>
               <MNGFootP>Terms</MNGFootP>
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
           <Box w="20%" textAlign="center">
-            <ChakraLink as={Link} href="/love#credits" _hover={{ color: "mngr.link" }}><a>
+            <ChakraLink as={Link} href="/love#credits" _hover={{ color: "mngr.link" }}>
               <MNGFootP>Credits</MNGFootP>
-            </a></ChakraLink>
+            </ChakraLink>
           </Box>
           <Box w="20%" />
         </Flex>
-
-        <Center>
-          <MNGFootP mt="mngr.27" color="mngr.dim" display="inline">
-            <a
-              href="https://creativecommons.org/licenses/by-sa/4.0/"
-              target="_blank" rel="noreferrer"
-              style={{
-                borderBottom: "none"
-              }}
-            >
-              <RiCopyleftLine style={displayInline} />
-              <Text as="span" display="inline">&nbsp;Copyleft&nbsp;</Text>
-              <Image display="inline" src="/img/cc-by-sa-80x15.png" alt="CC-BY-SA badge" />
-              <Text as="span" display="inline">&nbsp;CC-BY-SA Creative Commons Attribution ShareAlike</Text>
-            </a>
-          </MNGFootP>
-        </Center>
 
         <Center mt="mngr.27">
           <Box>
@@ -129,10 +112,6 @@ export const MNGFooter = (props) => {
               <br/>Gratitude
             </MNGFootP>
           </Box>
-        </Center>
-
-        <Center mt="mngr.44">
-          <MNGButton href="/sponsor$tip$donate">Sponsor $ Tip $ Donate</MNGButton>
         </Center>
 
       </MNGContainer>
