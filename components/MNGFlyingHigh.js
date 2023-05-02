@@ -8,11 +8,13 @@ export const MNGFlyingHigh = (props) => {
     <Box>
       <MNGDivineEagleBless />
       <Box position="absolute" top={["3rem", "6rem", "9rem"]} left="50%" marginLeft="-148px">
-        <NextLink href="/" passHref>
-          <ChakraLink>
-            <MNGHome />
-          </ChakraLink>
-        </NextLink>
+        <ChakraLink as={NextLink} href="/" style={{
+          _hover: {
+            textDecoration: "none"
+          }
+        }}>
+          <MNGHome />
+        </ChakraLink>
       </Box>
     </Box>
   )
