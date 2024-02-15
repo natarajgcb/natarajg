@@ -8,7 +8,7 @@ import { RiCopyleftLine } from 'react-icons/ri'
 export const MNGFooter = (props) => {
   const displayInline = {display: "inline"};
   return (
-    <Box w="100%" pt="mngr.11"
+    <Box w="100%" pt="mngr.11" mt="mngr.88"
       bg="rgba(16,0,8,0.69)" boxShadow="inset 0 0 36px 1px rgba(48,9,49,0.69)">
 
       <MNGContainer pb={0}>
