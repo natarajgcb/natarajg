@@ -9,12 +9,13 @@ export const MNGHeader = (props) => {
     <>
       <MNGFlyingHigh />
       <Flex mt="mngr.27"
-        justifyContent="flex-start"
+        justifyContent="center"
         alignContent="center"
         alignItems="baseline"
       >
-        <MNGBOLD>
-          MASTER NATARAJ G
+        <MNGBOLD textAlign="center">
+          MASTER NATARAJ G<br/>
+          HEALING &amp; ART
         </MNGBOLD>
       </Flex>
     </>

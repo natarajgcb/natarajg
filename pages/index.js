@@ -29,13 +29,7 @@ export default function Home() {
         alt="Photograph of Master Nataraj G"
         title="Master Nataraj G" />
 
-      <MNGHindiHeading hindiText="गुरु नटराज जी" engText="MASTER NATARAJ G" />
-
-      <MNGHindiTitle hindiText="मुक्ति की कला" engText="The Art of Liberation" />
-
       <MNGBody textAlign="center">How do we live abundantly as our highest and truest selves?</MNGBody>
-
-      <MNGLandLaunchpad />
 
       <MNGHummingbirdSpacer />
 
