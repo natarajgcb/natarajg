@@ -13,7 +13,7 @@ export const MNGFooter = (props) => {
 
       <MNGContainer pb={0}>
 
-        <Center mt="mngr.27">
+        <Center mt="mngr.88">
           <Box>
             <MNGBody mb={0}>Made On Tongvaland</MNGBody>
           </Box>
