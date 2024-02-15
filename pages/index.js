@@ -89,24 +89,8 @@ export default function Home() {
 
       <MNGHummingbirdSpacer />
 
-      <MNGH3>Ready for lift off?</MNGH3>
+      <MNGH1>Ready for lift off?</MNGH1>
       <script async data-uid="d6f7637e25" src="https://natarajg.ck.page/d6f7637e25/index.js"></script>
-      
-      <Box w="100%" id="mailingList">
-        <div style={{
-          padding:"139% 0 0 0",
-          position:"relative"
-        }}>
-          <iframe frameBorder="0" src="https://natarajg.ck.page/d6f7637e25"
-            style={{
-              position:"absolute",
-              top:"0",
-              left:"0",
-              width:"100%",
-              height:"100%"
-            }}></iframe>
-        </div>
-       </Box>
 
     </MNGPage>
   )
