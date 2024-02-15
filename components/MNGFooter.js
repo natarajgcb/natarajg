@@ -8,12 +8,12 @@ import { RiCopyleftLine } from 'react-icons/ri'
 export const MNGFooter = (props) => {
   const displayInline = {display: "inline"};
   return (
-    <Box w="100%" pt="mngr.11"
+    <Box w="100%" pt="mngr.11" mt="mngr.88"
       bg="rgba(16,0,8,0.69)" boxShadow="inset 0 0 36px 1px rgba(48,9,49,0.69)">
 
       <MNGContainer pb={0}>
 
-        <Center mt="mngr.27">
+        <Center mt="mngr.88">
           <Box>
             <MNGBody mb={0}>Made On Tongvaland</MNGBody>
           </Box>
@@ -32,7 +32,7 @@ export const MNGFooter = (props) => {
               <br/>Peace,
               <br/>Love,
               <br/>Joy,
-              <br/>Balance &amp;
+              <br/>Harmony &amp;
               <br/>Gratitude
             </MNGFootP>
           </Box>
