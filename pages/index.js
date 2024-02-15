@@ -103,7 +103,7 @@ export default function Home() {
       <MNGH1 marginBottom="0" marginTop="mngr.27">We Make Digital Interactive</MNGH1>
       <MNGH3 marginBottom="mngr.27" marginTop="0">Experiences that engage, empower and enlighten.</MNGH3>
       <MNGBody>The Internet and digital technologies foster an open, inclusive space that connect people locally and globally in new ways. Websites, Mobile Apps, Metaverse, Decentralized Sovereign Web3 Infrastructure... we got it all.</MNGBody>
-      <MNGBody><a href="mailto:one@natarajg.space?subject=Creating%20With%20Master%20Nataraj%20G">Contact us</a> and let us know how we may help you share what you are building with the world.</MNGBody>
+      <MNGBody><a href="mailto:one@natarajg.space?subject=Creating%20With%20Master%20Nataraj%20G">Contact us</a> and let us know how we may help you connect with community locally and around the world.</MNGBody>
 
       <MNGHummingbirdSpacer w="50%" />
 
