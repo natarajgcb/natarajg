@@ -13,13 +13,8 @@ export const MNGHeader = (props) => {
         alignContent="center"
         alignItems="baseline"
       >
-        <MNGDrawer />
         <MNGBOLD>
-          <ChakraLink as={Link}
-            href="/"
-          >
-            MASTER NATARAJ G
-          </ChakraLink>
+          MASTER NATARAJ G
         </MNGBOLD>
       </Flex>
     </>
