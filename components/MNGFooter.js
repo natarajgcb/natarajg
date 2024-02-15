@@ -32,7 +32,7 @@ export const MNGFooter = (props) => {
               <br/>Peace,
               <br/>Love,
               <br/>Joy,
-              <br/>Balance &amp;
+              <br/>Harmony &amp;
               <br/>Gratitude
             </MNGFootP>
           </Box>
