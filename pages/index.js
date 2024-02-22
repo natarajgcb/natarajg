@@ -110,6 +110,9 @@ export default function Home() {
       <MNGH1 id="mailingList">Ready for lift off?</MNGH1>
       <script async data-uid="d6f7637e25" src="https://natarajg.ck.page/d6f7637e25/index.js"></script>
 
+      <MNGH1 mt="mngr.88">Support our work via Tips and Donations</MNGH1>
+      <MNGBody><a href="https://cash.app/$MasterNatarajG">$MasterNatarajG</a> on Cash App</MNGBody>
+      <MNGBody><a href="https://venmo.com/u/MasterNatarajG">@MasterNatarajG</a> on Venmo</MNGBody>
     </MNGPage>
   )
 }
