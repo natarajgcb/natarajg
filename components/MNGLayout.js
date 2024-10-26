@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import {
-  Container, Center, Text, Box, ListItem, Link as ChakraLink
+  Container, Center, Spacer, Text, Box, ListItem, Link as ChakraLink
 } from '@chakra-ui/react'
 import { MNGFooter } from '../components/MNGFooter'
 import { MNGHeader } from '../components/MNGHeader'
 import MNGStarfield from '../components/MNGStarfield'
 import { MNGBody } from '../components/MNGType'
+import { MNGH3 } from '../components/MNGType'
 
 export const MNGContainer = (props) => {
   return (
@@ -100,6 +101,53 @@ export const MNGPage = (props) => {
       <MNGContainer>
         <MNGStarfield />
         <MNGHeader />
+        <Center
+          style={{
+            borderBottom: "1px solid",
+            borderBottomColor: "#1E1D35",
+            borderTop: "1px solid",
+            borderTopColor: "#1E1D35",
+            paddingLeft: "30%",
+            paddingRight: "30%"
+          }}
+        >
+          <ChakraLink as={Link}
+            href="/"
+            style={{
+              borderBottom: "none",
+              margin: 0,
+              padding: 0
+              
+            }}
+          >
+            <MNGBody style={{
+              fontWeight:"600",
+              fontSize:"1.25rem",
+              color:"#6E0A70",
+              lineHeight:1,
+              marginTop:"1rem",
+              marginBottom:"1rem"
+             }}>ABOUT</MNGBody>
+          </ChakraLink>
+          <Spacer></Spacer>
+          <ChakraLink as={Link}
+            href="#offerings"
+            style={{
+              borderBottom: "none",
+              margin: 0,
+              padding: 0
+            }}
+          >
+            <MNGBody style={{
+              fontWeight:"600",
+              fontSize:"1.25rem",
+              color:"#6E0A70",
+              lineHeight:1,
+              marginTop:"1rem",
+              marginBottom:"1rem"
+             }}>OFFERINGS</MNGBody>
+          </ChakraLink>
+        </Center>
         {props.children}
       </MNGContainer>
       <MNGFooter />
