@@ -30,7 +30,7 @@ export default function Art() {
     <MNGPage meta={mngprops.meta} og={mngprops.og}>
 
       <Box w="100%" mt="mngr.17">
-        <MNGH2 mt="mngr.27">Happy 'n Free (sample 1)</MNGH2>
+        <MNGH2 mt="mngr.27">Happy &amp; Free (sample 1)</MNGH2>
         <MNGBody color="mngr.dim">
           <em>Based on improv jam w/Tiger Heart at Warm Ponds.</em>
           <br/>July 2025.
