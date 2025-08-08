@@ -30,6 +30,20 @@ export default function Art() {
     <MNGPage meta={mngprops.meta} og={mngprops.og}>
 
       <Box w="100%" mt="mngr.17">
+        <MNGH2 mt="mngr.27">Happy 'n Free (sample 1)</MNGH2>
+        <MNGBody color="mngr.dim">
+          <em>Based on improv jam w/Tiger Heart at Warm Ponds.</em>
+          <br/>July 2025.
+        </MNGBody>
+        <audio controls style={{ width: "100%" }}>
+          <source src="/src/music/Happy&Free.wav" type="audio/wav" />
+          Your browser does not support the audio element.
+        </audio>
+      </Box>
+
+      <MNGHummingbirdSpacer w="50%" />
+
+      <Box w="100%" mt="mngr.88">
         <div style={{
           padding:"42.19% 0 0 0",
           position:"relative"
